@@ -1,0 +1,3 @@
+src/config.yaml
+venv
+*.pyc
