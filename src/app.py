@@ -32,11 +32,11 @@ requests.utils.default_user_agent = lambda: "MassMailer (https://tools.wmflabs.o
 
 # Load configuration from YAML file
 __dir__ = os.path.dirname(__file__)
-#app.config.update(
-    #yaml.safe_load(open(os.path.join(__dir__, 'config.yaml'))))
+app.config.update(
+	yaml.safe_load(open(os.path.join(__dir__, 'config.yaml'))))
 
-#key = app.config['CONSUMER_KEY']
-#secret = app.config['CONSUMER_SECRET']
+key = app.config['CONSUMER_KEY']
+secret = app.config['CONSUMER_SECRET']
 
 @app.route('/')
 def index():
