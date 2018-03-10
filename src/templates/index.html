@@ -5,6 +5,7 @@
 		<title>MassMailer</title>
 	</head>
 	<body>
+		{% if username %}
 		<form action="sendmails" method="POST">
 			<p>Users</p>
 			<textarea name="users" rows="8" cols="80"></textarea>
@@ -20,5 +21,8 @@
 
 			<input type="submit" value="Send">
 		</form>
+		{% else %}
+		<h1>Please, <a href="login">log in</a></h1>
+		{% endif %}
 	</body>
 </html>
