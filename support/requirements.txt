@@ -3,7 +3,5 @@ pyyaml
 mwoauth
 requests
 simplejson
-flask-mwoauth
-site
 mwparserfromhell
 toolforge
