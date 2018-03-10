@@ -56,16 +56,16 @@ def test():
 	}
 	r = requests.get(API_URL, params=payload)
 	token = r.json()['query']['tokens']['csrftoken']
-    payload = {
-        "action": "emailuser",
-        "format": "json",
-        "target": "Martin Urbanec (test)",
-        "subject": "Test",
-        "text": "Test",
-        "token": token,
-        "ccme": 1
+	payload = {
+		"action": "emailuser",
+		"format": "json",
+		"target": "Martin Urbanec (test)",
+		"subject": "Test",
+		"text": "Test",
+		"token": token,
+		"ccme": 1
 	}
-	r = reequests.post(API_URL, data=payload)
+	r = requests.post(API_URL, data=payload)
 	return 'true'
 
 
