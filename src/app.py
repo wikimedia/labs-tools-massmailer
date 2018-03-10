@@ -42,6 +42,33 @@ secret = app.config['CONSUMER_SECRET']
 def index():
 	return flask.render_template('index.html', username=flask.session.get('username'))
 
+@app.route('/test')
+def test():
+	request_token_secret = flask.session.get('request_token_secret', None)
+	request_token_key = flask.session.get('request_token_key', None)
+	auth = OAuth1(key, secret, request_token_key, request_token_secret)
+
+	payload = {
+	        "action": "query",
+	        "format": "json",
+	        "meta": "tokens",
+	        "type": "csrf"
+	}
+	r = requests.get(API_URL, params=payload)
+	token = r.json()['query']['tokens']['csrftoken']
+    payload = {
+        "action": "emailuser",
+        "format": "json",
+        "target": "Martin Urbanec (test)",
+        "subject": "Test",
+        "text": "Test",
+        "token": token,
+        "ccme": 1
+	}
+	r = reequests.post(API_URL, data=payload)
+	return 'true'
+
+
 @app.route('/login')
 def login():
 	"""Initiate an OAuth login.
