@@ -24,6 +24,7 @@ import mwparserfromhell
 from requests_oauthlib import OAuth1
 import random
 import toolforge
+import pymysql
 
 app = flask.Flask(__name__)
 application = app
@@ -41,6 +42,57 @@ secret = app.config['CONSUMER_SECRET']
 @app.route('/')
 def index():
 	return flask.render_template('index.html', username=flask.session.get('username'))
+
+@app.route('/storemails', methods=['POST'])
+def storemails():
+	users = request.form['users']
+	subject = request.form['subject']
+	text = request.form['text']
+	wiki = request.form['wiki']
+	conn = pymysql.connect(
+		host='tools-db',
+		read_default_file=os.path.expanduser("~/replica.my.cnf"),
+		charset='utf8mb4',
+		database=app.config['DB_NAME']
+	)
+	with conn.cursor() as cur:
+		sql = 'insert into queue(users, subject, text, wiki) values (%s, %s, %s, %s)'
+		cur.execute(sql, (uers, subject, text, wiki))
+		cur.commit()
+	return 'done'
+
+@app.route('/sendmails', methods=['POST'])
+def sendmails():
+	users = request.form['users'].split('\n')
+	subject = request.form['subject']
+	text = request.form['text']
+	wiki = request.form['wiki']
+	API_URL = 'https://%s/w/api.php' % wiki
+
+	request_token_secret = flask.session.get('request_token_secret', None)
+	request_token_key = flask.session.get('request_token_key', None)
+	auth = OAuth1(key, secret, request_token_key, request_token_secret)
+
+	for user in users:
+		payload = {
+		        "action": "query",
+		        "format": "json",
+		        "meta": "tokens",
+		        "type": "csrf"
+		}
+		r = requests.get(API_URL, params=payload, auth=auth)
+		token = r.json()['query']['tokens']['csrftoken']
+		payload = {
+			"action": "emailuser",
+			"format": "json",
+			"target": user,
+			"subject": subject,
+			"text": text,
+			"token": token,
+			"ccme": 1
+		}
+		r = requests.post(API_URL, data=payload, auth=auth)
+	return 'done'
 
 @app.route('/test')
 def test():

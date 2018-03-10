@@ -2,9 +2,23 @@
 <html lang="cs-cz">
 	<head>
 		<meta charset="utf-8" />
-		<title>Titulek</title>
+		<title>MassMailer</title>
 	</head>
 	<body>
-		
+		<form action="sendmails">
+			<p>Users</p>
+			<textarea name="users" rows="8" cols="80"></textarea>
+
+			<p>Subject</p>
+			<input type="text" name="subject" value="">
+
+			<p>Mail</p>
+			<textarea name="text" rows="8" cols="80"></textarea>
+
+			<p>Wiki</p>
+			<input type="text" name="wiki" value="cs.wikipedia.org"><br>
+
+			<input type="submit" value="Send">
+		</form>
 	</body>
 </html>
