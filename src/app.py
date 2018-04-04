@@ -63,7 +63,7 @@ def storemails():
 
 @app.route('/sendmails', methods=['POST'])
 def sendmails():
-	users = request.form['users'].split('\n')
+	users = request.form['users'].replace('\r', '').split('\n')
 	subject = request.form['subject']
 	text = request.form['text']
 	wiki = request.form['wiki']
