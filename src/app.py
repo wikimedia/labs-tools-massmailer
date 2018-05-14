@@ -67,6 +67,10 @@ def sendmails():
 	subject = request.form['subject']
 	text = request.form['text']
 	wiki = request.form['wiki']
+	if "ccme" in request.form:
+		ccme = 1
+	else:
+		ccme = 0
 	API_URL = 'https://%s/w/api.php' % wiki
 
 	request_token_secret = flask.session.get('request_token_secret', None)
@@ -89,7 +93,7 @@ def sendmails():
 			"subject": subject,
 			"text": text,
 			"token": token,
-			"ccme": 1
+			"ccme": ccme
 		}
 		r = requests.post(API_URL, data=payload, auth=auth)
 	return 'done'
