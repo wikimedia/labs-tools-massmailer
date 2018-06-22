@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<form action="sendmails" method="POST">
+		<p>Users</p>
+		<textarea name="users" rows="8" cols="80"></textarea>
+
+		<p>Subject</p>
+		<input type="text" name="subject" value="">
+
+		<p>Mail</p>
+		<textarea name="text" rows="8" cols="80"></textarea>
+
+		<p>Wiki</p>
+		<input type="text" name="wiki" value="cs.wikipedia.org"><br>
+
+		<label for="ccme">Send me copy of all mails</label>
+		<input type="checkbox" name="ccme" id="ccme" checked><br>
+
+		<input type="submit" value="Send">
+</form>
+{% endblock %}

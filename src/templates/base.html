@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+	<head>
+		<meta charset="utf-8" />
+		<title>MassMailer</title>
+		<!-- External CSS -->
+		<link rel="stylesheet" href="{{config.STATIC_URL}}material-icons.css">
+		<link rel="stylesheet" href="{{config.STATIC_URL}}sweetalert.min.css">
+		<link rel="stylesheet" href="{{config.STATIC_URL}}materialize.min.css">
+
+		<!-- My CSS -->
+		<link rel="stylesheet" href="{{config.STATIC_URL}}stylesheet.css">
+
+		<!-- External JS -->
+		<script src="{{config.STATIC_URL}}jquery.min.js" charset="utf-8"></script>
+		<script src="{{config.STATIC_URL}}sweetalert.min.js"></script>
+	</head>
+	<body>
+        {% if logged %}
+		<nav class="light-blue lighten-1" role="navigation">
+			<div class="nav-wrapper container">
+				<a class="brand-logo" href="/massmailer">MassMailer</a>
+				<ul class="right hide-on-med-and-down">
+					<!--<li><a href="https://phabricator.wikimedia.org/maniphest/task/edit/form/1/?project=harvesting_data_rafinery">Report a problem</a></li>-->
+					<li><a href="logout">Logout</a></li>
+					<li id="username">{{username}}</li>
+				</ul>
+			</div>
+        </nav>
+        {% else %}
+        <nav class="light-blue lighten-1" role="navigation">
+                <div class="nav-wrapper container">
+                    <a class="brand-logo" href="/massmailer">MassMailer</a>
+                    <ul class="right hide-on-med-and-down">
+                        <!--<li><a href="https://phabricator.wikimedia.org/maniphest/task/edit/form/1/?project=harvesting_data_rafinery">Report a problem</a></li>-->
+                    </ul>
+                </div>
+            </nav>
+        {% endif %}
+		{% block body %}{% endblock %}
+	</body>
+</html>

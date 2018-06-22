@@ -41,7 +41,11 @@ secret = app.config['CONSUMER_SECRET']
 
 @app.route('/')
 def index():
-	return flask.render_template('index.html', username=flask.session.get('username'))
+	username = flask.session.get('username')
+	if username is not None:
+		return flask.render_template('tool.html', logged=logged(), username=getusername())
+	else:
+		return flask.render_template('login.html', logged=logged(), username=getusername())
 
 @app.route('/storemails', methods=['POST'])
 def storemails():
