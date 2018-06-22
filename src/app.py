@@ -77,10 +77,6 @@ def sendmails():
 		ccme = 0
 	API_URL = 'https://%s/w/api.php' % wiki
 
-	request_token_secret = flask.session.get('request_token_secret', None)
-	request_token_key = flask.session.get('request_token_key', None)
-	auth = OAuth1(key, secret, request_token_key, request_token_secret)
-
 	for user in users:
 		payload = {
 		        "action": "query",
@@ -88,7 +84,7 @@ def sendmails():
 		        "meta": "tokens",
 		        "type": "csrf"
 		}
-		r = requests.get(API_URL, params=payload, auth=auth)
+		r = requests.get(API_URL, params=payload, auth=get_auth())
 		token = r.json()['query']['tokens']['csrftoken']
 		payload = {
 			"action": "emailuser",
@@ -99,8 +95,15 @@ def sendmails():
 			"token": token,
 			"ccme": ccme
 		}
-		r = requests.post(API_URL, data=payload, auth=auth)
+		r = requests.post(API_URL, data=payload, auth=get_auth())
 	return 'done'
+
+def get_auth():
+	request_token_secret = flask.session.get('request_token_secret', None)
+	request_token_key = flask.session.get('request_token_key', None)
+	auth = OAuth1(key, secret, request_token_key, request_token_secret)
+	return auth
+
 
 def logged():
 	return flask.session.get('username') != None
