@@ -102,6 +102,11 @@ def sendmails():
 		r = requests.post(API_URL, data=payload, auth=auth)
 	return 'done'
 
+def logged():
+	return flask.session.get('username') != None
+
+def getusername():
+    return flask.session.get('username')
 
 @app.route('/login')
 def login():
