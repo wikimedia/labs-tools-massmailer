@@ -3,6 +3,17 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>MassMailer</title>
+		<!-- External CSS -->
+		<link rel="stylesheet" href="{{config.STATIC_URL}}material-icons.css">
+		<link rel="stylesheet" href="{{config.STATIC_URL}}sweetalert.min.css">
+		<link rel="stylesheet" href="{{config.STATIC_URL}}materialize.min.css">
+
+		<!-- My CSS -->
+		<link rel="stylesheet" href="{{config.STATIC_URL}}stylesheet.css">
+
+		<!-- External JS -->
+		<script src="{{config.STATIC_URL}}jquery.min.js" charset="utf-8"></script>
+		<script src="{{config.STATIC_URL}}sweetalert.min.js"></script>
 	</head>
 	<body>
 		{% if username %}
