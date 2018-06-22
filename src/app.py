@@ -98,33 +98,6 @@ def sendmails():
 		r = requests.post(API_URL, data=payload, auth=auth)
 	return 'done'
 
-@app.route('/test')
-def test():
-	API_URL = 'https://cs.wikipedia.org/w/api.php'
-	request_token_secret = flask.session.get('request_token_secret', None)
-	request_token_key = flask.session.get('request_token_key', None)
-	auth = OAuth1(key, secret, request_token_key, request_token_secret)
-
-	payload = {
-	        "action": "query",
-	        "format": "json",
-	        "meta": "tokens",
-	        "type": "csrf"
-	}
-	r = requests.get(API_URL, params=payload, auth=auth)
-	token = r.json()['query']['tokens']['csrftoken']
-	payload = {
-		"action": "emailuser",
-		"format": "json",
-		"target": "Martin Urbanec (test)",
-		"subject": "Test",
-		"text": "Test",
-		"token": token,
-		"ccme": 1
-	}
-	r = requests.post(API_URL, data=payload, auth=auth)
-	return 'true'
-
 
 @app.route('/login')
 def login():
