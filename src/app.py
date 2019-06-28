@@ -61,7 +61,7 @@ def storemails():
 	)
 	with conn.cursor() as cur:
 		sql = 'insert into queue(users, subject, text, wiki) values (%s, %s, %s, %s)'
-		cur.execute(sql, (uers, subject, text, wiki))
+		cur.execute(sql, (users, subject, text, wiki))
 		cur.commit()
 	return 'done'
 
