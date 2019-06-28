@@ -2,3 +2,4 @@ src/config.yaml
 venv
 *.pyc
 .vscode
+/.tox
