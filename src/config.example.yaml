@@ -1,0 +1,6 @@
+CONSUMER_KEY: ef97a3df400040640f26592c1ed4b9f0
+CONSUMER_SECRET: f5f311d0a600570cd96f5963d8e51165ca9f24a2
+APPLICATION_ROOT: /
+STATIC_URL: https://tools-static.wmflabs.org/massmailer/
+OAUTH_MWURI: https://en.wikipedia.org/w/index.php
+SECRET_KEY: secret
