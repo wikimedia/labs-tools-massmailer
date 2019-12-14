@@ -39,6 +39,7 @@ app.config.update(
 key = app.config['CONSUMER_KEY']
 secret = app.config['CONSUMER_SECRET']
 
+
 @app.route('/')
 def index():
 	username = flask.session.get('username')
@@ -46,6 +47,7 @@ def index():
 		return flask.render_template('tool.html', logged=logged(), username=getusername())
 	else:
 		return flask.render_template('login.html', logged=logged(), username=getusername())
+
 
 @app.route('/storemails', methods=['POST'])
 def storemails():
@@ -64,6 +66,7 @@ def storemails():
 		cur.execute(sql, (users, subject, text, wiki))
 		cur.commit()
 	return 'done'
+
 
 @app.route('/sendmails', methods=['POST'])
 def sendmails():
@@ -98,6 +101,7 @@ def sendmails():
 		r = requests.post(API_URL, data=payload, auth=get_auth())
 	return 'done'
 
+
 def get_auth():
 	request_token_secret = flask.session.get('request_token_secret', None)
 	request_token_key = flask.session.get('request_token_key', None)
@@ -108,8 +112,10 @@ def get_auth():
 def logged():
 	return flask.session.get('username') != None
 
+
 def getusername():
     return flask.session.get('username')
+
 
 @app.route('/login')
 def login():
