@@ -16,14 +16,10 @@
 import flask
 import os
 import yaml
-import simplejson as json
 import requests
-from flask import redirect, request, jsonify, make_response
+from flask import request
 import mwoauth
-import mwparserfromhell
 from requests_oauthlib import OAuth1
-import random
-import toolforge
 import pymysql
 
 app = flask.Flask(__name__)
@@ -34,7 +30,7 @@ requests.utils.default_user_agent = lambda: "MassMailer (https://tools.wmflabs.o
 # Load configuration from YAML file
 __dir__ = os.path.dirname(__file__)
 app.config.update(
-	yaml.safe_load(open(os.path.join(__dir__, 'config.yaml'))))
+    yaml.safe_load(open(os.path.join(__dir__, 'config.yaml'))))
 
 key = app.config['CONSUMER_KEY']
 secret = app.config['CONSUMER_SECRET']
@@ -42,75 +38,75 @@ secret = app.config['CONSUMER_SECRET']
 
 @app.route('/')
 def index():
-	username = flask.session.get('username')
-	if username is not None:
-		return flask.render_template('tool.html', logged=logged(), username=getusername())
-	else:
-		return flask.render_template('login.html', logged=logged(), username=getusername())
+    username = flask.session.get('username')
+    if username is not None:
+        return flask.render_template('tool.html', logged=logged(), username=getusername())
+    else:
+        return flask.render_template('login.html', logged=logged(), username=getusername())
 
 
 @app.route('/storemails', methods=['POST'])
 def storemails():
-	users = request.form['users']
-	subject = request.form['subject']
-	text = request.form['text']
-	wiki = request.form['wiki']
-	conn = pymysql.connect(
-		host='tools-db',
-		read_default_file=os.path.expanduser("~/replica.my.cnf"),
-		charset='utf8mb4',
-		database=app.config['DB_NAME']
-	)
-	with conn.cursor() as cur:
-		sql = 'insert into queue(users, subject, text, wiki) values (%s, %s, %s, %s)'
-		cur.execute(sql, (users, subject, text, wiki))
-		cur.commit()
-	return 'done'
+    users = request.form['users']
+    subject = request.form['subject']
+    text = request.form['text']
+    wiki = request.form['wiki']
+    conn = pymysql.connect(
+        host='tools-db',
+        read_default_file=os.path.expanduser("~/replica.my.cnf"),
+        charset='utf8mb4',
+        database=app.config['DB_NAME']
+    )
+    with conn.cursor() as cur:
+        sql = 'insert into queue(users, subject, text, wiki) values (%s, %s, %s, %s)'
+        cur.execute(sql, (users, subject, text, wiki))
+        cur.commit()
+    return 'done'
 
 
 @app.route('/sendmails', methods=['POST'])
 def sendmails():
-	users = request.form['users'].replace('\r', '').split('\n')
-	subject = request.form['subject']
-	text = request.form['text']
-	wiki = request.form['wiki']
-	if "ccme" in request.form:
-		ccme = 1
-	else:
-		ccme = 0
-	API_URL = 'https://%s/w/api.php' % wiki
+    users = request.form['users'].replace('\r', '').split('\n')
+    subject = request.form['subject']
+    text = request.form['text']
+    wiki = request.form['wiki']
+    if "ccme" in request.form:
+        ccme = 1
+    else:
+        ccme = 0
+    API_URL = 'https://%s/w/api.php' % wiki
 
-	for user in users:
-		payload = {
-		        "action": "query",
-		        "format": "json",
-		        "meta": "tokens",
-		        "type": "csrf"
-		}
-		r = requests.get(API_URL, params=payload, auth=get_auth())
-		token = r.json()['query']['tokens']['csrftoken']
-		payload = {
-			"action": "emailuser",
-			"format": "json",
-			"target": user,
-			"subject": subject,
-			"text": text,
-			"token": token,
-			"ccme": ccme
-		}
-		r = requests.post(API_URL, data=payload, auth=get_auth())
-	return 'done'
+    for user in users:
+        payload = {
+            "action": "query",
+            "format": "json",
+            "meta": "tokens",
+            "type": "csrf"
+        }
+        r = requests.get(API_URL, params=payload, auth=get_auth())
+        token = r.json()['query']['tokens']['csrftoken']
+        payload = {
+            "action": "emailuser",
+            "format": "json",
+            "target": user,
+            "subject": subject,
+            "text": text,
+            "token": token,
+            "ccme": ccme
+        }
+        r = requests.post(API_URL, data=payload, auth=get_auth())
+    return 'done'
 
 
 def get_auth():
-	request_token_secret = flask.session.get('request_token_secret', None)
-	request_token_key = flask.session.get('request_token_key', None)
-	auth = OAuth1(key, secret, request_token_key, request_token_secret)
-	return auth
+    request_token_secret = flask.session.get('request_token_secret', None)
+    request_token_key = flask.session.get('request_token_key', None)
+    auth = OAuth1(key, secret, request_token_key, request_token_secret)
+    return auth
 
 
 def logged():
-	return flask.session.get('username') != None
+    return flask.session.get('username') is not None
 
 
 def getusername():
@@ -119,54 +115,55 @@ def getusername():
 
 @app.route('/login')
 def login():
-	"""Initiate an OAuth login.
-	Call the MediaWiki server to get request secrets and then redirect the
-	user to the MediaWiki server to sign the request.
-	"""
-	consumer_token = mwoauth.ConsumerToken(
-		app.config['CONSUMER_KEY'], app.config['CONSUMER_SECRET'])
-	try:
-		redirect, request_token = mwoauth.initiate(
-		app.config['OAUTH_MWURI'], consumer_token)
-	except Exception:
-		app.logger.exception('mwoauth.initiate failed')
-		return flask.redirect(flask.url_for('index'))
-	else:
-		flask.session['request_token'] = dict(zip(
-		request_token._fields, request_token))
-		return flask.redirect(redirect)
+    """Initiate an OAuth login.
+    Call the MediaWiki server to get request secrets and then redirect the
+    user to the MediaWiki server to sign the request.
+    """
+    consumer_token = mwoauth.ConsumerToken(
+        app.config['CONSUMER_KEY'], app.config['CONSUMER_SECRET'])
+    try:
+        redirect, request_token = mwoauth.initiate(
+            app.config['OAUTH_MWURI'], consumer_token)
+    except Exception:
+        app.logger.exception('mwoauth.initiate failed')
+        return flask.redirect(flask.url_for('index'))
+    else:
+        flask.session['request_token'] = dict(zip(
+            request_token._fields, request_token))
+        return flask.redirect(redirect)
 
 
 @app.route('/oauth-callback')
 def oauth_callback():
-	"""OAuth handshake callback."""
-	if 'request_token' not in flask.session:
-		flask.flash(u'OAuth callback failed. Are cookies disabled?')
-		return flask.redirect(flask.url_for('index'))
-	consumer_token = mwoauth.ConsumerToken(app.config['CONSUMER_KEY'], app.config['CONSUMER_SECRET'])
+    """OAuth handshake callback."""
+    if 'request_token' not in flask.session:
+        flask.flash(u'OAuth callback failed. Are cookies disabled?')
+        return flask.redirect(flask.url_for('index'))
+    consumer_token = mwoauth.ConsumerToken(app.config['CONSUMER_KEY'], app.config['CONSUMER_SECRET'])
 
-	try:
-		access_token = mwoauth.complete(
-		app.config['OAUTH_MWURI'],
-		consumer_token,
-		mwoauth.RequestToken(**flask.session['request_token']),
-		flask.request.query_string)
-		identity = mwoauth.identify(app.config['OAUTH_MWURI'], consumer_token, access_token)
-	except Exception:
-		app.logger.exception('OAuth authentication failed')
-	else:
-		flask.session['request_token_secret'] = dict(zip(access_token._fields, access_token))['secret']
-		flask.session['request_token_key'] = dict(zip(access_token._fields, access_token))['key']
-		flask.session['username'] = identity['username']
+    try:
+        access_token = mwoauth.complete(
+            app.config['OAUTH_MWURI'],
+            consumer_token,
+            mwoauth.RequestToken(**flask.session['request_token']),
+            flask.request.query_string)
+        identity = mwoauth.identify(app.config['OAUTH_MWURI'], consumer_token, access_token)
+    except Exception:
+        app.logger.exception('OAuth authentication failed')
+    else:
+        flask.session['request_token_secret'] = dict(zip(access_token._fields, access_token))['secret']
+        flask.session['request_token_key'] = dict(zip(access_token._fields, access_token))['key']
+        flask.session['username'] = identity['username']
 
-	return flask.redirect(flask.url_for('index'))
+    return flask.redirect(flask.url_for('index'))
 
 
 @app.route('/logout')
 def logout():
-	"""Log the user out by clearing their session."""
-	flask.session.clear()
-	return flask.redirect(flask.url_for('index'))
+    """Log the user out by clearing their session."""
+    flask.session.clear()
+    return flask.redirect(flask.url_for('index'))
+
 
 if __name__ == "__main__":
-	app.run(debug=True, threaded=True)
+    app.run(debug=True, threaded=True)
