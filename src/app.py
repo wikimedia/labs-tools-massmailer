@@ -17,7 +17,7 @@ import flask
 import os
 import yaml
 import requests
-from flask import request
+from flask import request, flash, redirect
 import mwoauth
 from requests_oauthlib import OAuth1
 import pymysql
@@ -95,7 +95,8 @@ def sendmails():
             "ccme": ccme
         }
         r = requests.post(API_URL, data=payload, auth=get_auth())
-    return 'done'
+    flash('Success!', 'success')
+    return redirect(flask.url_for('index'))
 
 
 def get_auth():
@@ -126,10 +127,12 @@ def login():
             app.config['OAUTH_MWURI'], consumer_token)
     except Exception:
         app.logger.exception('mwoauth.initiate failed')
+        flash('There was an error whilst trying to authenticate you. If this keeps happening, please <a href="https://phabricator.wikimedia.org/maniphest/task/edit/form/1/?project=massmailer" class="alert-link">file a task.</a>', 'danger')
         return flask.redirect(flask.url_for('index'))
     else:
         flask.session['request_token'] = dict(zip(
             request_token._fields, request_token))
+        flash('You successfully logged in!', 'success')
         return flask.redirect(redirect)
 
 
@@ -162,6 +165,7 @@ def oauth_callback():
 def logout():
     """Log the user out by clearing their session."""
     flask.session.clear()
+    flash('You were logged out.', 'success')
     return flask.redirect(flask.url_for('index'))
 
 

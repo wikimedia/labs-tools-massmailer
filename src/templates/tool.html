@@ -1,22 +1,39 @@
 {% extends 'base.html' %}
 
 {% block body %}
-<form action="sendmails" method="POST">
-		<p>Users</p>
-		<textarea name="users" rows="8" cols="80"></textarea>
 
-		<p>Subject</p>
-		<input type="text" name="subject" value="">
+<div class="container">
+	<div class="row">
+		<div class="col-12">
+			<form action="sendmails" method="POST">
+				<div class="form-group">
+					<label for="wiki">Wiki</label>
+					<input type="text" class="form-control" id="wiki" name="wiki" placeholder="cs.wikipedia.org" aria-describedby="wikiHelp">
+					<small id="wikiHelp" class="form-text text-muted">The Wikimedia Project you are targeting</small>
+				</div>
+				<div class="form-group">
+					<label for="usersList">Users</label>
+					<textarea class="form-control" id="usersList" name="users" rows="3" aria-describedby="usersListHelp"></textarea>
+					<small id="usersListHelp" class="form-text text-muted">The users you want to send this email to.</small>
+				</div>
+				<div class="form-group">
+					<label for="subject">Subject</label>
+					<input type="text" class="form-control" name="subject" id="subject" aria-describedby="subjectHelp">
+					<small id="subjectHelp" class="form-text text-muted">The subject of the email.</small>
+				</div>
+				<div class="form-group">
+					<label for="body">Body</label>
+					<textarea class="form-control" name="text" id="body" rows="3" aria-describedby="bodyHelp"></textarea>
+					<small id="bodyHelp" class="form-text text-muted">The body of the email</small>
+				</div>
+				<div class="form-group form-check">
+					<input type="checkbox" class="form-check-input" id="ccme">
+					<label class="form-check-label" for="ccme">Send me a copy of all mails</label>
+				</div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+	</div>
+</div>
 
-		<p>Mail</p>
-		<textarea name="text" rows="8" cols="80"></textarea>
-
-		<p>Wiki</p>
-		<input type="text" name="wiki" value="cs.wikipedia.org"><br>
-
-		<label for="ccme">Send me copy of all mails</label>
-		<input type="checkbox" name="ccme" id="ccme" checked><br>
-
-		<input type="submit" value="Send">
-</form>
 {% endblock %}
