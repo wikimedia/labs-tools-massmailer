@@ -4,3 +4,4 @@ APPLICATION_ROOT: /
 STATIC_URL: https://tools-static.wmflabs.org/massmailer/
 OAUTH_MWURI: https://en.wikipedia.org/w/index.php
 SECRET_KEY: secret
+MESSAGES_DIR: ../messages

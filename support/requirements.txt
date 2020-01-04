@@ -5,3 +5,4 @@ requests
 simplejson
 mwparserfromhell
 toolforge
+flask-jsonlocale

@@ -18,12 +18,22 @@ import os
 import yaml
 import requests
 from flask import request, flash, redirect
+from flask_jsonlocale import Locales
 import mwoauth
 from requests_oauthlib import OAuth1
 import pymysql
 
 app = flask.Flask(__name__)
 application = app
+
+# Load config
+__dir__ = os.path.dirname(__file__)
+app.config.update(
+    yaml.safe_load(open(os.path.join(__dir__, os.environ.get(
+        'FLASK_CONFIG_FILE', 'config.yaml')))))
+
+locales = Locales(app)
+_ = locales.get_message
 
 requests.utils.default_user_agent = lambda: "MassMailer (https://tools.wmflabs.org/massmailer; martin.urbanec@wikimedia.cz)"
 
@@ -38,11 +48,11 @@ secret = app.config['CONSUMER_SECRET']
 
 @app.route('/')
 def index():
-    username = flask.session.get('username')
+    username = getusername()
     if username is not None:
-        return flask.render_template('tool.html', logged=logged(), username=getusername())
+        return flask.render_template('tool.html', logged=logged(), username=username)
     else:
-        return flask.render_template('login.html', logged=logged(), username=getusername())
+        return flask.render_template('login.html', logged=logged(), username=username)
 
 
 @app.route('/storemails', methods=['POST'])
@@ -95,7 +105,7 @@ def sendmails():
             "ccme": ccme
         }
         r = requests.post(API_URL, data=payload, auth=get_auth())
-    flash('Success!', 'success')
+    flash(_('success-text'), 'success')
     return redirect(flask.url_for('index'))
 
 
@@ -114,6 +124,14 @@ def getusername():
     return flask.session.get('username')
 
 
+@app.context_processor
+def inject_base_variables():
+    return {
+        "logged": logged(),
+        "username": getusername()
+    }
+
+
 @app.route('/login')
 def login():
     """Initiate an OAuth login.
@@ -127,12 +145,12 @@ def login():
             app.config['OAUTH_MWURI'], consumer_token)
     except Exception:
         app.logger.exception('mwoauth.initiate failed')
-        flash('There was an error whilst trying to authenticate you. If this keeps happening, please <a href="https://phabricator.wikimedia.org/maniphest/task/edit/form/1/?project=massmailer" class="alert-link">file a task.</a>', 'danger')
+        flash(_('login-fail-text', url="https://phabricator.wikimedia.org/maniphest/task/edit/form/1/?project=massmailer"), 'danger')
         return flask.redirect(flask.url_for('index'))
     else:
         flask.session['request_token'] = dict(zip(
             request_token._fields, request_token))
-        flash('You successfully logged in!', 'success')
+        flash(_('login-success-text'), 'success')
         return flask.redirect(redirect)
 
 
@@ -140,7 +158,7 @@ def login():
 def oauth_callback():
     """OAuth handshake callback."""
     if 'request_token' not in flask.session:
-        flask.flash(u'OAuth callback failed. Are cookies disabled?')
+        flask.flash(_('oauth-callback-failed-text'))
         return flask.redirect(flask.url_for('index'))
     consumer_token = mwoauth.ConsumerToken(app.config['CONSUMER_KEY'], app.config['CONSUMER_SECRET'])
 
@@ -165,7 +183,7 @@ def oauth_callback():
 def logout():
     """Log the user out by clearing their session."""
     flask.session.clear()
-    flash('You were logged out.', 'success')
+    flash(_('logout-text'), 'success')
     return flask.redirect(flask.url_for('index'))
 
 

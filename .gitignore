@@ -4,3 +4,4 @@ venv
 .vscode
 /.tox
 deploy/
+__pycache__/

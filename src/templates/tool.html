@@ -7,30 +7,30 @@
 		<div class="col-12">
 			<form action="sendmails" method="POST">
 				<div class="form-group">
-					<label for="wiki">Wiki</label>
+					<label for="wiki">{{ _('wiki-input-label') }}</label>
 					<input type="text" class="form-control" id="wiki" name="wiki" placeholder="cs.wikipedia.org" aria-describedby="wikiHelp">
-					<small id="wikiHelp" class="form-text text-muted">The Wikimedia Project you are targeting</small>
+					<small id="wikiHelp" class="form-text text-muted">{{ _('wiki-input-description') }}</small>
 				</div>
 				<div class="form-group">
-					<label for="usersList">Users</label>
+					<label for="usersList">{{ _('users-input-label') }}</label>
 					<textarea class="form-control" id="usersList" name="users" rows="3" aria-describedby="usersListHelp"></textarea>
-					<small id="usersListHelp" class="form-text text-muted">The users you want to send this email to.</small>
+					<small id="usersListHelp" class="form-text text-muted">{{ _('users-input-description') }}</small>
 				</div>
 				<div class="form-group">
-					<label for="subject">Subject</label>
+					<label for="subject">{{ _('subject-input-label') }}</label>
 					<input type="text" class="form-control" name="subject" id="subject" aria-describedby="subjectHelp">
-					<small id="subjectHelp" class="form-text text-muted">The subject of the email.</small>
+					<small id="subjectHelp" class="form-text text-muted">{{ _('subject-input-description') }}</small>
 				</div>
 				<div class="form-group">
-					<label for="body">Body</label>
+					<label for="body">{{ _('body-input-label') }}</label>
 					<textarea class="form-control" name="text" id="body" rows="3" aria-describedby="bodyHelp"></textarea>
-					<small id="bodyHelp" class="form-text text-muted">The body of the email</small>
+					<small id="bodyHelp" class="form-text text-muted">{{ _('body-input-description') }}</small>
 				</div>
 				<div class="form-group form-check">
 					<input type="checkbox" class="form-check-input" id="ccme">
-					<label class="form-check-label" for="ccme">Send me a copy of all mails</label>
+					<label class="form-check-label" for="ccme">{{ _('ccme-checkbox-label') }}</label>
 				</div>
-				<button type="submit" class="btn btn-primary">Submit</button>
+				<button type="submit" class="btn btn-primary">{{ _('submit-text') }}</button>
 			</form>
 		</div>
 	</div>
