@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"login-link-text": "Најава",
+	"wiki-input-label": "Вики",
+	"wiki-input-description": "Целниот Викимедиин проект",
+	"users-input-label": "Корисници",
+	"users-input-description": "На кои корисници сакате да ја испратите оваа порака по е-пошта.",
+	"subject-input-label": "Наслов",
+	"subject-input-description": "Наслов на писмото.",
+	"body-input-label": "Содржина",
+	"body-input-description": "Содржина на писмото",
+	"ccme-checkbox-label": "Испраќај ми примероци од сите писма",
+	"submit-text": "Поднеси",
+	"report-bug-link-text": "Пријави грешка",
+	"logout-link-text": "Одјава",
+	"index-welcome-description": "Масовна пошта е алатка која ви овозможува да испраќате масовна е-пошта за даден проект.",
+	"index-welcome-login": "За да се најавите, <a href=\"login\">стиснете тука.</a>",
+	"success-text": "Успешно!",
+	"oauth-callback-failed-text": "Повикувањето на OAuth не успеа. Да не ви се оневозможени колачињата?",
+	"login-fail-text": "Се јави грешка при обидот да ве заверам. Ако продолжи да се јавува, <a href=\"{url}\" class=\"alert-link\">поднесете задача.</a>",
+	"login-success-text": "Успешно сте најавени!",
+	"logout-text": "Одјавени сте.",
+	"save-text": "Зачувај",
+	"massmailer-name": "Масовна пошта"
+}

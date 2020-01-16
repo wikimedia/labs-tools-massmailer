@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ihojose"
+		]
+	},
+	"login-link-text": "Iniciar sesión",
+	"wiki-input-label": "Wiki",
+	"users-input-label": "Usuarios",
+	"subject-input-label": "Sujeto",
+	"subject-input-description": "Sujeto del correo electrónico.",
+	"body-input-label": "Cuerpo",
+	"submit-text": "Enviar",
+	"report-bug-link-text": "Reportar un error",
+	"logout-link-text": "Cerrar sesión",
+	"index-welcome-login": "Para ingresar, por favor <a href=\"login\">haz clic aquí</a>.",
+	"login-success-text": "Sesión iniciada satisfactoriamente!",
+	"logout-text": "Has cerrado tu sesión.",
+	"save-text": "Guardar"
+}

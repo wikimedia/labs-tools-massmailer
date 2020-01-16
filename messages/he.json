@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ghsuvr"
+		]
+	},
+	"login-link-text": "כניסה",
+	"wiki-input-label": "ויקי",
+	"wiki-input-description": "פרוייקט ויקימדיה {{GENDER:|אתה מכוון|את מכוונת}} אליו",
+	"users-input-label": "משתמשים",
+	"users-input-description": "הנמענים שאליהם נשלח הדוא\"ל.",
+	"subject-input-label": "נושא",
+	"subject-input-description": "נושא הדוא\"ל.",
+	"body-input-label": "גוף",
+	"body-input-description": "גוף הדוא\"ל",
+	"ccme-checkbox-label": "שלח לי עותק של כל ההודעות",
+	"submit-text": "שליחה",
+	"report-bug-link-text": "דיווח על תקלה",
+	"logout-link-text": "יציאה",
+	"index-welcome-description": "MassMailer הוא כלי המאפשר לך לשלוח דוא\"ל בהמוניהם לפרוייקט.",
+	"index-welcome-login": "כדי להיכנס, נא <a href=\"login\">ללחוץ כאן.</a>",
+	"success-text": "הצלחה!",
+	"oauth-callback-failed-text": "ההתקשרות של OAuth נכשלה. האם העוגיות מושבתות?",
+	"login-fail-text": "אירעה שגיאה בניסיון לאמת אותך. אם זה ממשיך לקרות, נא <a href=\"{url}\" class=\"alert-link\">לדווח על כך.</a>",
+	"login-success-text": "נכנסת בהצלחה!",
+	"logout-text": "יצאת מהחשבון.",
+	"save-text": "שמירה",
+	"massmailer-name": "MassMailer"
+}

@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eneelk",
+			"Gomoko",
+			"Thibaut120094"
+		]
+	},
+	"login-link-text": "Connexion",
+	"wiki-input-label": "Wiki",
+	"wiki-input-description": "Le projet Wikimédia que vous ciblez",
+	"users-input-label": "Utilisateurs",
+	"users-input-description": "Les utilisateurs auxquels vous voulez envoyer ce courriel.",
+	"subject-input-label": "Sujet",
+	"subject-input-description": "Le sujet du courriel.",
+	"body-input-label": "Corps",
+	"body-input-description": "Le corps du courriel",
+	"ccme-checkbox-label": "M’envoyer une copie de tous les courriels",
+	"submit-text": "Soumettre",
+	"report-bug-link-text": "Signaler un bogue",
+	"logout-link-text": "Déconnexion",
+	"index-welcome-description": "MassMailer est un outil qui vous permet d’envoyer des courriels en masse pour un projet.",
+	"index-welcome-login": "Pour vous connecter, veuillez <a href=\"login\">cliquer ici.</a>",
+	"success-text": "Réussi !",
+	"oauth-callback-failed-text": "Échec de l’appel de OAuth. Les cookies sont-ils désactivés ?",
+	"login-fail-text": "Il y a eu une erreur en essayant de vous authentifier. Si cela persiste, veuillez <a href=\"{url}\" class=\"alert-link\">remplir une tâche.</a>",
+	"login-success-text": "Vous vous êtes bien connecté !",
+	"logout-text": "Vous avez été déconnecté.",
+	"save-text": "Enregistrer",
+	"massmailer-name": "MassMailer"
+}

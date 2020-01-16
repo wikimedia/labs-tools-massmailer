@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"login-link-text": "تسجيل الدخول",
+	"wiki-input-label": "ويكي",
+	"wiki-input-description": "مشروع ويكيبيديا الذي تستهدفه",
+	"users-input-label": "المستخدمون",
+	"users-input-description": "المستخدمون الذين تود إرسال هذا البريد لهم.",
+	"subject-input-label": "الموضوع",
+	"subject-input-description": "موضوع رسالة البريد.",
+	"body-input-label": "الجسم",
+	"body-input-description": "جسم رسالة البريد",
+	"ccme-checkbox-label": "أرسل لي نسخة من كل الرسائل",
+	"submit-text": "إرسال",
+	"report-bug-link-text": "الإبلاغ عن خطأ برمجي",
+	"logout-link-text": "تسجيل الخروج",
+	"index-welcome-description": "MassMailer هي أداة تسمح لك بإرسال رسائل بريد بشكل كمي لمشروع.",
+	"index-welcome-login": "لتسجيل الدخول، من فضلك <a href=\"login\">اضغط هنا.</a>",
+	"success-text": "نجاح!",
+	"oauth-callback-failed-text": "استدعاء OAuth فشل. هل الكوكيز معطلة؟",
+	"login-fail-text": "كان هناك خطأ أثناء محاولة التحقق من هويتك. لو استمر هذا في الحدوث، من فضلك <a href=\"{url}\" class=\"alert-link\">أبلغ عن مهمة.</a>",
+	"login-success-text": "تم تسجيل دخولك بنجاح!",
+	"logout-text": "تم تسجيل خروجك.",
+	"save-text": "حفظ",
+	"massmailer-name": "بريد كمي"
+}

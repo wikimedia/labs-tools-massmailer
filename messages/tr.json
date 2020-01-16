@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"login-link-text": "Oturum aç",
+	"wiki-input-label": "Viki",
+	"wiki-input-description": "Hedeflediğiniz Wikimedia Projesi",
+	"users-input-label": "Kullanıcılar",
+	"users-input-description": "Bu e-postayı göndermek istediğiniz kullanıcılar.",
+	"subject-input-label": "Konu",
+	"subject-input-description": "E-postanın konusu.",
+	"body-input-label": "Gövde",
+	"body-input-description": "E-postanın gövdesi",
+	"ccme-checkbox-label": "Bana tüm postaların bir kopyasını gönder",
+	"submit-text": "Gönder",
+	"report-bug-link-text": "Hata bildir",
+	"logout-link-text": "Çıkış",
+	"index-welcome-description": "MassMailer, bir proje için toplu olarak e-posta göndermenizi sağlayan bir araçtır.",
+	"index-welcome-login": "Giriş yapmak için lütfen <a href=\"login\">burayı tıklayın.</a>",
+	"success-text": "Başarılı!",
+	"oauth-callback-failed-text": "OAuth geri arama başarısız oldu. Çerezler devre dışı mı?",
+	"login-fail-text": "Kimlik doğrulaması yapılırken bir hata oluştu. Bu hala devam ederse, lütfen <a href=\"{url}\" class=\"alert-link\">bir görev gönderin.</a>",
+	"login-success-text": "Başarıyla giriş yaptınız!",
+	"logout-text": "Çıkış yaptınız.",
+	"save-text": "Kaydet",
+	"massmailer-name": "MassMailer"
+}

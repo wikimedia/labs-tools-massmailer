@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"login-link-text": "登入",
+	"wiki-input-label": "Wiki",
+	"wiki-input-description": "您做為目標的維基媒體專案",
+	"users-input-label": "使用者",
+	"users-input-description": "您所要發送給此封電子郵件的使用者。",
+	"subject-input-label": "標題",
+	"subject-input-description": "電子郵件的標題。",
+	"body-input-label": "正文",
+	"body-input-description": "電子郵件的正文",
+	"ccme-checkbox-label": "發給我所有郵件的複本",
+	"submit-text": "提交",
+	"report-bug-link-text": "回報程式錯誤",
+	"logout-link-text": "登出",
+	"index-welcome-description": "MassMailer 是個能讓您對某一專案批量發送電子郵件的工具。",
+	"index-welcome-login": "要登入的話，請點擊<a href=\"login\">此</a>。",
+	"success-text": "成功！",
+	"oauth-callback-failed-text": "OAuth 回呼失敗。有 cookie 被停用嗎？",
+	"login-fail-text": "在嘗試對您身份驗證時發生錯誤。若此情況持續發生，請<a href=\"{url}\" class=\"alert-link\">提出任務</a>。",
+	"login-success-text": "您已成功登入！",
+	"logout-text": "您已登出。",
+	"save-text": "儲存",
+	"massmailer-name": "MassMailer"
+}

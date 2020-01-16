@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joris Darlington Quarshie"
+		]
+	},
+	"login-link-text": "Teken aan",
+	"wiki-input-label": "wiki",
+	"wiki-input-description": "Die Wikimedia Projek wat u rig",
+	"users-input-label": "gebruikers",
+	"users-input-description": "Die gebruikers waarheen u hierdie e-pos wil stuur.",
+	"subject-input-label": "Vak",
+	"subject-input-description": "Die onderwerp van die e-pos",
+	"body-input-label": "Liggaam",
+	"body-input-description": "Die liggaam van die e-pos",
+	"ccme-checkbox-label": "Stuur vir 'n afskrif van alle e-posse",
+	"submit-text": "Indien",
+	"report-bug-link-text": "Rapporteer 'n fout",
+	"logout-link-text": "Teken uit",
+	"index-welcome-description": "Massmailer is 'n instrument waarmee u e-pos boodskappe vir 'n projek kan stuur.",
+	"index-welcome-login": "<a href=\"login\"> klik hier om aan te meld. </a>",
+	"success-text": "Sukses!",
+	"oauth-callback-failed-text": "OAuth terugbel het misluk.Is koekies gedeaktiveer?",
+	"login-fail-text": "Daar was 'n fout tydeens probeer om te jou verifieer.As dit aanhou gebeur,<a href=\"{url}\" class=\"alert-link\">lêer 'n taak in.</a>",
+	"login-success-text": "U is suksesvol aangemeld!",
+	"logout-text": "U is afgemeld.",
+	"save-text": "save",
+	"massmailer-name": "MassMailer"
+}

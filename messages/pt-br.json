@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"login-link-text": "Entrar",
+	"wiki-input-label": "Wiki",
+	"wiki-input-description": "O Projeto Wikimedia que você está alvejando",
+	"users-input-label": "Usuários",
+	"users-input-description": "Os usuários para os quais você deseja enviar este e-mail.",
+	"subject-input-label": "Assunto",
+	"subject-input-description": "O assunto do e-mail.",
+	"body-input-label": "Corpo",
+	"body-input-description": "O corpo do e-mail",
+	"ccme-checkbox-label": "Envie-me uma cópia de todos os e-mails",
+	"submit-text": "Enviar",
+	"report-bug-link-text": "Relatar um erro",
+	"logout-link-text": "Sair",
+	"index-welcome-description": "O MassMailer é uma ferramenta que permite enviar e-mails em massa para um projeto.",
+	"index-welcome-login": "Para entrar, por favor <a href=\"login\">clique aqui.</a>",
+	"success-text": "Sucesso!",
+	"oauth-callback-failed-text": "O retorno de chamada do OAuth falhou. Os cookies estão desativados?",
+	"login-fail-text": "Ocorreu um erro ao tentar autenticar você. Se isso continuar acontecendo, por favor <a href=\"{url}\" class=\"alert-link\">arquive uma tarefa.</a>",
+	"login-success-text": "Você entrou com sucesso!",
+	"logout-text": "Você foi desconectado.",
+	"save-text": "Salvar",
+	"massmailer-name": "MassMailer"
+}

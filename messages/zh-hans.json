@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Josephine W."
+		]
+	},
+	"login-link-text": "登录",
+	"wiki-input-label": "维基",
+	"wiki-input-description": "您的对象的维基",
+	"users-input-label": "用户",
+	"users-input-description": "邮件的收件人。",
+	"subject-input-label": "主题",
+	"subject-input-description": "邮件的主题",
+	"body-input-description": "邮件的正文",
+	"ccme-checkbox-label": "发给我一份邮件的副本",
+	"submit-text": "提交",
+	"report-bug-link-text": "举报故障",
+	"logout-link-text": "退出用户",
+	"index-welcome-login": "要登录的话，请<a href=\"login\">按这里</a>。",
+	"success-text": "完成！",
+	"login-success-text": "您成功的登录了您的用户！",
+	"logout-text": "您退出登录了。",
+	"save-text": "保存"
+}
