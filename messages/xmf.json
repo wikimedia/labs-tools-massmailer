@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Narazeni"
+		]
+	},
+	"login-link-text": "მიშულა",
+	"wiki-input-label": "ვიკი",
+	"users-input-label": "მახვარებუეფი",
+	"users-input-description": "მახვარებუეფი, ნამუეფშათ გოკონა თე E-mail-ეფიშ ჯღონუან.",
+	"subject-input-label": "თემა:",
+	"subject-input-description": "E-mail-იშ თემა.",
+	"body-input-label": "ტექსტი",
+	"ccme-checkbox-label": "ქუმომჯღონი არძა E-mail-იშ ანგი",
+	"report-bug-link-text": "ქუგმოგებაფეთ ჩილათაშ გეშა",
+	"logout-link-text": "გიშულა",
+	"success-text": "წუმოძინა!",
+	"login-success-text": "თქვა მიშულირი რეთ!",
+	"logout-text": "თქვა გიშულირი რეთ.",
+	"save-text": "ჩუალა"
+}

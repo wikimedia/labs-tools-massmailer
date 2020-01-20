@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bugoslav",
+			"Neptune, the Mystic"
+		]
+	},
+	"login-link-text": "Prijava",
+	"users-input-label": "Suradnici",
+	"users-input-description": "Suradnici kojima želite poslati ovu e-poruku.",
+	"report-bug-link-text": "Prijavi pogrešku",
+	"logout-link-text": "Odjava",
+	"index-welcome-login": "Za prijaviti se, molimo Vas <a href=\"login\">škljocnite ovdje.</a>",
+	"success-text": "Uspješno!",
+	"login-success-text": "Uspješno ste se prijavili!",
+	"logout-text": "Odjavili ste se.",
+	"save-text": "Spremi"
+}

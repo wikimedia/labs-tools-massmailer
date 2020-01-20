@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"1917 Ekim Devrimi"
+		]
+	},
+	"login-link-text": "Cıkewtış",
+	"wiki-input-label": "Wiki",
+	"wiki-input-description": "Hedefê Procey Wikimedia",
+	"users-input-label": "Karberi",
+	"users-input-description": "Karberê ke şıma qayılê ke ena eposta cı rê bırışê",
+	"subject-input-label": "Mewzu",
+	"subject-input-description": "Mewzuy epostay",
+	"body-input-label": "Bezn",
+	"body-input-description": "Bezna epostay",
+	"ccme-checkbox-label": "Mı rê yew kopyay epostayan bırışê",
+	"submit-text": "Bırışê",
+	"report-bug-link-text": "Xeta rapor kerê",
+	"logout-link-text": "Veciyayış",
+	"index-welcome-description": "MassMailer, seba yew procey pêro postaya piya rıştışi rê yew haleto.",
+	"index-welcome-login": "Seba cıkewtışi rê kerem kerê <a href=\"login\">yıyay bıploğnê .</a>",
+	"success-text": "Sera ameyê!",
+	"oauth-callback-failed-text": "OAuth pey cıgeyrayış sera nêameyo. Çerezi devre derê ?",
+	"login-fail-text": "Kamiye araşt kerdış de xeta veciyê. No hewna dewam bıkero se, kerem kerê <a href=\"{url}\" class=\"alert-link\">yew vezife bırışê .</a>",
+	"login-success-text": "Şıma şa cı kewê!",
+	"logout-text": "Cı ra kewtê.",
+	"save-text": "Qeyd kerê",
+	"massmailer-name": "MassMailer"
+}

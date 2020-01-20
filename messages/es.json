@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ihojose"
+			"Ihojose",
+			"Agusbou2015",
+			"Joanmp17"
 		]
 	},
 	"login-link-text": "Iniciar sesión",
@@ -14,7 +16,8 @@
 	"report-bug-link-text": "Reportar un error",
 	"logout-link-text": "Cerrar sesión",
 	"index-welcome-login": "Para ingresar, por favor <a href=\"login\">haz clic aquí</a>.",
-	"login-success-text": "Sesión iniciada satisfactoriamente!",
+	"success-text": "Éxito!",
+	"login-success-text": "¡Sesión iniciada satisfactoriamente!",
 	"logout-text": "Has cerrado tu sesión.",
 	"save-text": "Guardar"
 }

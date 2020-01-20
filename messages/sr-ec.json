@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Zoranzoki21"
+		]
+	},
+	"login-link-text": "Пријави ме",
+	"wiki-input-label": "Вики",
+	"wiki-input-description": "Викимедијин пројекат на који циљате",
+	"users-input-label": "Корисници",
+	"users-input-description": "Корисници којима желите да пошаљете е-поруку.",
+	"subject-input-label": "Тема",
+	"subject-input-description": "Тема е-поруке",
+	"body-input-label": "Текст",
+	"body-input-description": "Текст е-поруке",
+	"ccme-checkbox-label": "Пошаљи ми копију свих е-порука",
+	"submit-text": "Проследи",
+	"report-bug-link-text": "Пријавите грешку",
+	"logout-link-text": "Одјави ме",
+	"index-welcome-description": "Масовна пошта је алатка која вам омогућава да шаљете велики број е-порука за пројекат.",
+	"index-welcome-login": "Да бисте се пријавили, <a href=\"login\">кликните овде.</a>",
+	"success-text": "Успешно.",
+	"login-success-text": "Успешно сте се пријавили.",
+	"logout-text": "Одјављени сте.",
+	"save-text": "Сачувај"
+}

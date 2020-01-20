@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Zoranzoki21"
+		]
+	},
 	"login-link-text": "The text for the 'Login' button at the top of the page when the user is not logged in.",
 	"wiki-input-label": "The label for the 'wiki' option on the tool.",
 	"wiki-input-description": "A short description for the 'wiki' option on the tool.",
@@ -21,5 +25,5 @@
 	"login-success-text": "Success message displayed when a user logs in.",
 	"logout-text": "Message displayed to the user when they log out.",
 	"save-text": "Text for a generic save button.",
-	"massmailer-name": "The name of the tool"
+	"massmailer-name": "{{optional}}\n\nThe name of the tool."
 }
