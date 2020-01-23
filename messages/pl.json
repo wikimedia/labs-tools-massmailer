@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail"
+		]
+	},
+	"login-link-text": "Zaloguj się",
+	"wiki-input-label": "Wiki",
+	"wiki-input-description": "Projekt Wikimedii który cię interesuje",
+	"users-input-label": "Użytkownicy",
+	"users-input-description": "Użytkownicy do których chcesz wysłać e-maile.",
+	"subject-input-label": "Temat",
+	"subject-input-description": "Temat e-maila.",
+	"body-input-label": "Treść",
+	"body-input-description": "Treść e-maila",
+	"ccme-checkbox-label": "Wyślij mi kopię wszystkich wiadomości",
+	"submit-text": "Wyślij",
+	"report-bug-link-text": "Zgłoś błąd",
+	"logout-link-text": "Wyloguj się",
+	"index-welcome-description": "MassMailer jest narzędziem służącym do wysyłania wielu e-maili w projekcie.",
+	"index-welcome-login": "Aby się zalogować <a href=\"login\">kliknij tutaj</a>.",
+	"success-text": "Udało się!",
+	"oauth-callback-failed-text": "Callback OAuth zakończył się niepowodzeniem. Czy ciasteczka są wyłączone?",
+	"login-fail-text": "Wystąpił błąd podczas uwierzytelniania. Jeśli będzie się to dziać dalej prosimy <a href=\"{url}\" class=\"alert-link\">zgłosić błąd</a>.",
+	"login-success-text": "Zalogowano się pomyślnie!",
+	"logout-text": "Zostałeś wylogowany.",
+	"save-text": "Zapisz",
+	"massmailer-name": "Masowe mailowanie"
+}

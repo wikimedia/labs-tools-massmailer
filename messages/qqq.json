@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"Robby"
 		]
 	},
 	"login-link-text": "The text for the 'Login' button at the top of the page when the user is not logged in.",
-	"wiki-input-label": "The label for the 'wiki' option on the tool.",
+	"wiki-input-label": "The label for the 'wiki' option on the tool.\n{{Identical|Wiki}}",
 	"wiki-input-description": "A short description for the 'wiki' option on the tool.",
 	"users-input-label": "The label for the 'users' option on the tool.",
 	"users-input-description": "A short description for the 'users' option on the tool.",
@@ -24,6 +25,6 @@
 	"login-fail-text": "Error message displayed when authentication fails.",
 	"login-success-text": "Success message displayed when a user logs in.",
 	"logout-text": "Message displayed to the user when they log out.",
-	"save-text": "Text for a generic save button.",
+	"save-text": "Text for a generic save button.\n{{Identical|Save}}",
 	"massmailer-name": "{{optional}}\n\nThe name of the tool."
 }

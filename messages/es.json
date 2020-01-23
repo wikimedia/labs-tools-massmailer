@@ -3,7 +3,8 @@
 		"authors": [
 			"Ihojose",
 			"Agusbou2015",
-			"Joanmp17"
+			"Joanmp17",
+			"Fitoschido"
 		]
 	},
 	"login-link-text": "Iniciar sesión",
@@ -12,6 +13,8 @@
 	"subject-input-label": "Sujeto",
 	"subject-input-description": "Sujeto del correo electrónico.",
 	"body-input-label": "Cuerpo",
+	"body-input-description": "El cuerpo del mensaje",
+	"ccme-checkbox-label": "Enviarme una copia de todos los mensajes",
 	"submit-text": "Enviar",
 	"report-bug-link-text": "Reportar un error",
 	"logout-link-text": "Cerrar sesión",

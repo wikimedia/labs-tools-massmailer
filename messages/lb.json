@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"login-link-text": "Aloggen",
+	"wiki-input-label": "Wiki",
+	"users-input-label": "Benotzer",
+	"subject-input-label": "Sujet",
+	"report-bug-link-text": "E Feeler mellen",
+	"logout-link-text": "Ausloggen",
+	"login-success-text": "Dir sidd elo ageloggt!",
+	"save-text": "Späicheren"
+}
