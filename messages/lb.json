@@ -8,8 +8,10 @@
 	"wiki-input-label": "Wiki",
 	"users-input-label": "Benotzer",
 	"subject-input-label": "Sujet",
+	"submit-text": "Späicheren",
 	"report-bug-link-text": "E Feeler mellen",
 	"logout-link-text": "Ausloggen",
+	"success-text": "Succès!",
 	"login-success-text": "Dir sidd elo ageloggt!",
 	"save-text": "Späicheren"
 }

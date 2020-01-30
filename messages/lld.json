@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Starladin"
+		]
+	},
+	"login-link-text": "S'anunzié",
+	"wiki-input-label": "Wiki",
+	"users-input-label": "Utënc",
+	"subject-input-label": "Obiet",
+	"subject-input-description": "L'obiet dla email.",
+	"body-input-label": "Corp",
+	"body-input-description": "Le corp dla email",
+	"submit-text": "Dá ite",
+	"report-bug-link-text": "Segnalëia n bug",
+	"logout-link-text": "Se dejanunzié",
+	"success-text": "Suzes!",
+	"login-success-text": "Ara é jüda da s'anunzié!",
+	"logout-text": "Es sté dejanunzié.",
+	"save-text": "Salva"
+}

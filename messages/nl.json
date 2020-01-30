@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elroy"
+		]
+	},
+	"login-link-text": "Aanmelden",
+	"wiki-input-label": "Wiki",
+	"users-input-label": "Gebruikers",
+	"subject-input-label": "Onderwerp",
+	"subject-input-description": "Het onderwerp van de e-mail",
+	"submit-text": "Verzenden",
+	"report-bug-link-text": "Probleem melden",
+	"logout-link-text": "Afmelden",
+	"index-welcome-login": "<a href=\"login\">Klik hier</a> om aan te melden.",
+	"success-text": "Zet 'm op!",
+	"login-success-text": "U bent aangemeld!",
+	"logout-text": "U bent afgemeld.",
+	"save-text": "Opslaan"
+}
