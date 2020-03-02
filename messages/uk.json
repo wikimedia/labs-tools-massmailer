@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"login-link-text": "Увійти",
+	"wiki-input-label": "Вікі",
+	"wiki-input-description": "Цільовий проект Вікімедіа",
+	"users-input-label": "Користувачі",
+	"users-input-description": "Користувачі, яким Ви хочете надіслати цього електронного листа.",
+	"subject-input-label": "Тема",
+	"subject-input-description": "Тема вашого повідомлення.",
+	"body-input-label": "Текст",
+	"body-input-description": "Текст вашого електронного листа",
+	"ccme-checkbox-label": "Переслати мені копію всіх листів",
+	"submit-text": "Надіслати",
+	"report-bug-link-text": "Повідомити про помилку",
+	"logout-link-text": "Вийти",
+	"index-welcome-description": "MassMailer — це інструмент, що надає змогу масово надсилати листи користувачам одного проекту.",
+	"index-welcome-login": "Щоб увійти в систему, <a href=\"login\">клацніть тут.</a>",
+	"success-text": "Вдалося!",
+	"oauth-callback-failed-text": "Виклик OAuth зазнав невдачі. Може у вас вимкнено куки?",
+	"login-fail-text": "Виникла помилка при спробі вас авторизувати. Якщо ця проблема не зникатиме, будь ласка, <a href=\"{url}\" class=\"alert-link\">повідомте про неї.</a>",
+	"login-success-text": "Ви успішно увійшли в систему!",
+	"logout-text": "Ви вийшли із системи.",
+	"save-text": "Зберегти",
+	"massmailer-name": "MassMailer"
+}
