@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"BadDog",
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"Obsuser"
 		]
 	},
 	"login-link-text": "Пријави ме",
@@ -21,7 +22,10 @@
 	"index-welcome-description": "Масовна пошта је алатка која вам омогућава да шаљете велики број е-порука за пројекат.",
 	"index-welcome-login": "Да бисте се пријавили, <a href=\"login\">кликните овде.</a>",
 	"success-text": "Успешно.",
+	"oauth-callback-failed-text": "Повратни позив OAuth-а није успео. Да ли су колачићи онемогућени?",
+	"login-fail-text": "Дошло је до грешке приликом потврде идентитета. Ако се ово настави, <a href=\"{url}\" class=\"alert-link\">поднесите извештај</a>.",
 	"login-success-text": "Успешно сте се пријавили.",
 	"logout-text": "Одјављени сте.",
-	"save-text": "Сачувај"
+	"save-text": "Сачувај",
+	"massmailer-name": "Масовна пошта"
 }

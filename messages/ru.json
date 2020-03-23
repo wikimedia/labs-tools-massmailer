@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Okras"
+		]
+	},
+	"users-input-label": "Участники",
+	"subject-input-label": "Тема",
+	"submit-text": "Отправить",
+	"report-bug-link-text": "Сообщить об ошибке",
+	"logout-link-text": "Выйти",
+	"save-text": "Сохранить"
+}
