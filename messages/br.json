@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fulup"
+		]
+	},
+	"login-link-text": "Kevreañ",
+	"wiki-input-label": "Wiki",
+	"wiki-input-description": "Ar raktres Wikimedia buket ganeoc'h",
+	"users-input-label": "Implijerien",
+	"users-input-description": "An implijerien a fell deoc'h kas ur postel dezho",
+	"subject-input-label": "Danvez",
+	"subject-input-description": "Danvez ar postel.",
+	"body-input-label": "Korf",
+	"body-input-description": "Korf ar postel",
+	"ccme-checkbox-label": "Kas din un eilskrid eus an holl bosteloù",
+	"submit-text": "Kas",
+	"report-bug-link-text": "Kas keloù diwar-benn un draen",
+	"logout-link-text": "Digevreañ",
+	"index-welcome-description": "Un ostilh da gas posteloù a-vras evit ur raktres bennak eo MassMailer.",
+	"index-welcome-login": "Evit krevreañ <a href=\"login\">klikañ amañ.</a>",
+	"success-text": "Graet !",
+	"oauth-callback-failed-text": "C'hwitet eo bet galv OAuth. Diweredekaet eo an toupinoù marteze ?",
+	"login-fail-text": "Ur fazi zo bet e-ser dilesa ac'hanoc'h. Ma c'hoarvez c'hoazh <a href=\"{url}\" class=\"alert-link\">merkit un drevell.</a>",
+	"login-success-text": "Kevreet oc'h ervat !",
+	"logout-text": "Digevreet oc'h bet.",
+	"save-text": "Enrollañ",
+	"massmailer-name": "MassMailer"
+}

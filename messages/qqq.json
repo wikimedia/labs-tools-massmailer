@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Zoranzoki21",
-			"Robby"
+			"Robby",
+			"Zoranzoki21"
 		]
 	},
 	"login-link-text": "The text for the 'Login' button at the top of the page when the user is not logged in.",
