@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"login-link-text": "Aniciar sesión",
+	"wiki-input-label": "Wiki",
+	"wiki-input-description": "El Proyeutu de Wikimedia al que te dirixes",
+	"users-input-label": "Usuarios",
+	"users-input-description": "Los usuarios a los que quies unviar esti corréu.",
+	"subject-input-label": "Asuntu",
+	"subject-input-description": "L'asuntu del corréu electrónicu.",
+	"body-input-label": "Cuerpu",
+	"body-input-description": "El cuerpu del corréu",
+	"ccme-checkbox-label": "Unviame una copia de tolos correos",
+	"submit-text": "Unviar",
+	"report-bug-link-text": "Informar d'un fallu",
+	"logout-link-text": "Zarrar sesión",
+	"index-welcome-description": "MassMailer ye una ferramienta que te permite unviar correos en masa a un proyeutu.",
+	"index-welcome-login": "Pa entrar, por favor <a href=\"login\">pulsia equí</a>.",
+	"success-text": "Correuto",
+	"oauth-callback-failed-text": "Falló la llamada a OAuth. ¿Tán les cookies desactivaes?",
+	"login-fail-text": "Asocedió un error al tentar identificate. Si sigue pasando esto, por favor <a href=\"{url}\" class=\"alert-link\">crea una xera.</a>",
+	"login-success-text": "¡Aniciasti sesión correutamente!",
+	"logout-text": "Zarrasti la sesión.",
+	"save-text": "Guardar",
+	"massmailer-name": "MassMailer"
+}

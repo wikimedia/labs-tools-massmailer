@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Majavah"
+		]
+	},
+	"login-link-text": "Kirjaudu",
+	"wiki-input-label": "Wiki",
+	"wiki-input-description": "Wikimedia-projekti, jossa haluat käyttää työkalua",
+	"users-input-label": "Käyttäjät",
+	"users-input-description": "Käyttäjät joille haluat lähettää tämän sähköpostin.",
+	"subject-input-label": "Otsikko",
+	"subject-input-description": "Sähköpostin otsikko.",
+	"body-input-label": "Sisältö",
+	"body-input-description": "Sähköpostin teksti.",
+	"ccme-checkbox-label": "Lähetä minulle kopio kaikista lähetetyistä sähköposteista",
+	"submit-text": "Lähetä",
+	"report-bug-link-text": "Ilmoita viasta",
+	"logout-link-text": "Kirjaudu ulos",
+	"index-welcome-description": "MassMailer on työkalu, joka antaa sinun lähettää sähköposteja massoittain projektissa.",
+	"index-welcome-login": "Kirjautuaksesi sisään, <a href=\"login\">paina tästä</a>.",
+	"success-text": "Onnistui!",
+	"oauth-callback-failed-text": "OAuth-paluu epäonnistui. Ovatko evästeet sammutettuina?",
+	"login-fail-text": "Kirjautumisyrityksessäsä tapahtui virhe. Jos tämä toistuu, ole hyvä ja <a href=\"{url}\" class=\"alert-link\">ilmoita viasta</a>.",
+	"login-success-text": "Kirjauduit sisään onnistuneesti!",
+	"logout-text": "Sinut on kirjattu ulos.",
+	"save-text": "Tallenna",
+	"massmailer-name": "MassMailer"
+}
