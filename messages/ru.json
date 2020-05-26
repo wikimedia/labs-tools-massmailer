@@ -4,10 +4,26 @@
 			"Okras"
 		]
 	},
+	"login-link-text": "Войти",
+	"wiki-input-label": "Вики",
+	"wiki-input-description": "Проект Викимедиа, на который вы ориентируетесь",
 	"users-input-label": "Участники",
+	"users-input-description": "Участники, которым вы хотите отправить это письмо.",
 	"subject-input-label": "Тема",
+	"subject-input-description": "Тема письма.",
+	"body-input-label": "Текст",
+	"body-input-description": "Текст письма",
+	"ccme-checkbox-label": "Отправить мне копию всех писем",
 	"submit-text": "Отправить",
 	"report-bug-link-text": "Сообщить об ошибке",
 	"logout-link-text": "Выйти",
-	"save-text": "Сохранить"
+	"index-welcome-description": "MassMailer — инструмент, позволяющий массово отправлять электронные письма в проекте.",
+	"index-welcome-login": "Чтобы войти, <a href=\"login\">нажмите здесь.</a>",
+	"success-text": "Успешно!",
+	"oauth-callback-failed-text": "Ошибка обратного вызова OAuth. Возможно, файлы cookie отключены?",
+	"login-fail-text": "При попытке аутентификации произошла ошибка. Если это продолжится, <a href=\"{url}\" class=\"alert-link\">зарегистрируйте задание.</a>",
+	"login-success-text": "Вы успешно вошли в систему!",
+	"logout-text": "Вы вышли из системы.",
+	"save-text": "Сохранить",
+	"massmailer-name": "MassMailer"
 }

@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"FarsiNevis",
+			"Reza1615"
+		]
+	},
+	"login-link-text": "ورود به سامانه",
+	"wiki-input-label": "ویکی",
+	"wiki-input-description": "پروژهٔ ویکی‌مدیای مورد نظر شما",
+	"users-input-label": "کاربران",
+	"users-input-description": "کابرانی که می‌خواهید برای‌شان ایمیل بفرستید.",
+	"subject-input-label": "موضوع",
+	"subject-input-description": "موضوع ایمیل.",
+	"body-input-label": "بدنه",
+	"body-input-description": "بدنهٔ ایمیل",
+	"ccme-checkbox-label": "برایم یک کپی از همهٔ ایمیل‌ها را بفرست",
+	"submit-text": "ارسال",
+	"report-bug-link-text": "گزارش یک اشکال",
+	"logout-link-text": "خروج از سامانه",
+	"index-welcome-description": "ایمیل انبوه ابزاری است که به شما اجازه می‌دهد تا برای یک پروژه ایمیل بفرستید.",
+	"index-welcome-login": "برای ورود، لطفاً <a href=\"login\">این‌جا کلیک کنید.</a>",
+	"success-text": "موفق!",
+	"oauth-callback-failed-text": "پاسخ OAuth شکست خورد. آیا کوکی غیرفعال‌ست؟",
+	"login-fail-text": "هنگام تلاش برای تایید هویت شما خطایی رخ داد. اگر این کار ادامه داشته باشد، لطفاً <a href=\"{url}\" class=\"alert-link\">گزارش دهید.</a>",
+	"login-success-text": "با موفقیت وارد سامانه شدید!",
+	"logout-text": "از سامانه خارج شدید.",
+	"save-text": "ذخیره",
+	"massmailer-name": "ایمیل انبوه"
+}
