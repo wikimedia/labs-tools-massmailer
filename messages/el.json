@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Norhorn"
+		]
+	},
+	"login-link-text": "Είσοδος",
+	"wiki-input-label": "Βίκι",
+	"wiki-input-description": "Το έργο Wikimedia που ενδιαφέρεστε",
+	"users-input-label": "Χρήστες",
+	"users-input-description": "Οι χρήστες που θέλετε να στείλετε email.",
+	"subject-input-label": "Θέμα",
+	"subject-input-description": "Το θέμα του email.",
+	"body-input-label": "Κείμενο",
+	"body-input-description": "Το κείμενο του email",
+	"ccme-checkbox-label": "Στείλτε μου ένα αντίγραφο όλων των μηνυμάτων",
+	"submit-text": "Υποβολή",
+	"report-bug-link-text": "Αναφορά σφάλματος",
+	"logout-link-text": "Αποσύνδεση",
+	"index-welcome-description": "Το MassMailer είναι ένα εργαλείο που σας επιτρέπει να στέλνετε μαζικά  μηνύματα για ένα έργο.",
+	"index-welcome-login": "Για είσοδο, παρακαλώ κάντε <a href=\"login\">κλίκ εδώ.</a>",
+	"success-text": "Επιτυχία!",
+	"oauth-callback-failed-text": "Η επικοινωνία OAuth απέτυχε. Είναι τα cookies απενεργοποιημένα;",
+	"login-fail-text": "Παρουσιάστηκε σφάλμα κατά τον έλεγχο ταυτότητας. Εάν αυτό συνεχίσει, παρακαλώ <a href=\"{url}\" class=\"alert-link\">αναφέρετέ το.</a>",
+	"login-success-text": "Επιτυχής είσοδος!",
+	"logout-text": "Αποσυνδεθήκατε.",
+	"save-text": "Αποθήκευση",
+	"massmailer-name": "MassMailer"
+}
