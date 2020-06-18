@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Renessaince"
+		]
+	},
+	"login-link-text": "Увайсьці",
+	"wiki-input-label": "Вікі",
+	"users-input-label": "Удзельнікі",
+	"subject-input-label": "Тэма",
+	"body-input-label": "Тэкст",
+	"submit-text": "Адаслаць",
+	"report-bug-link-text": "Паведаміць пра памылку",
+	"logout-link-text": "Выйсьці",
+	"success-text": "Пасьпяхова!",
+	"login-success-text": "Вы пасьпяхова ўвайшлі ў сыстэму!",
+	"logout-text": "Вы выйшлі з сыстэмы.",
+	"save-text": "Захаваць",
+	"massmailer-name": "Масавая рассылка лістоў"
+}
