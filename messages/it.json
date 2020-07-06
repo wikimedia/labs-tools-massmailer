@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Gianfranco"
+		]
+	},
+	"login-link-text": "Entra",
+	"wiki-input-label": "Wiki",
+	"wiki-input-description": "Il Progetto Wikimedia cui ti stai rivolgendo",
+	"users-input-label": "Utenti",
+	"users-input-description": "Gli utenti cui vuoi mandare questa email.",
+	"subject-input-label": "Oggetto",
+	"subject-input-description": "L'oggetto della email.",
+	"body-input-label": "Corpo",
+	"body-input-description": "Il corpo della email",
+	"ccme-checkbox-label": "Inviarmi una copia di tutte le email",
+	"submit-text": "Invia",
+	"report-bug-link-text": "Segnala un errore",
+	"logout-link-text": "Disconnetti",
+	"index-welcome-description": "MassMailer è uno strumento che ti permette di mandare email in massa per un progetto.",
+	"index-welcome-login": "Per accedere, <a href=\"login\">clicca qui</a>.",
+	"success-text": "Riuscito!",
+	"oauth-callback-failed-text": "La chiamata a OAuth è fallita. Per caso i cookie sono disabilitati?",
+	"login-fail-text": "Si è verificato un errore durante il tentativo di autenticazione. Se il problema persiste, per favore <a href=\"{url}\" class=\"alert-link\">apri una nota</a>.",
+	"login-success-text": "Hai effettuato l'accesso!",
+	"logout-text": "Sei stato disconnesso.",
+	"save-text": "Salva",
+	"massmailer-name": "MassMailer"
+}
