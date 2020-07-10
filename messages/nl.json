@@ -1,19 +1,26 @@
 {
 	"@metadata": {
 		"authors": [
-			"Elroy"
+			"Elroy",
+			"Mainframe98"
 		]
 	},
 	"login-link-text": "Aanmelden",
 	"wiki-input-label": "Wiki",
+	"wiki-input-description": "Het Wikimedia project dat uw wilt bereiken",
 	"users-input-label": "Gebruikers",
+	"users-input-description": "De gebruikers aan wie u deze e-mail wilt versturen.",
 	"subject-input-label": "Onderwerp",
 	"subject-input-description": "Het onderwerp van de e-mail",
+	"body-input-label": "Tekst",
+	"body-input-description": "De berichttekst van de e-mail",
+	"ccme-checkbox-label": "Stuur mij een kopie van alle emails",
 	"submit-text": "Verzenden",
 	"report-bug-link-text": "Probleem melden",
 	"logout-link-text": "Afmelden",
 	"index-welcome-login": "<a href=\"login\">Klik hier</a> om aan te melden.",
 	"success-text": "Zet 'm op!",
+	"oauth-callback-failed-text": "OAuth terugkoppeling mislukt. Zijn cookies uitgeschakeld?",
 	"login-success-text": "U bent aangemeld!",
 	"logout-text": "U bent afgemeld.",
 	"save-text": "Opslaan"
