@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Path slopu"
+		]
+	},
+	"login-link-text": "പ്രവേശിക്കുക",
+	"wiki-input-label": "വിക്കി",
+	"wiki-input-description": "നിങ്ങൾ ലക്ഷ്യംവയ്ക്കുന്ന വിക്കിമീഡിയ പ്രോജക്റ്റ്",
+	"users-input-label": "ഉപയോക്താക്കൾ",
+	"users-input-description": "നിങ്ങൾ‌ക്ക് ഈ ഇമെയിൽ‌ അയയ്‌ക്കാൻ‌ താൽ‌പ്പര്യപ്പെടുന്ന ഉപയോക്താക്കൾ‌.",
+	"subject-input-label": "വിഷയം",
+	"subject-input-description": "ഇമെയിലിന്റെ വിഷയം.",
+	"body-input-label": "ഉള്ളടക്കം",
+	"body-input-description": "ഇമെയിലിന്റെ ഉള്ളടക്കം",
+	"ccme-checkbox-label": "എല്ലാ മെയിലുകളുടെയും ഒരു പകർപ്പ് എനിക്ക് അയയ്ക്കുക",
+	"submit-text": "സമർപ്പിക്കുക",
+	"report-bug-link-text": "ബഗ് അറിയിക്കുക",
+	"logout-link-text": "ലോഗൗട്ട്",
+	"index-welcome-description": "ഒരു പ്രോജക്റ്റിനായി കൂട്ടമായി ഇമെയിലുകൾ അയയ്ക്കാൻ നിങ്ങളെ അനുവദിക്കുന്ന ഒരു ഉപകരണമാണ് മാസ് മെയിലർ.",
+	"index-welcome-login": "ലോഗിൻ ചെയ്യാൻ, ദയവായി <a href=\"login\">ഇവിടെ ക്ലിക്കുചെയ്യുക.</a>",
+	"success-text": "സഭാഷ്!",
+	"oauth-callback-failed-text": "OAuth കോൾബാക്ക് പരാജയപ്പെട്ടു. കുക്കികൾ അപ്രാപ്തമാക്കിയിട്ടുണ്ടോ?",
+	"login-fail-text": "നിങ്ങളെ പ്രാമാണീകരിക്കാൻ ശ്രമിക്കുമ്പോൾ ഒരു പിശക് ഉണ്ടായിരുന്നു. ഇത് തുടരുകയാണെങ്കിൽ, ദയവായി <a href=\"{url}\" class=\"alert-link\">ഒരു ടാസ്‌ക് ഫയൽ ചെയ്യുക.</a>",
+	"login-success-text": "നിങ്ങൾ വിജയകരമായി ലോഗിൻ ചെയ്തു!",
+	"logout-text": "നിങ്ങൾ ലോഗ് ഔട്ട് ചെയ്‌തു.",
+	"save-text": "സേവ് ചെയ്യുക",
+	"massmailer-name": "മാസ്‍മെയിലർ"
+}
