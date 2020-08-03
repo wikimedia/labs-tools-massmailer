@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mguix"
+		]
+	},
+	"login-link-text": "Iniciar sessió",
+	"wiki-input-label": "Viqui",
+	"wiki-input-description": "El projecte Vikimedia al qual et dirigeixes",
+	"users-input-label": "Usuaris",
+	"users-input-description": "Els usuaris als quals voleu enviar aquest correu electrònic.",
+	"subject-input-label": "Assumpte",
+	"subject-input-description": "El tema del correu electrònic.",
+	"body-input-label": "Cos del missatge:",
+	"body-input-description": "El cos del correu electrònic",
+	"ccme-checkbox-label": "Enviar-me una còpia de tots els  correus",
+	"submit-text": "Envia",
+	"report-bug-link-text": "Informa d'un error",
+	"logout-link-text": "Sortir",
+	"index-welcome-description": "MassMailer és una eina que us permet enviar correus electrònics en massa per a un projecte.",
+	"index-welcome-login": "Per iniciar la sessió, <a href=\"login\"> feu clic aquí. </a>",
+	"success-text": "Èxit!",
+	"oauth-callback-failed-text": "Ha fallat la devolució de trucada OAuth. Estan desactivades les galetes?",
+	"login-fail-text": "Hi ha hagut un error a l'intentar autentificar-te. Si això persisteix, si us plau <a href=\"{url}\" class=\"alert-link\"> omple una tasca. </a>",
+	"login-success-text": "Heu iniciat la sessió correctament!",
+	"logout-text": "Heu tancat la sessió.",
+	"save-text": "Desar",
+	"massmailer-name": "MassMailer"
+}
