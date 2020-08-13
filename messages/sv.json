@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sabelöga",
+			"WikiPhoenix"
+		]
+	},
+	"login-link-text": "Logga in",
+	"wiki-input-label": "Wiki",
+	"wiki-input-description": "Wikimediaprojektet du siktar in dig på",
+	"users-input-label": "Användare",
+	"users-input-description": "Användarna du vill skicka detta e-postmeddelande till.",
+	"subject-input-label": "Ämne",
+	"subject-input-description": "E-postmeddelandets ämne.",
+	"body-input-label": "Innehåll",
+	"body-input-description": "E-postmeddelandets innehåll",
+	"ccme-checkbox-label": "Skicka en kopiera av all e-post till mig",
+	"submit-text": "Skicka",
+	"report-bug-link-text": "Rapportera en bugg",
+	"logout-link-text": "Logga ut",
+	"index-welcome-description": "MassMailer är ett verktyg som låter dig skicka mejl i massor för ett projekt.",
+	"index-welcome-login": "För att logga in <a href=\"login\">klicka här.</a>",
+	"success-text": "Genomfördes!",
+	"oauth-callback-failed-text": "OAuth återanrop misslyckades. Har kakor aktiverats?",
+	"login-fail-text": "Ett fel uppstod när du försökte att autentisera dig. Om detta fortsätter hända, var god <a href=\"{url}\" class=\"alert-link\">skapa ett ärende.</a>",
+	"login-success-text": "Du loggades in!",
+	"logout-text": "Du loggades ut.",
+	"save-text": "Spara"
+}
