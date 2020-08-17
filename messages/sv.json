@@ -25,5 +25,6 @@
 	"login-fail-text": "Ett fel uppstod när du försökte att autentisera dig. Om detta fortsätter hända, var god <a href=\"{url}\" class=\"alert-link\">skapa ett ärende.</a>",
 	"login-success-text": "Du loggades in!",
 	"logout-text": "Du loggades ut.",
-	"save-text": "Spara"
+	"save-text": "Spara",
+	"massmailer-name": "MassMailer"
 }
