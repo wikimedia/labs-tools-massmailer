@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Şeyx Şamil"
+		]
+	},
+	"login-link-text": "Daxil ol",
+	"wiki-input-label": "Viki",
+	"wiki-input-description": "Hədəflədiyiniz Vikimedia layihəsi",
+	"users-input-label": "İstifadəçilər",
+	"users-input-description": "Bu e-poçtu göndərmək istədiyiniz istifadəçilər",
+	"subject-input-label": "Mövzu",
+	"subject-input-description": "E-poçtun mövzusu",
+	"body-input-label": "Mətn",
+	"body-input-description": "E-poçtun mətni",
+	"ccme-checkbox-label": "Bütün məktubların kopyasını mənə göndər",
+	"submit-text": "Təsdiq et",
+	"report-bug-link-text": "Xəta bildir",
+	"logout-link-text": "Çıxış",
+	"index-welcome-description": "MassMailer layihə üçün kütləvi e-poçt göndərməyinizə imkan verən bir alətdir",
+	"index-welcome-login": "Giriş etmək üçün, zəhmət olmasa bura <a href=\"login\">basın</a>",
+	"success-text": "Uğur!",
+	"login-success-text": "Uğurla daxil oldunuz!",
+	"logout-text": "Hesabdan çıxış etdiniz",
+	"save-text": "Yadda saxla",
+	"massmailer-name": "MassMailer"
+}
