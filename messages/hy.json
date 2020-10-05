@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kareyac"
+		]
+	},
+	"login-link-text": "Մտնել",
+	"wiki-input-label": "Վիքի",
+	"users-input-label": "Մասնակիցներ",
+	"subject-input-label": "Թեմա",
+	"body-input-label": "Տեքստ",
+	"save-text": "Հիշել"
+}
