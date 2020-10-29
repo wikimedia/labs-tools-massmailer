@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Andriy.v",
 			"Piramidion"
 		]
 	},
 	"login-link-text": "Увійти",
 	"wiki-input-label": "Вікі",
-	"wiki-input-description": "Цільовий проект Вікімедіа",
+	"wiki-input-description": "Цільовий проєкт Вікімедіа",
 	"users-input-label": "Користувачі",
 	"users-input-description": "Користувачі, яким Ви хочете надіслати цього електронного листа.",
 	"subject-input-label": "Тема",
