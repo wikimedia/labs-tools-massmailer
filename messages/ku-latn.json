@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bikarhêner"
+		]
+	},
+	"login-link-text": "Têkeve",
+	"wiki-input-label": "Wîkî",
+	"wiki-input-description": "Projeya Wîkîmedyayê yê ku tu hedef digirî",
+	"users-input-label": "Bikarhêner",
+	"users-input-description": "Bikarhênerên ku tu dixwazî vê epeyamê bişînî wan.",
+	"subject-input-label": "Mijar",
+	"subject-input-description": "Mijara epeyamê.",
+	"body-input-label": "Nivîs",
+	"body-input-description": "Nivîsa epeyamê",
+	"ccme-checkbox-label": "Kopiyeke temamiya epeyaman bişîne min",
+	"submit-text": "Bişîne",
+	"report-bug-link-text": "Çewtiyekê ragihîne",
+	"logout-link-text": "Derkeve",
+	"index-welcome-description": "MassMailer amûrekê ye ku destûr dide tu karibî ji bo projeyekê enameyan bi hev re bişînî.",
+	"index-welcome-login": "Ji bo têketinê, ji kerema xwe <a href=\"login\">bitikîne ser vir.</a>",
+	"success-text": "Çêbû!",
+	"oauth-callback-failed-text": "Paşlêgera OAuthê têk çû. Kûkî girtî ne?",
+	"login-fail-text": "Gava hewl dida ku nasnameya te birastîne çewtiyekê derket holê. Ger ev dewam bike bûnê, ji kerema xwe <a href=\"{url}\" class=\"alert-link\">wezîfeyekê bi rê bike.</a>",
+	"login-success-text": "Te bi serkeftî têket!",
+	"logout-text": "Te derket.",
+	"save-text": "Qeyd bike",
+	"massmailer-name": "MassMailer"
+}
