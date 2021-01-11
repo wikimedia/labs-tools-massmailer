@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"login-link-text": "Entrar",
+	"wiki-input-label": "Wiki",
+	"wiki-input-description": "O Projeto Wikimedia a que pretende dirigir-se",
+	"users-input-label": "Utilizadores",
+	"users-input-description": "Os utilizadores a quem deseja enviar esta mensagem de correio.",
+	"subject-input-label": "Assunto",
+	"subject-input-description": "O assunto da mensagem de correio.",
+	"body-input-label": "Conteúdo",
+	"body-input-description": "O conteúdo da mensagem de correio",
+	"ccme-checkbox-label": "Enviar-me uma cópia de todas as mensagens de correio",
+	"submit-text": "Enviar",
+	"report-bug-link-text": "Reportar um defeito",
+	"logout-link-text": "Sair",
+	"index-welcome-description": "MassMailer é uma ferramenta que lhe permite enviar mensagens de correio eletrónico em massa para um projeto.",
+	"index-welcome-login": "Para entrar, <a href=\"login\">clique aqui,</a> por favor.",
+	"success-text": "Êxito!",
+	"oauth-callback-failed-text": "O retorno do OAuth falhou. Estarão os ''cookies'' desativados?",
+	"login-fail-text": "Ocorreu um erro ao tentar fazer a sua autenticação. Se isto acontecer novamente, <a href=\"{url}\" class=\"alert-link\">crie uma tarefa</a>, por favor.",
+	"login-success-text": "Iniciou uma sessão!",
+	"logout-text": "A sua sessão foi terminada.",
+	"save-text": "Gravar",
+	"massmailer-name": "MassMailer"
+}
