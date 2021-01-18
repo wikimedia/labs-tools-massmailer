@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ykhwong"
+			"Ykhwong",
+			"그냥기여자"
 		]
 	},
 	"login-link-text": "로그인",
@@ -17,10 +18,13 @@
 	"submit-text": "제출",
 	"report-bug-link-text": "버그 보고",
 	"logout-link-text": "로그아웃",
+	"index-welcome-description": "MassMailer는 프로젝트를 위해 한꺼번에 이메일을 보낼 수 있는 도구입니다.",
 	"index-welcome-login": "로그인하려면 <a href=\"login\">여기를 누르십시오.</a>",
 	"success-text": "성공했습니다!",
 	"oauth-callback-failed-text": "OAuth 콜백을 실패했습니다. 쿠키가 비활성화되어 있습니까?",
+	"login-fail-text": "인증을 시도하는 중 오류가 발생했습니다. 이 문제가 계속되면 <a href=\"{url}\" class=\"alert-link\">오류 내용을 신고</a>하세요.",
 	"login-success-text": "성공적으로 로그인했습니다!",
 	"logout-text": "로그아웃했습니다.",
-	"save-text": "저장"
+	"save-text": "저장",
+	"massmailer-name": "MassMailer"
 }
