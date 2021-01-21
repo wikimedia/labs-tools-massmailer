@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"DraconicDark",
+			"ManuelFranz",
 			"WikiBayer"
 		]
 	},
@@ -25,5 +26,6 @@
 	"login-fail-text": "Beim Versuch, Sie zu authentifizieren, ist ein Fehler aufgetreten. Wenn dies weiterhin passiert, <a href=\"{url}\" class=\"alert-link\">reichen Sie bitte eine Aufgabe ein.</a>",
 	"login-success-text": "Sie haben sich erfolgreich eingeloggt!",
 	"logout-text": "Sie wurden abgemeldet.",
-	"save-text": "Speichern"
+	"save-text": "Speichern",
+	"massmailer-name": "MassMailer"
 }

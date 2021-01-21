@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Joris Darlington Quarshie"
+			"Joris Darlington Quarshie",
+			"Winstonza"
 		]
 	},
 	"login-link-text": "Teken aan",
@@ -12,12 +13,12 @@
 	"subject-input-label": "Vak",
 	"subject-input-description": "Die onderwerp van die e-pos",
 	"body-input-label": "Liggaam",
-	"body-input-description": "Die liggaam van die e-pos",
+	"body-input-description": "Die inhoud van die e-pos",
 	"ccme-checkbox-label": "Stuur vir 'n afskrif van alle e-posse",
 	"submit-text": "Indien",
 	"report-bug-link-text": "Rapporteer 'n fout",
 	"logout-link-text": "Teken uit",
-	"index-welcome-description": "Massmailer is 'n instrument waarmee u e-pos boodskappe vir 'n projek kan stuur.",
+	"index-welcome-description": "Massmailer is 'n instrument waarmee u e-posboodskappe vir 'n projek kan stuur.",
 	"index-welcome-login": "<a href=\"login\"> klik hier om aan te meld. </a>",
 	"success-text": "Sukses!",
 	"oauth-callback-failed-text": "OAuth terugbel het misluk.Is koekies gedeaktiveer?",
