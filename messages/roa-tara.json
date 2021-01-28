@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"login-link-text": "Tràse",
+	"wiki-input-label": "Uicchi",
+	"wiki-input-description": "'U pruggette Uicchimedie addò te ste revolge",
+	"users-input-label": "Utinde",
+	"users-input-description": "Le utinde ca vuè ccu manne sta email.",
+	"subject-input-label": "Oggette",
+	"subject-input-description": "L'oggette de l'email.",
+	"body-input-label": "Cuèrpe",
+	"body-input-description": "'U cuèrpe de l'email",
+	"ccme-checkbox-label": "Manname 'na copie de tutte le email",
+	"submit-text": "Conferme",
+	"report-bug-link-text": "Segnale 'n'errore",
+	"logout-link-text": "Isse",
+	"index-welcome-description": "MassMailer jè 'nu strumende ca te permette de mannà email de masse pe 'nu pruggette.",
+	"index-welcome-login": "Pe trasè, <a href=\"login\">cazze aqquà</a>.",
+	"success-text": "Tutte apposte",
+	"oauth-callback-failed-text": "'A chiamate OAuth jè fallite. No è ca tìne le cookie disabbilitate?",
+	"login-fail-text": "Ha assute 'n'errore durande 'u tendative de autendicazione. Ce 'u probbleme rumane, pe favore <a href=\"{url}\" class=\"alert-link\">iapre na segnalazione.</a>",
+	"login-success-text": "E' trasute!",
+	"logout-text": "E' assute.",
+	"save-text": "Reggìstre",
+	"massmailer-name": "MassMailer"
+}
