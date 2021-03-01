@@ -1,18 +1,28 @@
 {
 	"@metadata": {
 		"authors": [
-			"Renessaince"
+			"Renessaince",
+			"W"
 		]
 	},
 	"login-link-text": "Увайсьці",
 	"wiki-input-label": "Вікі",
+	"wiki-input-description": "Праект Вікімэдыі, які вас цікавіць",
 	"users-input-label": "Удзельнікі",
+	"users-input-description": "Удзельнікі, якім вы хочаце выслаць гэты электронны ліст.",
 	"subject-input-label": "Тэма",
+	"subject-input-description": "Тэма ліста.",
 	"body-input-label": "Тэкст",
+	"body-input-description": "Тэкст ліста",
+	"ccme-checkbox-label": "Адаслаць мне копію ўсіх лістоў",
 	"submit-text": "Адаслаць",
 	"report-bug-link-text": "Паведаміць пра памылку",
 	"logout-link-text": "Выйсьці",
+	"index-welcome-description": "MassMailer — інструмэнт, які дазваляе масава рассылаць лісты ў праекце.",
+	"index-welcome-login": "Каб увайсьці, <a href=\"login\">націсьніце сюды.</a>",
 	"success-text": "Пасьпяхова!",
+	"oauth-callback-failed-text": "Памылка выкліку OAuth. Ці адключаныя ў вас кукі?",
+	"login-fail-text": "Пры спробе вас аўтэнтыфікаваць адбылася памылка. Калі гэта будзе паўтарацца, калі ласка, <a href=\"{url}\" class=\"alert-link\">зарэгіструйце праблему.</a>",
 	"login-success-text": "Вы пасьпяхова ўвайшлі ў сыстэму!",
 	"logout-text": "Вы выйшлі з сыстэмы.",
 	"save-text": "Захаваць",

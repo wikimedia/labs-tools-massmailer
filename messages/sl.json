@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"login-link-text": "Prijava",
+	"wiki-input-label": "Viki",
+	"wiki-input-description": "Projekt fundacije Wikimedia, na katerega ciljate",
+	"users-input-label": "Uporabniki",
+	"users-input-description": "Uporabniki, ki jim želite poslati to e-sporočilo.",
+	"subject-input-label": "Zadeva",
+	"subject-input-description": "Zadeva e-sporočila.",
+	"body-input-label": "Telo",
+	"body-input-description": "Vsebina e-sporočila",
+	"ccme-checkbox-label": "Pošlji mi kopijo vseh sporočil",
+	"submit-text": "Pošlji",
+	"report-bug-link-text": "Sporočite hrošča",
+	"logout-link-text": "Odjava",
+	"index-welcome-description": "MassMailer je orodje, ki vam omogoča masovno pošiljanje e-sporočil.",
+	"index-welcome-login": "Za prijavo <a href=\"login\">kliknite tukaj.</a>",
+	"success-text": "Uspeh!",
+	"oauth-callback-failed-text": "Povratni klic OAuth ni uspel. So piškotki onemogočeni?",
+	"login-fail-text": "Pri poskusu vaše avtentikacije se je pojavila napaka. Če se bo to še naprej dogajalo, <a href=\"{url}\" class=\"alert-link\">izpolnite poročilo o napaki.</a>",
+	"login-success-text": "Uspešno ste se prijavili!",
+	"logout-text": "Odjavili ste se.",
+	"save-text": "Shrani",
+	"massmailer-name": "MassMailer"
+}
