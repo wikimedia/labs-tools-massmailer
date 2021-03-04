@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jaroslav.micek"
+		]
+	},
+	"login-link-text": "Prihlásenie",
+	"wiki-input-label": "Wiki",
+	"wiki-input-description": "Cieľový projekt Wikemédie",
+	"users-input-label": "Používatelia",
+	"users-input-description": "Používatelia, ktorým chcete poslať tento email.",
+	"subject-input-label": "Predmet",
+	"subject-input-description": "Predmet emailu.",
+	"body-input-label": "Text",
+	"body-input-description": "Text emailu",
+	"ccme-checkbox-label": "Poslať mi kópiu všetkých emailov",
+	"submit-text": "Odoslať",
+	"report-bug-link-text": "Nahlásiť chybu",
+	"logout-link-text": "Odhlásenie",
+	"index-welcome-description": "MassMailer je nástroj umožňujúci posielanie hromadných emailov pre zvolený projekt.",
+	"index-welcome-login": "Na prihlásenie <a href=\"login\">kliknite sem</a> prosím.",
+	"success-text": "Úspech!",
+	"oauth-callback-failed-text": "Overenie zlyhalo. Máte vypnuté cookies?",
+	"login-fail-text": "Pri overovaní došlo k chybe. Ak problém pretrváva <a href=\"{url}\" class=\"alert-link\">nahláste problém.</a>",
+	"login-success-text": "Úspešne ste sa prihlásili!",
+	"logout-text": "Boli ste odhlásení.",
+	"save-text": "Uložiť",
+	"massmailer-name": "MassMailer (Hromadný emailer)"
+}
