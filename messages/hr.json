@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Bugoslav",
+			"MaGa",
 			"Neptune, the Mystic"
 		]
 	},
@@ -10,7 +11,7 @@
 	"users-input-description": "Suradnici kojima želite poslati ovu e-poruku.",
 	"report-bug-link-text": "Prijavi pogrešku",
 	"logout-link-text": "Odjava",
-	"index-welcome-login": "Za prijaviti se, molimo Vas <a href=\"login\">škljocnite ovdje.</a>",
+	"index-welcome-login": "Za prijaviti se, molimo Vas <a href=\"login\">kliknite ovdje.</a>",
 	"success-text": "Uspješno!",
 	"login-success-text": "Uspješno ste se prijavili!",
 	"logout-text": "Odjavili ste se.",
