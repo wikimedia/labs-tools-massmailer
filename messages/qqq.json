@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Kizule",
 			"Robby",
 			"Zoranzoki21"
 		]
 	},
-	"login-link-text": "The text for the 'Login' button at the top of the page when the user is not logged in.",
+	"login-link-text": "The text for the 'Login' button at the top of the page when the user is not logged in.\n\n{{Identical|Log in}}",
 	"wiki-input-label": "The label for the 'wiki' option on the tool.\n{{Identical|Wiki}}",
 	"wiki-input-description": "A short description for the 'wiki' option on the tool.",
 	"users-input-label": "The label for the 'users' option on the tool.",
@@ -16,7 +17,7 @@
 	"body-input-label": "The label for the 'body' option on the tool.",
 	"body-input-description": "A short description for the 'body' option on the tool.",
 	"ccme-checkbox-label": "The label for the checkbox to also send copies of emails to the sender.",
-	"submit-text": "Text for a generic submit button.",
+	"submit-text": "Text for a generic submit button.\n\n{{Identical|Submit}}",
 	"report-bug-link-text": "The text for the link to report a bug.",
 	"logout-link-text": "The text for the 'Logout' button when the user clicks on their name.",
 	"index-welcome-description": "A short description of the 'MassMailer' tool.",
