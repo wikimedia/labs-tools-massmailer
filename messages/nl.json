@@ -2,25 +2,28 @@
 	"@metadata": {
 		"authors": [
 			"Elroy",
-			"Mainframe98"
+			"Mainframe98",
+			"Siebrand"
 		]
 	},
 	"login-link-text": "Aanmelden",
 	"wiki-input-label": "Wiki",
 	"wiki-input-description": "Het Wikimedia project dat uw wilt bereiken",
 	"users-input-label": "Gebruikers",
-	"users-input-description": "De gebruikers aan wie u deze e-mail wilt versturen.",
+	"users-input-description": "De gebruikers aan wie u deze e-mail wilt verzenden.",
 	"subject-input-label": "Onderwerp",
 	"subject-input-description": "Het onderwerp van de e-mail",
 	"body-input-label": "Tekst",
 	"body-input-description": "De berichttekst van de e-mail",
-	"ccme-checkbox-label": "Stuur mij een kopie van alle emails",
+	"ccme-checkbox-label": "Stuur mij een kopie van alle e-mails",
 	"submit-text": "Verzenden",
 	"report-bug-link-text": "Probleem melden",
 	"logout-link-text": "Afmelden",
+	"index-welcome-description": "Massmailer is een hulpmiddel waarmee u in één keer veel e-mails voor een project kan sturen.",
 	"index-welcome-login": "<a href=\"login\">Klik hier</a> om aan te melden.",
 	"success-text": "Zet 'm op!",
 	"oauth-callback-failed-text": "OAuth terugkoppeling mislukt. Zijn cookies uitgeschakeld?",
+	"login-fail-text": "Er is een fout opgetreden tijdens uw authentificatie. Als dit blijft gebeuren, <a href=\"{url}\" class=\"alert-link\">maak daar dan melding van.</a>",
 	"login-success-text": "U bent aangemeld!",
 	"logout-text": "U bent afgemeld.",
 	"save-text": "Opslaan"
