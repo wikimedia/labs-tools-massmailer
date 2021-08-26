@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Andriy.v",
+			"DDPAT",
 			"Piramidion"
 		]
 	},
@@ -18,7 +19,7 @@
 	"submit-text": "Надіслати",
 	"report-bug-link-text": "Повідомити про помилку",
 	"logout-link-text": "Вийти",
-	"index-welcome-description": "MassMailer — це інструмент, що надає змогу масово надсилати листи користувачам одного проекту.",
+	"index-welcome-description": "MassMailer — це інструмент, що надає змогу масово надсилати листи користувачам одного проєкту.",
 	"index-welcome-login": "Щоб увійти в систему, <a href=\"login\">клацніть тут.</a>",
 	"success-text": "Вдалося!",
 	"oauth-callback-failed-text": "Виклик OAuth зазнав невдачі. Може у вас вимкнено куки?",
