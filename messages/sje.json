@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Olve Utne"
+		]
+	},
+	"wiki-input-label": "Wiki",
+	"users-input-label": "Adneja",
+	"body-input-label": "Sisadno",
+	"body-input-description": "E-påstå sisadno",
+	"submit-text": "Säddi",
+	"report-bug-link-text": "Diededa vige birra",
+	"save-text": "Vurrki"
+}
