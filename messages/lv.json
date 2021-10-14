@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Peridot Nation"
+		]
+	},
+	"login-link-text": "Pieslēgties",
+	"wiki-input-label": "Vikivietne",
+	"wiki-input-description": "Jūsu atlasītais Vikimēdijas projekts",
+	"users-input-label": "Lietotāji",
+	"users-input-description": "Lietotāji, kuriem Jūs vēlaties sūtīt šo e-pastu.",
+	"subject-input-label": "Temats",
+	"subject-input-description": "E-pasta temats.",
+	"body-input-label": "Teksts",
+	"body-input-description": "E-pasta teksts",
+	"ccme-checkbox-label": "Atsūtīt visu pastu kopiju.",
+	"submit-text": "Sūtīt",
+	"report-bug-link-text": "Ziņot par kļūdu",
+	"logout-link-text": "Iziet",
+	"index-welcome-description": "MassMailer ir  rīks, kas ļauj masveidā nosūtīt e-pastus projektam.",
+	"index-welcome-login": "Lai pieslēgtos, lūdzu <a href=\"login\">uzspiediet šeit.</a>",
+	"success-text": "Izdevās!",
+	"oauth-callback-failed-text": "OAuth atsaukšana neizdevās. Vai sīkfaili ir atspējoti?",
+	"login-fail-text": "Notika kļūme, kamēr mēģinājām autentificēt Jūs. Ja šis notiek vairākkārt, lūdzu <a href=\"{url}\" class=\"alert-link\">reģistrējiet uzdevumu.</a>",
+	"login-success-text": "Esat veiksmīgi pieslēgušies!",
+	"logout-text": "Esat izgājuši.",
+	"save-text": "Saglabāt",
+	"massmailer-name": "MassMailer"
+}
