@@ -7,7 +7,10 @@
 	"login-link-text": "Trasi",
 	"wiki-input-label": "Wiki",
 	"users-input-label": "Utenti",
+	"subject-input-label": "Oggettu",
+	"subject-input-description": "L'oggetu dâ email.",
 	"body-input-label": "Corpu",
+	"body-input-description": "Lu corpu dâ email",
 	"logout-link-text": "Nesci",
 	"save-text": "Sarva"
 }
