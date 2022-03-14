@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robin van der Vliet"
+		]
+	},
+	"login-link-text": "Ensaluti",
+	"wiki-input-label": "Vikio",
+	"users-input-label": "Uzantoj",
+	"subject-input-label": "Temo",
+	"body-input-label": "Enhavo",
+	"body-input-description": "La enhavo de la retpoŝtmesaĝo",
+	"logout-link-text": "Elsaluti",
+	"save-text": "Konservi"
+}
