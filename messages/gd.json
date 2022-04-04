@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"StarrySky"
+		]
+	},
+	"login-link-text": "Clàraich a-steach",
+	"wiki-input-label": "Wiki",
+	"wiki-input-description": "Am Pròiseact Wikimedia air a bheil thu ag amas",
+	"users-input-label": "Cleachdaichean",
+	"users-input-description": "An luchd-cleachdaidh a tha thu airson am post-d seo a chuir gu.",
+	"subject-input-label": "Cuspair",
+	"subject-input-description": "Cuspair a' phuist-d.",
+	"body-input-label": "teacs",
+	"body-input-description": "Corp am post-dealain.",
+	"ccme-checkbox-label": "Cuir thugam leth-bhreac de na puist-d gu lèir",
+	"submit-text": "cuir a-steach",
+	"report-bug-link-text": "Dèan aithris air bug",
+	"logout-link-text": "Clàraich a-mach",
+	"index-welcome-description": "Is e inneal a th’ ann am MassMailer a leigeas leat puist-d a chuir gu masse airson pròiseact",
+	"index-welcome-login": "Airson logadh a-steach, <a href=\"login\">briog an-seo.</a>",
+	"success-text": "Soirbheachas！",
+	"oauth-callback-failed-text": "Dh'fhàillig gairm air ais OAuth. A bheil cookies ciorramach?",
+	"login-fail-text": "Bha mearachd ann fhad 's a bha sinn a' feuchainn ri do dhearbhadh. Ma chumas seo a' dol, <a href=\"{url}\" class=\"alert-link\">fhaidhle gnìomh.</a>",
+	"login-success-text": "Shoirbhich leat le logadh a-steach!",
+	"logout-text": "Bha thu air do logadh a-mach.",
+	"save-text": "Sàbhail"
+}
