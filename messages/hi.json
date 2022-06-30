@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saurmandal"
+		]
+	},
+	"login-link-text": "लॉग-इन करें",
+	"wiki-input-label": "विकि",
+	"wiki-input-description": "विकिमीडिया परियोजना जिसे आप लक्षित कर रहे हैं",
+	"users-input-label": "सदस्य",
+	"users-input-description": "सदस्य जिन्हें आप यह ईमेल भेजना चाहते हैं।",
+	"subject-input-label": "विषय",
+	"subject-input-description": "ईमेल का विषय।",
+	"body-input-label": "मुख्यभाग",
+	"body-input-description": "ईमेल का मुख्यभाग",
+	"ccme-checkbox-label": "मुझे सभी मेलों की प्रतिलिपि भेजें",
+	"submit-text": "प्रस्तुत करें",
+	"report-bug-link-text": "बग रिपोर्ट करें",
+	"logout-link-text": "लॉग-आउट करें",
+	"index-welcome-description": "MassMailer एक उपकरण है जिससे आप किसी परियोजना में कई लोगों को एक साथ ईमेल भेज सकते हैं।",
+	"index-welcome-login": "लॉग-इन करने के लिए कृपया <a href=\"login\">यहाँ क्लिक करें</a>।",
+	"success-text": "हो गया!",
+	"oauth-callback-failed-text": "OAuth कॉलबैक असफल रहा। क्या कुकीज़ अक्षम हैं?",
+	"login-fail-text": "आपको प्रमाणित करते समय एक त्रुटि आई। अगर ऐसा होता ही रहता है, कृपया <a href=\"{url}\" class=\"alert-link\">एक टास्क फ़ाइल करें।</a>",
+	"login-success-text": "आपने सफलतापूर्वक लॉग-इन किया है!",
+	"logout-text": "आपको लॉग-आउट कर दिया गया है।",
+	"save-text": "सहेजें"
+}
