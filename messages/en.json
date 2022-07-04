@@ -1,9 +1,9 @@
 {
     "login-link-text": "Login",
     "wiki-input-label": "Wiki",
-    "wiki-input-description": "The Wikimedia Project you are targeting",
+    "wiki-input-description": "The domain of the Wikimedia Project you want to send the emails through",
     "users-input-label": "Users",
-    "users-input-description": "The users you want to send this email to.",
+    "users-input-description": "The users you want to send this email to (one username per line).",
     "subject-input-label": "Subject",
     "subject-input-description": "The subject of the email.",
     "body-input-label": "Body",
