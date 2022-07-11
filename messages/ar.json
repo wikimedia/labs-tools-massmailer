@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Meno25",
+			"Mohanad Kh",
 			"محمد أحمد عبد الفتاح"
 		]
 	},
 	"login-link-text": "تسجيل الدخول",
 	"wiki-input-label": "ويكي",
-	"wiki-input-description": "مشروع ويكيبيديا الذي تستهدفه",
+	"wiki-input-description": "نطاق مشروع ويكيميديا الذي تريد إرسال البريد الإلكتروني من خلاله",
 	"users-input-label": "المستخدمون",
 	"users-input-description": "المستخدمون الذين تود إرسال هذا البريد لهم.",
 	"subject-input-label": "الموضوع",

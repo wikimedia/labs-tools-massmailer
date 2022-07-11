@@ -1,28 +1,29 @@
 {
 	"@metadata": {
 		"authors": [
+			"Asenoner",
 			"Starladin"
 		]
 	},
-	"login-link-text": "S'anunzié",
+	"login-link-text": "Va ite",
 	"wiki-input-label": "Wiki",
 	"wiki-input-description": "Le Proiet Wikimedia a chël che fejes referimënt",
 	"users-input-label": "Utënc",
 	"users-input-description": "I utënc a chi che os ti mené la email",
-	"subject-input-label": "Obiet",
-	"subject-input-description": "L'obiet dla email.",
+	"subject-input-label": "Tema",
+	"subject-input-description": "L tema dla email.",
 	"body-input-label": "Corp",
 	"body-input-description": "Le corp dla email",
 	"ccme-checkbox-label": "Mëneme na copia de dötes les email",
 	"submit-text": "Dá ite",
-	"report-bug-link-text": "Segnalëia n bug",
-	"logout-link-text": "Se dejanunzié",
+	"report-bug-link-text": "Segnalëia n fal",
+	"logout-link-text": "Vá fora",
 	"index-welcome-description": "MassMailer é n stromënt co t'impormët da mené email en massa por n proiet.",
 	"index-welcome-login": "Por te coleghé, prëibel <a href=\"login\">clicchëia chiló</a>",
 	"success-text": "Suzes!",
 	"oauth-callback-failed-text": "La cherdada OAuth ne n'é nia jüda a bun fin. Él mo i cookies nia abilitá?",
 	"login-fail-text": "Al é sté n fal tratan la proa de autenticaziun. Sce le problem vëgna se le dé inant, prëibel <a href=\"{url}\" class=\"alert-link\">deura na nosta.</a>",
-	"login-success-text": "Ara é jüda da s'anunzié!",
-	"logout-text": "Es sté dejanunzié.",
+	"login-success-text": "Ara é jüda da ji ite!",
+	"logout-text": "Es jit fora.",
 	"save-text": "Salva"
 }
