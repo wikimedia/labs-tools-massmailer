@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"FarsiNevis",
+			"Jeeputer",
 			"Reza1615"
 		]
 	},
@@ -9,7 +10,7 @@
 	"wiki-input-label": "ویکی",
 	"wiki-input-description": "پروژهٔ ویکی‌مدیای مورد نظر شما",
 	"users-input-label": "کاربران",
-	"users-input-description": "کابرانی که می‌خواهید برای‌شان ایمیل بفرستید.",
+	"users-input-description": "کابرانی که می‌خواهید برای‌شان ایمیل بفرستید (یک کاربر در هر سطر).",
 	"subject-input-label": "موضوع",
 	"subject-input-description": "موضوع ایمیل.",
 	"body-input-label": "بدنه",
