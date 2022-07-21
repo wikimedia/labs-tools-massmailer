@@ -1,15 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
+			"Duke of Wikipädia",
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad"
 		]
 	},
 	"login-link-text": "Entrar",
 	"wiki-input-label": "Wiki",
-	"wiki-input-description": "O Projeto Wikimedia que você está alvejando",
+	"wiki-input-description": "O domínio do Projeto Wikimedia pelo qual você deseja enviar os e-mails",
 	"users-input-label": "Usuários",
-	"users-input-description": "Os usuários para os quais você deseja enviar este e-mail.",
+	"users-input-description": "Os usuários para os quais você deseja enviar este e-mail (um nome de usuário por linha).",
 	"subject-input-label": "Assunto",
 	"subject-input-description": "O assunto do e-mail.",
 	"body-input-label": "Corpo",
