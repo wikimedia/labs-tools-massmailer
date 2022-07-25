@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Tokvo",
 			"Xuacu"
 		]
 	},
@@ -8,7 +9,7 @@
 	"wiki-input-label": "Wiki",
 	"wiki-input-description": "El Proyeutu de Wikimedia al que te dirixes",
 	"users-input-label": "Usuarios",
-	"users-input-description": "Los usuarios a los que quies unviar esti corréu.",
+	"users-input-description": "Los usuarios a los que quies unviar esti corréu (un nome d'usuariu per llinia).",
 	"subject-input-label": "Asuntu",
 	"subject-input-description": "L'asuntu del corréu electrónicu.",
 	"body-input-label": "Cuerpu",
