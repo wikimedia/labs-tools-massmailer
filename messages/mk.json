@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bjankuloski06"
+			"Bjankuloski06",
+			"Vlad5250"
 		]
 	},
 	"login-link-text": "Најава",
 	"wiki-input-label": "Вики",
-	"wiki-input-description": "Целниот Викимедиин проект",
+	"wiki-input-description": "Доменот на Викимедииниот проект преку кој сакате да ги испраќате пораките по е-пошта",
 	"users-input-label": "Корисници",
-	"users-input-description": "На кои корисници сакате да ја испратите оваа порака по е-пошта.",
+	"users-input-description": "На кои корисници сакате да ја испратите оваа порака по е-пошта  (едно корисничко име во секој ред).",
 	"subject-input-label": "Наслов",
 	"subject-input-description": "Наслов на писмото.",
 	"body-input-label": "Содржина",
