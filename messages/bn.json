@@ -1,13 +1,29 @@
 {
 	"@metadata": {
 		"authors": [
+			"আজিজ",
 			"আফতাবুজ্জামান"
 		]
 	},
 	"login-link-text": "প্রবেশ করুন",
 	"wiki-input-label": "উইকি",
+	"wiki-input-description": "আপনি যে উইকিমিডিয়া প্রকল্পের মাধ্যমে ইমেল পাঠাতে চান তার ডোমেইন",
+	"users-input-label": "ব্যবহারকারীগণ",
+	"users-input-description": "যে ব্যবহারকারীদের আপনি এই ইমেলটি পাঠাতে চান (প্রতি লাইনে একটি ব্যবহারকারী নাম)।",
 	"subject-input-label": "বিষয়",
+	"subject-input-description": "ইমেইলের বিষয়।",
+	"body-input-label": "মূলাংশ",
+	"body-input-description": "ইমেইলের মূল অংশ",
+	"ccme-checkbox-label": "আমাকে সব মেইলের একটি কপি পাঠান",
 	"submit-text": "জমা দিন",
+	"report-bug-link-text": "ত্রুটি প্রতিবেদন করুন",
 	"logout-link-text": "প্রস্থান",
-	"save-text": "সংরক্ষণ করুন"
+	"index-welcome-description": "MassMailer হল একটি সরঞ্জাম যা আপনাকে একটি প্রকল্পে ব্যাপকভাবে ইমেল পাঠাতে দেয়।",
+	"index-welcome-login": "প্রবেশ করতে, <a href=\"login\">এখানে টোকা দিন</a>",
+	"success-text": "সফল!",
+	"oauth-callback-failed-text": "ওআউথ কলব্যাক ব্যর্থ হয়েছে। কুকিসমূহ কি নিষ্ক্রিয়?",
+	"login-success-text": "আপনি সফলভাবে প্রবেশ করেছেন!",
+	"logout-text": "আপনি প্রস্থান অবস্থায় ছিলেন।",
+	"save-text": "সংরক্ষণ করুন",
+	"massmailer-name": "MassMailer"
 }
