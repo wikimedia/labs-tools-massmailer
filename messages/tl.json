@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"GinawaSaHapon"
+		]
+	},
+	"login-link-text": "Mag-login",
+	"wiki-input-label": "Wiki",
+	"wiki-input-description": "Ang domain ng Wikimedia Project na pagpapadalhan mo ng mga email",
+	"users-input-label": "Mga tagagamit",
+	"users-input-description": "Ang mga tagagamit na papadalhan mo ng email na ito (isang username kada linya).",
+	"subject-input-label": "Paksa",
+	"subject-input-description": "Ang paksa ng email.",
+	"body-input-label": "Katawan",
+	"body-input-description": "Ang katawan ng email",
+	"ccme-checkbox-label": "Padalhan ako ng kopya ng lahat ng mga sulat",
+	"submit-text": "Ipasa",
+	"report-bug-link-text": "Mag-ulat ng bug",
+	"logout-link-text": "Mag-logout",
+	"index-welcome-description": "Isang kagamitan ang MassMailer para sa pagpapadala ng mga email en masse para sa isang proyekto.",
+	"index-welcome-login": "Para makapag-login, mangyaring <a href=\"login\">pindutin ito</a>.",
+	"success-text": "Tagumpay!",
+	"oauth-callback-failed-text": "Nabigo ang callback ng OAuth. Nakapatay ba ang mga cookies?",
+	"login-fail-text": "Nagka-error habang sinusubukan kang ma-authenticate. Kung palagi itong nangyayari, mangyaring <a href=\"{url}\" class=\"alert-link\">mag-file po ng gawain</a>.",
+	"login-success-text": "Nakapag-login ka na!",
+	"logout-text": "Na-logout ka na.",
+	"save-text": "I-save"
+}

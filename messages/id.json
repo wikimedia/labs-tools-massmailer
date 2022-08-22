@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Veracious"
+		]
+	},
+	"login-link-text": "Masuk log",
+	"wiki-input-label": "Wiki",
+	"wiki-input-description": "Domain Proyek Wikimedia yang ingin Anda kirimi surel",
+	"users-input-label": "Pengguna",
+	"users-input-description": "Para pengguna yang ingin Anda kirimi surel ini (satu nama pengguna per baris).",
+	"subject-input-label": "Subjek",
+	"subject-input-description": "Subjek surel.",
+	"body-input-label": "Isi",
+	"body-input-description": "Isi pesan surel",
+	"ccme-checkbox-label": "Kirimi saya salinan dari semua surel",
+	"submit-text": "Kirimkan",
+	"report-bug-link-text": "Laporkan kekutu",
+	"logout-link-text": "Keluar log",
+	"index-welcome-description": "MassMailer adalah alat yang memungkinkan Anda mengirim surel secara massal untuk suatu proyek.",
+	"index-welcome-login": "Untuk masuk log, silakan <a href=\"login\">klik di sini.</a>",
+	"success-text": "Berhasil!",
+	"oauth-callback-failed-text": "Panggilan balik OAuth gagal. Apakah kukinya dimatikan?",
+	"login-fail-text": "Terjadi kesalahan saat mencoba mengautentikasi Anda. Jika ini terus terjadi, silakan <a href=\"{url}\" class=\"alert-link\">ajukan tugas.</a>",
+	"login-success-text": "Anda berhasil masuk log!",
+	"logout-text": "Anda telah keloar log.",
+	"save-text": "Simpan"
+}
