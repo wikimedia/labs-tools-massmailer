@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Dr-Taher",
 			"Meno25",
 			"Mohanad Kh",
 			"محمد أحمد عبد الفتاح"
@@ -10,7 +11,7 @@
 	"wiki-input-label": "ويكي",
 	"wiki-input-description": "نطاق مشروع ويكيميديا الذي تريد إرسال البريد الإلكتروني من خلاله",
 	"users-input-label": "المستخدمون",
-	"users-input-description": "المستخدمون الذين تود إرسال هذا البريد لهم.",
+	"users-input-description": "المستخدمون الذين تريد إرسال هذا البريد الإلكتروني إليهم (اسم مستخدم واحد لكل سطر).",
 	"subject-input-label": "الموضوع",
 	"subject-input-description": "موضوع رسالة البريد.",
 	"body-input-label": "الجسم",
