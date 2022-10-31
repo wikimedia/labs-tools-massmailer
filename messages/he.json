@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ghsuvr"
+			"Ghsuvr",
+			"YaronSh"
 		]
 	},
 	"login-link-text": "כניסה",
 	"wiki-input-label": "ויקי",
-	"wiki-input-description": "פרוייקט ויקימדיה {{GENDER:|אתה מכוון|את מכוונת}} אליו",
+	"wiki-input-description": "שם התחום של מיזם ויקימדיה שדרכו ברצונך לשלוח את הודעות הדוא״ל",
 	"users-input-label": "משתמשים",
-	"users-input-description": "הנמענים שאליהם נשלח הדוא\"ל.",
+	"users-input-description": "הנמענים שאליהם נשלח הדוא\"ל (שם משתמש אחד בשורה).",
 	"subject-input-label": "נושא",
 	"subject-input-description": "נושא הדוא\"ל.",
 	"body-input-label": "גוף",
