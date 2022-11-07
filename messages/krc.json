@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Къарачайлы"
+		]
+	},
+	"login-link-text": "Кириу",
+	"wiki-input-label": "Вики",
+	"wiki-input-description": "Юсю бла электрон билдириуле джиберлик Викимедия проектни домени",
+	"users-input-label": "Къошулуучула",
+	"users-input-description": "Бу электрон билдириуню джиберирге излеген хайырланыучула (тизгинде бир хайырланыучу ат).",
+	"subject-input-label": "Тема",
+	"subject-input-description": "Электрон билдириуюгюзню темасы.",
+	"body-input-label": "Текст",
+	"body-input-description": "Электрон билдириуюгюзню темасы",
+	"ccme-checkbox-label": "Меннге бютеу мектубланы копиясын джибер",
+	"submit-text": "Джибер",
+	"report-bug-link-text": "Халатны юсюнден билдир",
+	"logout-link-text": "Чыгъыу",
+	"index-welcome-description": "MassMailer, прокет ючюн кёбчюлюкде электрон мектубланы джиберирге мадар берген адырды.",
+	"index-welcome-login": "Кирир ючюн <a href=\"login\">былайын басыгъыз.</a>",
+	"success-text": "Джетишимли!",
+	"oauth-callback-failed-text": "OAuth кери чакъырыу джетишимсиз болду. Cookie файлларыгъыз джукъланыб болурму?",
+	"login-fail-text": "Аутентификация этилген заманда халат болду. Энтда алай болса, <a href=\"{url}\" class=\"alert-link\">джумуш джиберигиз.</a>",
+	"login-success-text": "Джетишимли кирдигиз!",
+	"logout-text": "Чыкъдыгъыз.",
+	"save-text": "Сакъла"
+}
