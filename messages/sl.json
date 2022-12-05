@@ -6,7 +6,7 @@
 	},
 	"login-link-text": "Prijava",
 	"wiki-input-label": "Viki",
-	"wiki-input-description": "Domena projekta fundacije Wikimedie, prek katerega želite poslati e-poštna sporočila",
+	"wiki-input-description": "Domena projekta Fundacije Wikimedie, iz katerega želite poslati e-poštna sporočila",
 	"users-input-label": "Uporabniki",
 	"users-input-description": "Uporabniki, ki jim želite poslati to e-poštno sporočilo (eno uporabniško ime na vrstico).",
 	"subject-input-label": "Zadeva",
