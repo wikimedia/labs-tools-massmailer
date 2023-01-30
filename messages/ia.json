@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"login-link-text": "Aperir session",
+	"wiki-input-label": "Wiki",
+	"wiki-input-description": "Le dominio del projecto Wikimedia per le qual tu vole inviar le messages electronic",
+	"users-input-label": "Usatores",
+	"users-input-description": "Le usatores al quales tu vole inviar iste message electronic (un nomine de usator per linea).",
+	"subject-input-label": "Subjecto",
+	"subject-input-description": "Le subjecto del message electronic.",
+	"body-input-label": "Texto",
+	"body-input-description": "Le texto del message electronic",
+	"ccme-checkbox-label": "Inviar me un copia de tote le messages",
+	"submit-text": "Submitter",
+	"report-bug-link-text": "Reportar un defecto",
+	"logout-link-text": "Clauder session",
+	"index-welcome-description": "MassMailer es un utensile que te permitte inviar messages electronic in massa pro un projecto.",
+	"index-welcome-login": "Pro aperir session, <a href=\"login\">clicca hic</a>.",
+	"success-text": "Successo!",
+	"oauth-callback-failed-text": "Le appello de retorno de OAuth ha fallite. Es le cookies disactivate?",
+	"login-fail-text": "Un error ha occurrite durante le tentativa de authenticar te. Si isto persiste, per favor <a href=\"{url}\" class=\"alert-link\">signala le problema</a>.",
+	"login-success-text": "Tu ha correctemente aperite session!",
+	"logout-text": "Tu session ha essite claudite.",
+	"save-text": "Salveguardar"
+}
