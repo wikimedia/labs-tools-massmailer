@@ -3,14 +3,15 @@
 		"authors": [
 			"Elroy",
 			"Mainframe98",
+			"McDutchie",
 			"Siebrand"
 		]
 	},
 	"login-link-text": "Aanmelden",
 	"wiki-input-label": "Wiki",
-	"wiki-input-description": "Het Wikimedia project dat uw wilt bereiken",
+	"wiki-input-description": "Het domein van het Wikimedia-project waardoorheen u de e-mails wilt sturen",
 	"users-input-label": "Gebruikers",
-	"users-input-description": "De gebruikers aan wie u deze e-mail wilt verzenden.",
+	"users-input-description": "De gebruikers aan wie u deze e-mail wilt sturen (één gebruikersnaam per regel).",
 	"subject-input-label": "Onderwerp",
 	"subject-input-description": "Het onderwerp van de e-mail",
 	"body-input-label": "Tekst",
