@@ -1,17 +1,22 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"login-link-text": "Aloggen",
 	"wiki-input-label": "Wiki",
 	"users-input-label": "Benotzer",
+	"users-input-description": "D'Benotzer, un déi Dir dës E-Mail schécke wëllt (ee Benotzernumm pro Zeil).",
 	"subject-input-label": "Sujet",
+	"ccme-checkbox-label": "Mir eng Kopie vun allen E-Maile schécken",
 	"submit-text": "Späicheren",
 	"report-bug-link-text": "E Feeler mellen",
 	"logout-link-text": "Ausloggen",
+	"index-welcome-login": "Fir Iech anzeloggen, klickt wgl. <a href=\"login\">hei</a>.",
 	"success-text": "Succès!",
 	"login-success-text": "Dir sidd elo ageloggt!",
+	"logout-text": "Dir gouft ausgeloggt.",
 	"save-text": "Späicheren"
 }
