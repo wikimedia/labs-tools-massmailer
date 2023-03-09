@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"JonesT143"
+		]
+	},
+	"login-link-text": "Mewngofnodi",
+	"wiki-input-label": "Wici",
+	"users-input-label": "Defnyddwyr",
+	"subject-input-label": "Pwnc",
+	"subject-input-description": "Pwnc yr e-bost.",
+	"body-input-label": "Testun",
+	"body-input-description": "Corff yr e-bost",
+	"logout-link-text": "Allgofnodi",
+	"index-welcome-login": "I fewngofnodi, <a href=\"login\">cliciwch yma</a> os gwelwch yn dda.",
+	"success-text": "Llwyddiant!",
+	"login-success-text": "Llwyddiant mewngofnodi!",
+	"logout-text": "Cawsoch eich allgofnodi.",
+	"save-text": "Cadw"
+}
