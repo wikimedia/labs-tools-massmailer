@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Proabscorp!"
+		]
+	},
+	"login-link-text": "लॉग इन करौ",
+	"wiki-input-label": "विकि",
+	"wiki-input-description": "विकिमीडिया प्रोजेक्ट क डोमेन जेकरौ द्वारा तोंय ईमेल भेजना चाहै छौ",
+	"users-input-label": "सदस्य",
+	"users-input-description": "जौन उपयोगकर्ता क तोंय हैय ईमेल भेजै ल चाहै छौ (प्रति पंक्ति एगो उपयोगकर्ता नाँव)।",
+	"subject-input-label": "विषय",
+	"subject-input-description": "ईमेल केरौ विषय।",
+	"body-input-label": "मुख्यभाग",
+	"body-input-description": "ईमेल केरौ मुख्यभाग",
+	"ccme-checkbox-label": "हमरा सब्भे मेल क प्रतिलिपि भेजौ",
+	"submit-text": "जमा करौ",
+	"report-bug-link-text": "बग क रिपोर्ट करौ",
+	"logout-link-text": "लॉगआउट  करौ",
+	"index-welcome-description": "MassMailer एगो उपकरण छेकै जेकरा सँ तोंय कोय्यो परियोजना मँ ढेरी लोगौ क एक साथ ईमेल भेजै सकै छौ।",
+	"index-welcome-login": "लॉग-इन करै लेली कृपया <a href=\"login\">हिन्नअ क्लिक करौ</a>।",
+	"success-text": "सफल!",
+	"oauth-callback-failed-text": "OAuth कॉलबैक असफल रहलौं। की कुकीज़ अक्षम छौं?",
+	"login-fail-text": "तोरा प्रमाणित करै समय एगो त्रुटि ऐलौं। यदि एन्हे होते रहथौं त कृपया <a href=\"{url}\" class=\"alert-link\">एगो टास्क फ़ाइल करौ।</a>",
+	"login-success-text": "तोंय सफलतापूर्वक लॉग-इन करलौ छौ!",
+	"logout-text": "तोरा लॉग-आउट करी देलौ गेलौ छौं।",
+	"save-text": "सहेजौ"
+}
