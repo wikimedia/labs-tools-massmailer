@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"login-link-text": "Prisijungti",
+	"wiki-input-label": "Viki",
+	"wiki-input-description": "Vikimedija projekto domenas, per kurį norite siųsti el. laiškus",
+	"users-input-label": "Naudotojai",
+	"users-input-description": "Naudotojai, kuriems norite siųsti šį el. laišką (vienoje eilutėje po vieną naudotojo vardą).",
+	"subject-input-label": "Tema",
+	"subject-input-description": "Laiško tema.",
+	"body-input-label": "Tekstas",
+	"body-input-description": "El. laiško turinys",
+	"ccme-checkbox-label": "Atsiųsti man visų laiškų kopijas",
+	"submit-text": "Siųsti",
+	"report-bug-link-text": "Pranešti apie klaidą",
+	"logout-link-text": "Atsijungti",
+	"index-welcome-description": "MassMailer yra įrankis, leidžiantis masiškai siųsti laiškus projekte.",
+	"index-welcome-login": "Norėdami prisijungti, <a href=\"login\">spustelėkite čia.</a>",
+	"success-text": "Pavyko!",
+	"oauth-callback-failed-text": "OAuth atgalinis ryšys nepavyko. Ar slapukai išjungti?",
+	"login-fail-text": "Bandant jus autentifikuoti įvyko klaida. Jei tai kartojasi, <a href=\"{url}\" class=\"alert-link\">pateikite užduotį.</a>",
+	"login-success-text": "Sėkmingai prisijungėte!",
+	"logout-text": "Buvote atjungti.",
+	"save-text": "Išsaugoti"
+}
