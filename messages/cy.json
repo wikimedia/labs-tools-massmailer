@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Afalau",
 			"JonesT143"
 		]
 	},
@@ -10,11 +11,13 @@
 	"subject-input-label": "Pwnc",
 	"subject-input-description": "Pwnc yr e-bost.",
 	"body-input-label": "Testun",
-	"body-input-description": "Corff yr e-bost",
+	"body-input-description": "Testun yr e-bost",
+	"submit-text": "Cyflwyno",
+	"report-bug-link-text": "Riportio nam",
 	"logout-link-text": "Allgofnodi",
 	"index-welcome-login": "I fewngofnodi, <a href=\"login\">cliciwch yma</a> os gwelwch yn dda.",
-	"success-text": "Llwyddiant!",
-	"login-success-text": "Llwyddiant mewngofnodi!",
-	"logout-text": "Cawsoch eich allgofnodi.",
+	"success-text": "Llwyddiannus!",
+	"login-success-text": "Rydych chi wedi mewngofnodi!",
+	"logout-text": "Rydych chi wedi allgofnodi.",
 	"save-text": "Cadw"
 }
