@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"GuoPC",
 			"Josephine W.",
 			"Tiger",
 			"VulpesVulpes825"
@@ -8,9 +9,9 @@
 	},
 	"login-link-text": "登录",
 	"wiki-input-label": "维基",
-	"wiki-input-description": "您目标的维基媒体计划",
+	"wiki-input-description": "您要通过其发送电子邮件的维基媒体项目域",
 	"users-input-label": "用户",
-	"users-input-description": "邮件的收件人。",
+	"users-input-description": "您要将此电子邮件送达的用户（每行一个用户名）。",
 	"subject-input-label": "主题",
 	"subject-input-description": "邮件的主题",
 	"body-input-label": "正文",
