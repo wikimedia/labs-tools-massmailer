@@ -2,15 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"DraconicDark",
+			"Justman10000",
 			"ManuelFranz",
 			"WikiBayer"
 		]
 	},
 	"login-link-text": "Anmelden",
 	"wiki-input-label": "Wiki",
-	"wiki-input-description": "Das Wikimedia-Projekt, auf das Sie abzielen",
+	"wiki-input-description": "Die Domain des Wikimedia-Projekts, über das du die E-Mails versenden willst",
 	"users-input-label": "Benutzer",
-	"users-input-description": "Die Benutzer, an die Sie diese E-Mail senden möchten.",
+	"users-input-description": "Die Benutzer, an die du diese E-Mail senden möchtest (ein Benutzername pro Zeile).",
 	"subject-input-label": "Betreff",
 	"subject-input-description": "Der Betreff der E-Mail.",
 	"body-input-label": "Inhalt",
