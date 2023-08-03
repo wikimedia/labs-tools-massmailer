@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Geraki",
 			"Norhorn"
 		]
 	},
 	"login-link-text": "Είσοδος",
 	"wiki-input-label": "Βίκι",
-	"wiki-input-description": "Το έργο Wikimedia που ενδιαφέρεστε",
+	"wiki-input-description": "Το domain του Έργου Wikimedia μέσω του οποίου θέλετε να στείλετε τα μηνύματα ηλεκτρονικού ταχυδρομείου",
 	"users-input-label": "Χρήστες",
-	"users-input-description": "Οι χρήστες που θέλετε να στείλετε email.",
+	"users-input-description": "Οι χρήστες στους οποίους θέλετε να στείλετε αυτό το μήνυμα ηλεκτρονικού ταχυδρομείου (ένα όνομα χρήστη ανά γραμμή).",
 	"subject-input-label": "Θέμα",
 	"subject-input-description": "Το θέμα του email.",
 	"body-input-label": "Κείμενο",
