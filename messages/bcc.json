@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Moshtank"
+		]
+	},
+	"login-link-text": "مان بییگ",
+	"wiki-input-label": "ویکی",
+	"users-input-label": "کارزیران",
+	"subject-input-label": "تراشو:",
+	"subject-input-description": "ایمئیلءِ سرگال",
+	"body-input-label": "باڈی",
+	"body-input-description": "ایمئیلءِ باڈی",
+	"ccme-checkbox-label": "پہ منا یک کپی‌ئے چہ دراھیگݔن ایمئیلان دݔم دئ",
+	"submit-text": "سپت کنگ",
+	"report-bug-link-text": "یک مِشتِکے رپورٹ کنگ",
+	"logout-link-text": "در بییگ",
+	"success-text": "سۏبݔن!",
+	"login-success-text": "شما پہ سۏبݔن مان بیت اِت!",
+	"logout-text": "شما در آتک اِت۔",
+	"save-text": "سپت"
+}
