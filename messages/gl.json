@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"login-link-text": "Rexistro",
+	"wiki-input-label": "Wiki",
+	"wiki-input-description": "O dominio do proxecto da Wikimedia desde o que queres enviar os correos electrónicos",
+	"users-input-label": "Usuarios",
+	"users-input-description": "Os usuarios aos que queres enviar este correo electrónico (un nome de usuario por liña).",
+	"subject-input-label": "Asunto",
+	"subject-input-description": "O asunto do correo electrónico.",
+	"body-input-label": "Corpo",
+	"body-input-description": "O corpo do correo electrónico",
+	"ccme-checkbox-label": "Enviádeme unha copia de todos os correos",
+	"submit-text": "Enviar",
+	"report-bug-link-text": "Informar dun erro",
+	"logout-link-text": "Saír",
+	"index-welcome-description": "MassMailer é unha ferramenta que che permite enviar correos electrónicos en masa para un proxecto.",
+	"index-welcome-login": "Para iniciar sesión, <a href=\"login\">preme aquí</a>.",
+	"success-text": "Todo correcto!",
+	"oauth-callback-failed-text": "Fallou a devolución de chamada do OAuth. As cookies están desactivadas?",
+	"login-fail-text": "Produciuse un erro ao intentar autenticarte. Se este problema persiste, por favor, <a href=\"{url}\" class=\"alert-link\">informa do problema</a>.",
+	"login-success-text": "Iniciaches sesión correctamente!",
+	"logout-text": "Pechaches a sesión.",
+	"save-text": "Gardar"
+}
