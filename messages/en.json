@@ -10,6 +10,8 @@
     "body-input-description": "The body of the email",
     "ccme-checkbox-label": "Send me a copy of all mails",
     "submit-text": "Submit",
+    "error-missing-wiki": "Error: Field \"Wiki\" is required. Please set it to a project where you are an account creator or a sysop.",
+    "error-unprivileged": "Error: You are not privileged at the selected wiki. Please use a project where you are an account creator or a sysop.",
     "report-bug-link-text": "Report a bug",
     "logout-link-text": "Logout",
     "index-welcome-description": "MassMailer is a tool allowing you to send emails en masse for a project.",

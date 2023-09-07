@@ -76,11 +76,25 @@ def storemails():
 
 @app.route('/sendmails', methods=['POST'])
 def sendmails():
+    if request.form['wiki'] == '':
+        flash(_('error-missing-wiki'), 'danger')
+        return redirect(flask.url_for('index'))
     users = request.form['users'].replace('\r', '').split('\n')
     subject = request.form['subject']
     text = request.form['text']
     wiki = request.form['wiki']
     API_URL = 'https://%s/w/api.php' % wiki
+
+    r = requests.post(API_URL, data={
+        'action': 'query',
+        'format': 'json',
+        'meta': 'userinfo',
+        'uiprop': 'rights'
+    })
+    rights = r.json().get('query', {}).get('userinfo', {}).get('rights', [])
+    if 'noratelimit' not in rights:
+        flash(_('error-unprivileged'), 'danger')
+        return redirect(flask.url_for('index'))
 
     for user in users:
         payload = {
