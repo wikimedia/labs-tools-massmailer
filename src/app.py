@@ -80,10 +80,6 @@ def sendmails():
     subject = request.form['subject']
     text = request.form['text']
     wiki = request.form['wiki']
-    if "ccme" in request.form:
-        ccme = 1
-    else:
-        ccme = 0
     API_URL = 'https://%s/w/api.php' % wiki
 
     for user in users:
@@ -101,9 +97,10 @@ def sendmails():
             "target": user,
             "subject": subject,
             "text": text,
-            "token": token,
-            "ccme": ccme
+            "token": token
         }
+        if "ccme" in request.form:
+            payload['ccme'] = 1
         r = requests.post(API_URL, data=payload, auth=get_auth())
     flash(_('success-text'), 'success')
     return redirect(flask.url_for('index'))
