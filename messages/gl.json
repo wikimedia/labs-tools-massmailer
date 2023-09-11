@@ -15,6 +15,8 @@
 	"body-input-description": "O corpo do correo electrónico",
 	"ccme-checkbox-label": "Enviádeme unha copia de todos os correos",
 	"submit-text": "Enviar",
+	"error-missing-wiki": "Erro: O campo \"Wiki\" é obrigatorio. Define o seu valor como un proxecto no que sexas un creador de contas ou un operador do sistema.",
+	"error-unprivileged": "Erro: Non tes privilexios no wiki seleccionado. Usa un proxecto no que sexas un creador de contas ou un operador do sistema.",
 	"report-bug-link-text": "Informar dun erro",
 	"logout-link-text": "Saír",
 	"index-welcome-description": "MassMailer é unha ferramenta que che permite enviar correos electrónicos en masa para un proxecto.",

@@ -15,6 +15,8 @@
 	"body-input-description": "電子郵件的正文",
 	"ccme-checkbox-label": "發給我所有郵件的複本",
 	"submit-text": "提交",
+	"error-missing-wiki": "錯誤：「wiki」欄位為必填。請將其設定成您是帳號建立者或管理員的專案。",
+	"error-unprivileged": "錯誤：您沒有所選 wiki 的權限。請使用您是帳號建立者或管理員的專案。",
 	"report-bug-link-text": "回報程式錯誤",
 	"logout-link-text": "登出",
 	"index-welcome-description": "MassMailer 是個能讓您對某一專案批量發送電子郵件的工具。",

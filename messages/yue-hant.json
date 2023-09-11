@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Z423x5c6"
+		]
+	},
+	"login-link-text": "登入",
+	"wiki-input-label": "維基",
+	"users-input-label": "用戶",
+	"subject-input-label": "主題",
+	"subject-input-description": "電郵嘅主題。",
+	"submit-text": "遞交",
+	"logout-link-text": "登出",
+	"success-text": "成功！",
+	"login-success-text": "成功登入！",
+	"logout-text": "登出咗。",
+	"save-text": "儲存"
+}

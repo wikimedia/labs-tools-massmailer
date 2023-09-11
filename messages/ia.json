@@ -15,6 +15,8 @@
 	"body-input-description": "Le texto del message electronic",
 	"ccme-checkbox-label": "Inviar me un copia de tote le messages",
 	"submit-text": "Submitter",
+	"error-missing-wiki": "Error: Le campo “Wiki” es obligatori. Per favor defini lo como un projecto ubi tu es un creator de contos o un administrator.",
+	"error-unprivileged": "Error: Tu non es privilegiate sur le wiki seligite. Per favor usa un projecto ubi tu es un creator de contos o un administrator.",
 	"report-bug-link-text": "Reportar un defecto",
 	"logout-link-text": "Clauder session",
 	"index-welcome-description": "MassMailer es un utensile que te permitte inviar messages electronic in massa pro un projecto.",

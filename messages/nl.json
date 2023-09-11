@@ -18,6 +18,8 @@
 	"body-input-description": "De berichttekst van de e-mail",
 	"ccme-checkbox-label": "Stuur mij een kopie van alle e-mails",
 	"submit-text": "Verzenden",
+	"error-missing-wiki": "Fout: Het veld “Wiki” is vereist. Stel het in op een project waarop u accountmaker of moderator bent.",
+	"error-unprivileged": "Fout: U hebt geen privileges op de geselecteerde wiki. Gebruik een project waarop u accountmaker of moderator bent.",
 	"report-bug-link-text": "Probleem melden",
 	"logout-link-text": "Afmelden",
 	"index-welcome-description": "Massmailer is een hulpmiddel waarmee u in één keer veel e-mails voor een project kan sturen.",

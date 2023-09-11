@@ -18,6 +18,8 @@
 	"body-input-description": "Le corps du courriel",
 	"ccme-checkbox-label": "M’envoyer une copie de tous les courriels",
 	"submit-text": "Soumettre",
+	"error-missing-wiki": "Erreur : Le champ « Wiki » est obligatoire. Veuillez le définir à un projet où vous êtes un créateur de compte ou un opérateur système.",
+	"error-unprivileged": "Erreur : Vous n’êtes pas privilégié sur le wiki sélectionné. Veuillez utiliser un projet où vous êtes créateur de compte ou administrateur système.",
 	"report-bug-link-text": "Signaler une anomalie",
 	"logout-link-text": "Déconnexion",
 	"index-welcome-description": "MassMailer est un outil qui vous permet d’envoyer en masse des courriels pour un projet.",
