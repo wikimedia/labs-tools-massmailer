@@ -1,20 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Hedda"
 		]
 	},
 	"login-link-text": "Oturum aç",
 	"wiki-input-label": "Viki",
-	"wiki-input-description": "Hedeflediğiniz Wikimedia Projesi",
+	"wiki-input-description": "E-postaları göndermek istediğiniz Wikimedia projesinin alanı",
 	"users-input-label": "Kullanıcılar",
-	"users-input-description": "Bu e-postayı göndermek istediğiniz kullanıcılar.",
+	"users-input-description": "Bu e-postayı göndermek istediğiniz kullanıcılar (her satıra bir kullanıcı adı).",
 	"subject-input-label": "Konu",
 	"subject-input-description": "E-postanın konusu.",
 	"body-input-label": "Gövde",
 	"body-input-description": "E-postanın gövdesi",
 	"ccme-checkbox-label": "Bana tüm postaların bir kopyasını gönder",
 	"submit-text": "Gönder",
+	"error-missing-wiki": "Hata: \"Wiki\" alanı gereklidir. Lütfen bunu, hesap oluşturucusu veya sistem yöneticisi olduğunuz bir projeye ayarlayın.",
+	"error-unprivileged": "Hata: Seçilen viki'de ayrıcalıklı değilsiniz. Lütfen hesap oluşturucu veya sistem yöneticisi olduğunuz bir proje kullanın.",
 	"report-bug-link-text": "Hata bildir",
 	"logout-link-text": "Oturumu kapat",
 	"index-welcome-description": "MassMailer, bir proje için toplu olarak e-posta göndermenizi sağlayan bir araçtır.",
