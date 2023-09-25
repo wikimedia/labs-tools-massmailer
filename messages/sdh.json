@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"TerranBoy"
+		]
+	},
+	"login-link-text": "بچووە ناو",
+	"wiki-input-label": "ویکی",
+	"users-input-label": "وەکاربەرەگان",
+	"subject-input-label": "باوەت",
+	"subject-input-description": "باوەت ئیمەیلەگە.",
+	"submit-text": "ناردن",
+	"logout-link-text": "بچووە دەیشت"
+}

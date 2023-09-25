@@ -3,7 +3,8 @@
 		"authors": [
 			"Duke of Wikipädia",
 			"Eduardo Addad de Oliveira",
-			"Eduardoaddad"
+			"Eduardoaddad",
+			"Felipe L. Ewald"
 		]
 	},
 	"login-link-text": "Entrar",
@@ -17,6 +18,8 @@
 	"body-input-description": "O corpo do e-mail",
 	"ccme-checkbox-label": "Envie-me uma cópia de todos os e-mails",
 	"submit-text": "Enviar",
+	"error-missing-wiki": "Erro: O campo \"Wiki\" é obrigatório. Defina-o para um projeto em que você é o criador da conta ou administrador de sistema.",
+	"error-unprivileged": "Erro: você não tem privilégios na wiki selecionada. Use um projeto em que você seja o criador da conta ou administrador de sistema.",
 	"report-bug-link-text": "Relatar um erro",
 	"logout-link-text": "Sair",
 	"index-welcome-description": "O MassMailer é uma ferramenta que permite enviar e-mails em massa para um projeto.",
