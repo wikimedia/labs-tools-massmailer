@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"login-link-text": "ЧугӀо",
+	"wiki-input-label": "Вики",
+	"users-input-label": "Декъашхой",
+	"subject-input-label": "Тема",
+	"subject-input-description": "Кехатан тема",
+	"body-input-label": "Йоза",
+	"body-input-description": "Кехатан йоза",
+	"ccme-checkbox-label": "Массо кехатийн копеш соьга йаийта",
+	"submit-text": "ДӀадахьийта",
+	"report-bug-link-text": "Хаийта гӀалатах",
+	"logout-link-text": "Аравала(йала)",
+	"index-welcome-login": "Чувалла(йала), <a href=\"login\">тӀетаӀайе кхуза.</a>",
+	"success-text": "Кхиамца!",
+	"login-success-text": "Хьо кхиамца системин чувахна(йахна)?",
+	"logout-text": "Хьо системин чуьра араваьлла(йаьлла).",
+	"save-text": "Ӏалашйе"
+}
