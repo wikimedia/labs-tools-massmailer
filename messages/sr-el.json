@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"login-link-text": "Prijavi me",
+	"wiki-input-label": "Viki",
+	"wiki-input-description": "Domen Vikimedijinog projekta preko kog želite da šaljete mejlove",
+	"users-input-label": "Korisnici",
+	"users-input-description": "Korisnici kojima želite da pošaljete e-poruku (jedno korisničko ime po liniji).",
+	"subject-input-label": "Tema",
+	"subject-input-description": "Tema e-poruke",
+	"body-input-label": "Tekst",
+	"body-input-description": "Tekst e-poruke",
+	"ccme-checkbox-label": "Pošalji mi kopiju svih e-poruka",
+	"submit-text": "Prosledi",
+	"error-missing-wiki": "Greška: Polje \"Viki\" je neophodno. Postavite ga na projekat gde ste stvaralac naloga ili administrator.",
+	"error-unprivileged": "Greška: Nemate dozvolu za odabrani viki. Koristite projekat gde ste stvaralac naloga ili administrator.",
+	"report-bug-link-text": "Prijavite grešku",
+	"logout-link-text": "Odjavi me",
+	"index-welcome-description": "Masovna pošta je alatka koja vam omogućava da šaljete veliki broj e-poruka za projekat.",
+	"index-welcome-login": "Da biste se prijavili, <a href=\"login\">kliknite ovde.</a>",
+	"success-text": "Uspešno.",
+	"oauth-callback-failed-text": "Povratni poziv OAuth-a nije uspeo. Da li su kolačići onemogućeni?",
+	"login-fail-text": "Došlo je do greške prilikom potvrde identiteta. Ako se ovo nastavi, <a href=\"{url}\" class=\"alert-link\">podnesite izveštaj</a>.",
+	"login-success-text": "Uspešno ste se prijavili.",
+	"logout-text": "Odjavljeni ste.",
+	"save-text": "Sačuvaj",
+	"massmailer-name": "Masovna pošta"
+}

@@ -15,6 +15,8 @@
 	"body-input-description": "Isi pesan surel",
 	"ccme-checkbox-label": "Kirimi saya salinan dari semua surel",
 	"submit-text": "Kirimkan",
+	"error-missing-wiki": "Galat: Bidang \"Wiki\" wajib diisi. Silakan setel ke proyek di mana Anda merupakan pembuat akun atau pengurusnya.",
+	"error-unprivileged": "Galat: Anda tak memiliki hak istimewa pada wiki yang dipilih. Silakan gunakan proyek di mana Anda merupakan pembuat akun atau pengurusnya.",
 	"report-bug-link-text": "Laporkan kekutu",
 	"logout-link-text": "Keluar log",
 	"index-welcome-description": "MassMailer adalah alat yang memungkinkan Anda mengirim surel secara massal untuk suatu proyek.",
