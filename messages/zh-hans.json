@@ -18,6 +18,8 @@
 	"body-input-description": "邮件的正文",
 	"ccme-checkbox-label": "发给我一份邮件的副本",
 	"submit-text": "提交",
+	"error-missing-wiki": "错误：“Wiki”字段为必填项。请将其设置为您是账号创建者或管理员的项目。",
+	"error-unprivileged": "错误：您没有所选wiki的对应权限。请使用您是账号创建者或管理员的项目。",
 	"report-bug-link-text": "报告错误",
 	"logout-link-text": "登出",
 	"index-welcome-description": "MassMailer是一个有助于您对某些项目批量发送电子邮件的工具。",
