@@ -4,6 +4,7 @@
 			"Dr-Taher",
 			"Meno25",
 			"Mohanad Kh",
+			"Sandra Hanbo",
 			"محمد أحمد عبد الفتاح"
 		]
 	},
@@ -18,6 +19,8 @@
 	"body-input-description": "جسم رسالة البريد",
 	"ccme-checkbox-label": "أرسل لي نسخة من كل الرسائل",
 	"submit-text": "إرسال",
+	"error-missing-wiki": "الخطأ:الحقل \"ويكي\" مطلوبة. من فضلك حدد هذا إلى مشروع حيث تكون منشئ حساب أو ذو صلاحيات إدارية فيه.",
+	"error-unprivileged": "الخطأ: أنت غير مرخص في الويكي المختار. من فضلك استخدم مشروع حيث تكون مبدعا لحساب أو مستخدم.",
 	"report-bug-link-text": "الإبلاغ عن خطأ برمجي",
 	"logout-link-text": "تسجيل الخروج",
 	"index-welcome-description": "MassMailer هي أداة تسمح لك بإرسال رسائل بريد بشكل كمي لمشروع.",
