@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kly"
+			"Kly",
+			"Winston Sung"
 		]
 	},
 	"login-link-text": "登入",
-	"wiki-input-label": "Wiki",
+	"wiki-input-label": "wiki",
 	"wiki-input-description": "您要藉由來發送電子郵件的維基媒體專案網域",
 	"users-input-label": "使用者",
 	"users-input-description": "您要發送給此封電子郵件的使用者（每一行一個使用者）。",

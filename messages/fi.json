@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Majavah"
+			"Majavah",
+			"Samoasambia"
 		]
 	},
 	"login-link-text": "Kirjaudu",
 	"wiki-input-label": "Wiki",
 	"wiki-input-description": "Wikimedia-projekti, jossa haluat käyttää työkalua",
 	"users-input-label": "Käyttäjät",
-	"users-input-description": "Käyttäjät joille haluat lähettää tämän sähköpostin.",
+	"users-input-description": "Käyttäjät joille haluat lähettää tämän sähköpostin (yksi käyttäjä per rivi).",
 	"subject-input-label": "Otsikko",
 	"subject-input-description": "Sähköpostin otsikko.",
 	"body-input-label": "Sisältö",
