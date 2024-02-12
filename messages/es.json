@@ -4,6 +4,7 @@
 			"Agusbou2015",
 			"Fitoschido",
 			"Ihojose",
+			"Jmabel",
 			"Joanmp17",
 			"MarcoAurelio"
 		]
@@ -19,6 +20,8 @@
 	"body-input-description": "El cuerpo del mensaje",
 	"ccme-checkbox-label": "Enviarme una copia de todos los mensajes",
 	"submit-text": "Enviar",
+	"error-missing-wiki": "Error: Se requiere el campo \"Wiki\". Por favor, ajustelo a un proyecto en el que usted sea un creador de cuentas o un sysop.",
+	"error-unprivileged": "Error: no tienes privilegios en el wiki seleccionado. Por favor, utilice un proyecto en el que usted sea un creador de cuentas o un sysop.",
 	"report-bug-link-text": "Informar de un error",
 	"logout-link-text": "Cerrar sesión",
 	"index-welcome-description": "MassMailer es una herramienta que te permite enviar correos electrónicos en masa a los usuarios de un determinado proyecto.",
