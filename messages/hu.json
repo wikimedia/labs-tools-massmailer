@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dj"
+		]
+	},
+	"login-link-text": "Bejelentkezés",
+	"wiki-input-label": "Wiki",
+	"wiki-input-description": "A Wikimédia-projekt domainje, amelyen keresztül az e-maileket el szeretnéd küldeni",
+	"users-input-label": "Felhasználók",
+	"users-input-description": "A felhasználók, akiknek el szeretné küldeni ezt az e-mailt (soronként egy felhasználónév).",
+	"subject-input-label": "Tárgy",
+	"subject-input-description": "Az e-mail tárgya.",
+	"body-input-label": "Szöveg",
+	"body-input-description": "Az e-mail törzse",
+	"ccme-checkbox-label": "Küldj másolatot részemre az összes levélről",
+	"submit-text": "Elküldés",
+	"error-missing-wiki": "Hiba: A \"Wiki\" mező kitöltése kötelező. Kérjük, állítsd be olyan projektre, amelyben fiókkészítő vagy rendszergazda vagy.",
+	"error-unprivileged": "Hiba: Nem vagy provilegizált felhasználó a kiválasztott wikin. Kérjük, használj olyan projektet, amelyben  fiókkészítő vagy rendszergazda vagy.",
+	"report-bug-link-text": "Hibajelentés",
+	"logout-link-text": "Kijelentkezés",
+	"index-welcome-description": "A MassMailer egy olyan eszköz, amely lehetővé teszi, hogy tömegesen küldjön e-maileket egy projekthez.",
+	"index-welcome-login": "A bejelentkezéshez kattints <a href=\"login\">ide.</a>",
+	"success-text": "Siker!",
+	"oauth-callback-failed-text": "OAuth visszahívás sikertelen. Le vannak tiltva a sütik?",
+	"login-fail-text": "Hiba történt az Ön hitelesítésed során. Ha ez továbbra is megtörténik, kérjük <a href=\"{url}\" class=\"alert-link\">, küldjél be egy feladatot.</a>",
+	"login-success-text": "Sikeresen bejelentkeztél!",
+	"logout-text": "Ki vagy jelentkezve.",
+	"save-text": "Mentés"
+}
