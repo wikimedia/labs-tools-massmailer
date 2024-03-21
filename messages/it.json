@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
-			"Gianfranco"
+			"Gianfranco",
+			"LametinoWiki"
 		]
 	},
 	"login-link-text": "Entra",
@@ -16,6 +17,8 @@
 	"body-input-description": "Il corpo della email",
 	"ccme-checkbox-label": "Inviarmi una copia di tutte le email",
 	"submit-text": "Invia",
+	"error-missing-wiki": "Errore: il campo \"Wiki\" è obbligatorio. Impostalo su un progetto in cui sei un creatore di utenze o un sysop.",
+	"error-unprivileged": "Errore: non hai privilegi sulla wiki selezionata. Utilizza un progetto nel quale sei un creatore di utenze o un sysop.",
 	"report-bug-link-text": "Segnala un errore",
 	"logout-link-text": "Disconnetti",
 	"index-welcome-description": "MassMailer è uno strumento che ti permette di mandare email in massa per un progetto.",
