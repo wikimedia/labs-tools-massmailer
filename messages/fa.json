@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ebraminio",
 			"FarsiNevis",
 			"Jeeputer",
 			"Reza1615"
@@ -23,7 +24,7 @@
 	"index-welcome-login": "برای ورود، لطفاً <a href=\"login\">این‌جا کلیک کنید.</a>",
 	"success-text": "موفق!",
 	"oauth-callback-failed-text": "پاسخ OAuth شکست خورد. آیا کوکی غیرفعال‌ست؟",
-	"login-fail-text": "هنگام تلاش برای تایید هویت شما خطایی رخ داد. اگر این کار ادامه داشته باشد، لطفاً <a href=\"{url}\" class=\"alert-link\">گزارش دهید.</a>",
+	"login-fail-text": "هنگام تلاش برای تأیید هویت شما خطایی رخ داد. اگر این کار ادامه داشته باشد، لطفاً <a href=\"{url}\" class=\"alert-link\">گزارش دهید.</a>",
 	"login-success-text": "با موفقیت وارد سامانه شدید!",
 	"logout-text": "از سامانه خارج شدید.",
 	"save-text": "ذخیره",
