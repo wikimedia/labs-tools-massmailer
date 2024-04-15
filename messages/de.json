@@ -4,6 +4,7 @@
 			"DraconicDark",
 			"Justman10000",
 			"ManuelFranz",
+			"TomatoCake",
 			"WikiBayer"
 		]
 	},
@@ -18,15 +19,17 @@
 	"body-input-description": "Der Inhalt der E-Mail",
 	"ccme-checkbox-label": "Mir eine Kopie aller Mails senden",
 	"submit-text": "Ausführen",
+	"error-missing-wiki": "Fehler: Das Feld „Wiki“ ist erforderlich. Bitte lege es auf ein Projekt fest, in welchem du ein Kontoersteller oder Sysop bist.",
+	"error-unprivileged": "Fehler: Du verfügst im ausgewählten Wiki nicht über die erforderlichen Berechtigungen. Bitte verwende ein Projekt, in welchem du ein Kontoersteller oder Sysop bist.",
 	"report-bug-link-text": "Einen Fehler melden",
 	"logout-link-text": "Abmelden",
-	"index-welcome-description": "MassMailer ist ein Werkzeug, mit dem Sie für ein Projekt massenweise E-Mails versenden können.",
-	"index-welcome-login": "Um sich einzuloggen, <a href=\"login\">klicken Sie bitte hier</a>",
-	"success-text": "Erfolg!",
-	"oauth-callback-failed-text": "OAuth-Rückruf gescheitert. Sind Cookies deaktiviert?",
+	"index-welcome-description": "MassMailer ist ein Werkzeug, mit dem du für ein Projekt massenweise E-Mails versenden kannst.",
+	"index-welcome-login": "Um sich anzumelden, <a href=\"login\">klicke bitte hier.</a>",
+	"success-text": "Erfolgreich!",
+	"oauth-callback-failed-text": "OAuth-Callback fehlgeschlagen. Sind Cookies deaktiviert?",
 	"login-fail-text": "Beim Versuch, Sie zu authentifizieren, ist ein Fehler aufgetreten. Wenn dies weiterhin passiert, <a href=\"{url}\" class=\"alert-link\">reichen Sie bitte eine Aufgabe ein.</a>",
-	"login-success-text": "Sie haben sich erfolgreich eingeloggt!",
-	"logout-text": "Sie wurden abgemeldet.",
+	"login-success-text": "Du hast dich erfolgreich angemeldet!",
+	"logout-text": "Du wurdest abgemeldet.",
 	"save-text": "Speichern",
 	"massmailer-name": "MassMailer"
 }
