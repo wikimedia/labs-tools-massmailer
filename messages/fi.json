@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Majavah",
+			"Pyscowicz",
 			"Samoasambia"
 		]
 	},
 	"login-link-text": "Kirjaudu",
 	"wiki-input-label": "Wiki",
-	"wiki-input-description": "Wikimedia-projekti, jossa haluat käyttää työkalua",
+	"wiki-input-description": "Wikimedia-hankkeen verkkotunnus, jonka kautta haluat lähettää sähköpostia",
 	"users-input-label": "Käyttäjät",
 	"users-input-description": "Käyttäjät joille haluat lähettää tämän sähköpostin (yksi käyttäjä per rivi).",
 	"subject-input-label": "Otsikko",
