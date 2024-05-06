@@ -1,20 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"1917 Ekim Devrimi"
+			"1917 Ekim Devrimi",
+			"GolyatGeri"
 		]
 	},
 	"login-link-text": "Cıkewtış",
 	"wiki-input-label": "Wiki",
-	"wiki-input-description": "Hedefê Procey Wikimedia",
+	"wiki-input-description": "Hedefê Procey Wikimedia wazen emailan bıerşawen",
 	"users-input-label": "Karberi",
-	"users-input-description": "Karberê ke şıma qayılê ke ena eposta cı rê bırışê",
+	"users-input-description": "Karberê ke şıma qayılê ke ena eposta cı rê bırışê (herg satır rê yo namey karberi)",
 	"subject-input-label": "Mewzu",
 	"subject-input-description": "Mewzuy epostay",
 	"body-input-label": "Bezn",
 	"body-input-description": "Bezna epostay",
 	"ccme-checkbox-label": "Mı rê yew kopyay epostayan bırışê",
 	"submit-text": "Bırışê",
+	"error-missing-wiki": "Xerab: cae  \"Wiki\" alanı lazımo. Kerem kerên inin hesab icadkerdoğê yan ki menecere sistemiyle se ke in projeyi de set kerên.",
+	"error-unprivileged": "Xerab: Hedef wiki de ciyayina to çıno. Kerem kerên inin hesab icadkerdoğê yan ki menecere sistemi de proce est dê in dı set kerên.",
 	"report-bug-link-text": "Xeta rapor kerê",
 	"logout-link-text": "Veciyayış",
 	"index-welcome-description": "MassMailer, seba yew procey pêro postaya piya rıştışi rê yew haleto.",
