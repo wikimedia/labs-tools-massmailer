@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"1917 Ekim Devrimi",
-			"GolyatGeri"
+			"GolyatGeri",
+			"Mirzali"
 		]
 	},
 	"login-link-text": "Cıkewtış",
 	"wiki-input-label": "Wiki",
 	"wiki-input-description": "Hedefê Procey Wikimedia wazen emailan bıerşawen",
 	"users-input-label": "Karberi",
-	"users-input-description": "Karberê ke şıma qayılê ke ena eposta cı rê bırışê (herg satır rê yo namey karberi)",
+	"users-input-description": "Karberê ke şıma qayılê ke nê eposteyi cı rê bırışê (her rêze de nameyê karberi).",
 	"subject-input-label": "Mewzu",
 	"subject-input-description": "Mewzuy epostay",
 	"body-input-label": "Bezn",
