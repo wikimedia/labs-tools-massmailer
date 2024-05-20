@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Suleiman the Magnificent Television",
 			"Ykhwong",
 			"그냥기여자"
 		]
 	},
 	"login-link-text": "로그인",
 	"wiki-input-label": "위키",
-	"wiki-input-description": "대상이 되는 위키미디어 프로젝트",
+	"wiki-input-description": "이메일들을 보내려는 위키미디어 프로젝트의 도메인",
 	"users-input-label": "사용자",
 	"users-input-description": "이 이메일을 받을 사용자입니다. (한 줄에 한 사용자 이름)",
 	"subject-input-label": "제목",
