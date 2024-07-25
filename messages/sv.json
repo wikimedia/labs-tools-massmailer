@@ -16,6 +16,8 @@
 	"body-input-description": "E-postmeddelandets innehåll",
 	"ccme-checkbox-label": "Skicka en kopiera av all e-post till mig",
 	"submit-text": "Skicka",
+	"error-missing-wiki": "Fel: Fältet \"Wiki\" är obligatoriskt. Ställ in det till ett projekt där du är en kontoskapare eller systemadministratör.",
+	"error-unprivileged": "Fel: Du har inte rättigheter på den valda wikin. Använd ett projekt där du är en kontoskapare eller en systemadministratör.",
 	"report-bug-link-text": "Rapportera en bugg",
 	"logout-link-text": "Logga ut",
 	"index-welcome-description": "MassMailer är ett verktyg som låter dig skicka mejl i massor för ett projekt.",
