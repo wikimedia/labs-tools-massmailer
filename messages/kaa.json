@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Inabat Allanova"
+		]
+	},
+	"login-link-text": "Kiriw",
+	"wiki-input-label": "Wiki",
+	"users-input-label": "Paydalanıwshılar",
+	"subject-input-label": "Tema",
+	"subject-input-description": "Email teması.",
+	"body-input-label": "Bólim",
+	"body-input-description": "Email bólimi",
+	"ccme-checkbox-label": "Maǵan barlıq maillerdiń nusqasın jiberiń",
+	"submit-text": "Jiberiw",
+	"report-bug-link-text": "Qátelik haqqında xabar beriń",
+	"logout-link-text": "Shıǵıw",
+	"index-welcome-login": "Kiriw ushın, ótinish <a href=\"login\">usını basıń.</a>",
+	"success-text": "Áwmetli!",
+	"login-success-text": "Siz áwmetli tárizde qosıldıńız!",
+	"logout-text": "Siz shıǵıp kettińiz.",
+	"save-text": "Saqlaw"
+}
