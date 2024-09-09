@@ -90,7 +90,7 @@ def sendmails():
         'format': 'json',
         'meta': 'userinfo',
         'uiprop': 'rights'
-    })
+    }, auth=get_auth())
     rights = r.json().get('query', {}).get('userinfo', {}).get('rights', [])
     if 'noratelimit' not in rights:
         flash(_('error-unprivileged'), 'danger')
