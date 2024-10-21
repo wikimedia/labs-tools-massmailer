@@ -15,6 +15,7 @@
 	"body-input-description": "El. laiško turinys",
 	"ccme-checkbox-label": "Atsiųsti man visų laiškų kopijas",
 	"submit-text": "Siųsti",
+	"error-unprivileged": "Klaida: jūs neturite privilegijų pasirinktoje viki. Naudokite projektą, kuriame esate paskyros kūrėjas arba sysop.",
 	"report-bug-link-text": "Pranešti apie klaidą",
 	"logout-link-text": "Atsijungti",
 	"index-welcome-description": "MassMailer yra įrankis, leidžiantis masiškai siųsti laiškus projekte.",
