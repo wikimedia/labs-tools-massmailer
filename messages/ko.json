@@ -17,6 +17,8 @@
 	"body-input-description": "이메일 본문",
 	"ccme-checkbox-label": "모든 메일의 사본을 내게 보냅니다",
 	"submit-text": "제출",
+	"error-missing-wiki": "오류: \"위키\" 필드 필요. 계정 생성자 또는 시스템 관리자인 프로젝트에 정의해줘.",
+	"error-unprivileged": "오류: 선택 위키에 권한 없음. 계정 생성자 또는 시스템 관리자인 프로젝트를 사용해줘.",
 	"report-bug-link-text": "버그 보고",
 	"logout-link-text": "로그아웃",
 	"index-welcome-description": "MassMailer는 프로젝트를 위해 한꺼번에 이메일을 보낼 수 있는 도구입니다.",
