@@ -23,7 +23,7 @@
 	"logout-link-text": "יציאה",
 	"index-welcome-description": "MassMailer הוא כלי המאפשר לך לשלוח דוא\"ל בהמוניהם לפרוייקט.",
 	"index-welcome-login": "כדי להיכנס, נא <a href=\"login\">ללחוץ כאן.</a>",
-	"success-text": "הצלחה!",
+	"success-text": "זה עבד!",
 	"oauth-callback-failed-text": "ההתקשרות של OAuth נכשלה. האם העוגיות מושבתות?",
 	"login-fail-text": "אירעה שגיאה בניסיון לאמת אותך. אם זה ממשיך לקרות, נא <a href=\"{url}\" class=\"alert-link\">לדווח על כך.</a>",
 	"login-success-text": "נכנסת בהצלחה!",
