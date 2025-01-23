@@ -20,7 +20,7 @@
 	"error-missing-wiki": "Errore: il campo \"Wiki\" è obbligatorio. Impostalo su un progetto in cui sei un creatore di utenze o un sysop.",
 	"error-unprivileged": "Errore: non hai privilegi sulla wiki selezionata. Utilizza un progetto nel quale sei un creatore di utenze o un sysop.",
 	"report-bug-link-text": "Segnala un errore",
-	"logout-link-text": "Disconnetti",
+	"logout-link-text": "Esci",
 	"index-welcome-description": "MassMailer è uno strumento che ti permette di mandare email in massa per un progetto.",
 	"index-welcome-login": "Per accedere, <a href=\"login\">clicca qui</a>.",
 	"success-text": "Riuscito!",
