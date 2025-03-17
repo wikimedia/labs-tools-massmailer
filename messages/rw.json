@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Musindi250"
+		]
+	},
+	"login-link-text": "Injira",
+	"wiki-input-label": "Wiki",
+	"wiki-input-description": "Indangantego y'umushinga wa Wikimedia ushaka kohereza imeri ukoresheje",
+	"users-input-label": "Abakoresha",
+	"users-input-description": "Abakoresha ushaka koherereza iyi imeri (izina ry'ukoresha rimwe kuri buri murongo).",
+	"subject-input-label": "Umutwe",
+	"subject-input-description": "Icyo ubutumwa bwavugaga.",
+	"body-input-label": "Igihimba",
+	"body-input-description": "Igihimba cy'ubutumwa",
+	"ccme-checkbox-label": "Nyohereza kopi y'amabaruwa yose",
+	"submit-text": "Ohereza",
+	"report-bug-link-text": "Menyesha ikosa",
+	"save-text": "Bika"
+}
