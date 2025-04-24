@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cabal"
+		]
+	},
+	"login-link-text": "ਦਾਖ਼ਲ ਹੋਵੋ",
+	"wiki-input-label": "ਵਿਕੀ",
+	"wiki-input-description": "ਵਿਕੀਮੀਡੀਆ ਪ੍ਰੋਜੈਕਟ ਦਾ ਉਹ ਡੋਮੇਨ ਜਿਸ ਰਾਹੀਂ ਤੁਸੀਂ ਈਮੇਲ ਭੇਜਣਾ ਚਾਹੁੰਦੇ ਹੋ",
+	"users-input-label": "ਵਰਤੋਂਕਾਰ",
+	"users-input-description": "ਜਿਨ੍ਹਾਂ ਵਰਤੋਂਕਾਰਾਂ ਨੂੰ ਤੁਸੀਂ ਇਹ ਈਮੇਲ ਭੇਜਣਾ ਚਾਹੁੰਦੇ ਹੋ (ਹਰ ਇੱਕਲਕੀਰ ਵਿੱਚ ਇੱਕ ਵਰਤੋਂਕਾਰ ਨਾਂ)।",
+	"subject-input-label": "ਵਿਸ਼ਾ",
+	"subject-input-description": "ਈਮੇਲ ਦਾ ਵਿਸ਼ਾ।",
+	"body-input-label": "ਮੁੱਢਲਾ ਭਾਗ",
+	"body-input-description": "ਈਮੇਲ ਦਾ ਮੁੱਢਲਾ ਭਾਗ",
+	"ccme-checkbox-label": "ਮੈਨੂੰ ਸਾਰੀਆਂ ਈਮੇਲਾਂ ਦੀ ਇੱਕ ਨਕਲ ਭੇਜੋ।",
+	"submit-text": "ਹਵਾਲੇ ਕਰੋ",
+	"error-missing-wiki": "ਗਲਤੀ: ਖੇਤਰ \"ਵਿਕੀ\" ਲੋੜੀਂਦਾ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਇਸਨੂੰ ਇੱਕ ਪ੍ਰੋਜੈਕਟ ਤੇ ਕਾਇਮ ਕਰੋ ਜਿੱਥੇ ਤੁਸੀਂ ਇੱਕ ਖਾਤਾ ਸਿਰਜਣਹਾਰ ਜਾਂ ਇੱਕ sysop ਹੋ।",
+	"error-unprivileged": "ਗਲਤੀ: ਤੁਹਾਨੂੰ ਚੁਣੇ ਹੋਏ ਵਿਕੀ 'ਤੇ ਅਧਿਕਾਰ ਨਹੀਂ ਹਨ। ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਪ੍ਰੋਜੈਕਟ ਦੀ ਵਰਤੋਂ ਕਰੋ ਜਿੱਥੇ ਤੁਸੀਂ ਇੱਕ ਖਾਤਾ ਸਿਰਜਣਹਾਰ ਜਾਂ ਇੱਕ sysop ਹੋ।",
+	"report-bug-link-text": "ਮਾਂਙਣੂ ਦੀ ਇਤਲਾਹ ਦਿਓ",
+	"logout-link-text": "ਬਾਹਰ ਆਉ",
+	"index-welcome-description": "MassMailer ਇੱਕ ਅਜਿਹਾ ਸੰਦ ਏ ਜੋ ਤੁਹਾਨੂੰ ਇੱਕ ਪ੍ਰੋਜੈਕਟ ਲਈ ਇੱਕਠਿਆਂ ਈਮੇਲਾਂ ਭੇਜਣ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਏ।",
+	"index-welcome-login": "ਦਾਖ਼ਲ ਹੋਣ ਲਈ, ਕਿਰਪਾ ਕਰਕੇ <a href=\"login\">ਇੱਥੇ ਬਟਨ ਨੂੰ ਦੱਬੋ।</a>",
+	"success-text": "ਕਾਮਯਾਬੀ ਮਿਲੀ!",
+	"login-fail-text": "ਤੁਹਾਨੂੰ ਤਸਦੀਕ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਵਿੱਚ ਇੱਕ ਗਲਤੀ ਹੋਈ। ਜੇਕਰ ਇਹ ਲਗਾਤਾਰ ਹੁੰਦਾ ਰਹਿੰਦਾ ਹੈ, ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ <a href=\"{url}\" class=\"alert-link\">ਇੱਕ ਕਾਰਜ ਦਰਜ ਕਰੋ।</a>",
+	"login-success-text": "ਤੁਸੀਂ ਦਾਖ਼ਲੇ ਵਿੱਚ ਕਾਮਯਾਬ ਹੋ ਗਏ ਹੋ!",
+	"logout-text": "ਤੁਸੀਂ ਬਾਹਰ ਆ ਗਏ ਸੀ।",
+	"save-text": "ਸਾਂਭੋ"
+}
