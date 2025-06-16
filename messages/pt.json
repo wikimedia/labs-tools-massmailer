@@ -1,28 +1,31 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"O andras"
 		]
 	},
 	"login-link-text": "Entrar",
 	"wiki-input-label": "Wiki",
-	"wiki-input-description": "O Projeto Wikimedia a que pretende dirigir-se",
+	"wiki-input-description": "O domínio do Projecto Wikimedia através do qual quer enviar e-mails",
 	"users-input-label": "Utilizadores",
-	"users-input-description": "Os utilizadores a quem deseja enviar esta mensagem de correio.",
+	"users-input-description": "Os utilizadores a quem deseja enviar este e-mail (um nome de utilizador por linha).",
 	"subject-input-label": "Assunto",
-	"subject-input-description": "O assunto da mensagem de correio.",
+	"subject-input-description": "O assunto do e-mail.",
 	"body-input-label": "Conteúdo",
-	"body-input-description": "O conteúdo da mensagem de correio",
-	"ccme-checkbox-label": "Enviar-me uma cópia de todas as mensagens de correio",
+	"body-input-description": "O conteúdo do e-mail",
+	"ccme-checkbox-label": "Enviar-me uma cópia de todos os e-mails",
 	"submit-text": "Enviar",
+	"error-missing-wiki": "Erro: O campo \"Wiki\" é obrigatório. Configure-o para um projecto em que seja criador de contas ou sysop.",
+	"error-unprivileged": "Erro: Não tem privilégios na wiki selecionada. Use um projecto em que seja criador de conta ou sysop.",
 	"report-bug-link-text": "Reportar um defeito",
 	"logout-link-text": "Sair",
-	"index-welcome-description": "MassMailer é uma ferramenta que lhe permite enviar mensagens de correio eletrónico em massa para um projeto.",
+	"index-welcome-description": "MassMailer é uma ferramenta que lhe permite enviar e-mails em massa para um projecto.",
 	"index-welcome-login": "Para entrar, <a href=\"login\">clique aqui,</a> por favor.",
 	"success-text": "Êxito!",
-	"oauth-callback-failed-text": "O retorno do OAuth falhou. Estarão os ''cookies'' desativados?",
+	"oauth-callback-failed-text": "O retorno do OAuth falhou. Tem as ''cookies'' desativadas?",
 	"login-fail-text": "Ocorreu um erro ao tentar fazer a sua autenticação. Se isto acontecer novamente, <a href=\"{url}\" class=\"alert-link\">crie uma tarefa</a>, por favor.",
-	"login-success-text": "Iniciou uma sessão!",
+	"login-success-text": "Iniciou sessão com sucesso!",
 	"logout-text": "A sua sessão foi terminada.",
 	"save-text": "Gravar",
 	"massmailer-name": "MassMailer"
