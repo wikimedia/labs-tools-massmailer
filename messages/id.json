@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Rachmat04",
 			"Veracious"
 		]
 	},
@@ -25,6 +26,7 @@
 	"oauth-callback-failed-text": "Panggilan balik OAuth gagal. Apakah kukinya dimatikan?",
 	"login-fail-text": "Terjadi kesalahan saat mencoba mengautentikasi Anda. Jika ini terus terjadi, silakan <a href=\"{url}\" class=\"alert-link\">ajukan tugas.</a>",
 	"login-success-text": "Anda berhasil masuk log!",
-	"logout-text": "Anda telah keloar log.",
-	"save-text": "Simpan"
+	"logout-text": "Anda telah keluar log.",
+	"save-text": "Simpan",
+	"massmailer-name": "MassMailer"
 }
