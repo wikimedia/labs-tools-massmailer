@@ -1,19 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ktchankt",
 			"Z423x5c6"
 		]
 	},
-	"login-link-text": "登入",
+	"login-link-text": "簽到",
 	"wiki-input-label": "維基",
 	"users-input-label": "用戶",
 	"subject-input-label": "主題",
 	"subject-input-description": "電郵嘅主題。",
 	"submit-text": "遞交",
 	"report-bug-link-text": "報告錯誤",
-	"logout-link-text": "登出",
+	"logout-link-text": "簽走",
 	"success-text": "成功！",
-	"login-success-text": "成功登入！",
-	"logout-text": "登出咗。",
+	"login-success-text": "你成功簽到！",
+	"logout-text": "你簽走咗。",
 	"save-text": "儲存"
 }
