@@ -4,6 +4,7 @@
 			"Eneelk",
 			"Gomoko",
 			"Thibaut120094",
+			"Urhixidur",
 			"Verdy p"
 		]
 	},
@@ -25,7 +26,7 @@
 	"index-welcome-description": "MassMailer est un outil qui vous permet d’envoyer en masse des courriels pour un projet.",
 	"index-welcome-login": "Pour vous connecter, veuillez <a href=\"login\">cliquer ici.</a>",
 	"success-text": "Réussi !",
-	"oauth-callback-failed-text": "Échec de l’appel de OAuth. Les cookies sont-ils désactivés ?",
+	"oauth-callback-failed-text": "Échec de l’appel de OAuth. Les témoins (''cookies'') sont-ils désactivés ?",
 	"login-fail-text": "Une erreur est survenue en essayant de vous authentifier. Si cela persiste, veuillez <a href=\"{url}\" class=\"alert-link\">compléter une fiche d’anomalie.</a>",
 	"login-success-text": "Vous vous êtes bien connecté !",
 	"logout-text": "Vous avez été déconnecté.",
