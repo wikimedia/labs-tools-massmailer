@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Tokvo",
-			"Xuacu"
+			"Xuacu",
+			"YoaR"
 		]
 	},
 	"login-link-text": "Aniciar sesión",
@@ -19,7 +20,7 @@
 	"report-bug-link-text": "Informar d'un fallu",
 	"logout-link-text": "Zarrar sesión",
 	"index-welcome-description": "MassMailer ye una ferramienta que te permite unviar correos en masa a un proyeutu.",
-	"index-welcome-login": "Pa entrar, por favor <a href=\"login\">pulsia equí</a>.",
+	"index-welcome-login": "Pa entrar, por favor <a href=\"login\">calca equí</a>.",
 	"success-text": "Correuto",
 	"oauth-callback-failed-text": "Falló la llamada a OAuth. ¿Tán les cookies desactivaes?",
 	"login-fail-text": "Asocedió un error al tentar identificate. Si sigue pasando esto, por favor <a href=\"{url}\" class=\"alert-link\">crea una xera.</a>",

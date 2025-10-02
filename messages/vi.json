@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bapham123"
+		]
+	},
+	"login-link-text": "Đăng nhập",
+	"wiki-input-label": "Wiki",
+	"wiki-input-description": "Tên miền của Dự án Wikimedia mà bạn muốn gửi thư điện tử qua",
+	"users-input-label": "Người dùng",
+	"users-input-description": "Những người dùng mà bạn muốn gửi email này tới (mỗi dòng một tên người dùng).",
+	"subject-input-label": "Chủ đề",
+	"subject-input-description": "Chủ đề của thư điện tử.",
+	"body-input-label": "Nội dung",
+	"body-input-description": "Nội dung của thư điện tử",
+	"ccme-checkbox-label": "Gửi cho tôi một bản sao của tất cả các thư điện tử",
+	"submit-text": "Gửi",
+	"error-missing-wiki": "Lỗi: Trường \"Wiki\" là bắt buộc. Xin hãy chọn dự án mà bạn là người tạo tài khoản hoặc bảo quản viên hệ thống.",
+	"error-unprivileged": "Lỗi: Bạn không có đặc quyền tại wiki đã chọn. Vui lòng sử dụng dự án mà bạn là người tạo tài khoản hoặc bảo quản viên.",
+	"report-bug-link-text": "Báo lỗi",
+	"logout-link-text": "Đăng xuất",
+	"index-welcome-description": "MassMailer là một công cụ cho phép bạn gửi thư điện tử hàng loạt cho một dự án.",
+	"index-welcome-login": "Để đăng nhập, xin hãy <a href=\"login\">nhấp vào đây.</a>",
+	"success-text": "Thành công!",
+	"login-fail-text": "Đã xảy ra lỗi khi xác thực bạn. Nếu sự cố này vẫn tiếp diễn, xin hãy <a href=\"{url}\" class=\"alert-link\">gửi tác vụ.</a>",
+	"login-success-text": "Bạn đã đăng nhập thành công!",
+	"logout-text": "Bạn đã đăng xuất.",
+	"save-text": "Lưu"
+}
