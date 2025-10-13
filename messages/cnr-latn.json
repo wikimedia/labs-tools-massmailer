@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"ITZQing"
+		]
+	},
+	"login-link-text": "Prijava",
+	"wiki-input-label": "Viki",
+	"wiki-input-description": "Domen Vikimedijinog projekta preko kojeg želite slati e-poruke",
+	"users-input-label": "Korisnici",
+	"users-input-description": "Korisnici kojima želite poslati ovu e-poruku (jedno korisničko ime po redu).",
+	"subject-input-label": "Tema",
+	"subject-input-description": "Naslov e-poruke",
+	"body-input-label": "Tekst",
+	"body-input-description": "Tekst e-poruke",
+	"ccme-checkbox-label": "Pošalji mi kopiju svih e-poruka",
+	"submit-text": "Pošalji",
+	"save-text": "Sačuvaj"
+}
