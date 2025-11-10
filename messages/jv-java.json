@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin"
+		]
+	},
+	"login-link-text": "ꦩ꧀ꦊꦧꦸ​ꦭꦺꦴꦒ꧀",
+	"wiki-input-label": "ꦮꦶꦏꦶ",
+	"wiki-input-description": "ꦱꦩ꧀ꦥꦺꦪꦤ꧀ꦩꦺꦃ​ꦔꦶꦫꦶꦩ꧀ꦭꦪꦁ​ꦭꦺꦮꦠ꧀ꦢꦺꦴꦩꦆꦤ꧀ꦥꦿꦺꦴꦪꦺꦏ꧀ꦮꦶꦏꦶꦩꦺꦢꦶꦪꦃ​ꦱꦶꦁ​ꦔꦼꦤ꧀ꦢꦶ",
+	"users-input-label": "ꦤꦫꦒꦸꦤ",
+	"users-input-description": "ꦱꦩ꧀ꦥꦺꦪꦤ꧀ꦩꦺꦃ​ꦔꦶꦫꦶꦩ꧀ꦭꦪꦁ​ꦏꦁꦒꦺꦴ​ꦱꦥ(ꦱꦶꦗꦶ​ꦗꦼꦤꦼꦁ​ꦤꦫꦒꦸꦤ​ꦥꦼꦂ​ꦧꦫꦶꦱ꧀)꧉",
+	"subject-input-label": "ꦱꦼꦱꦶꦫꦃ",
+	"subject-input-description": "ꦱꦼꦱꦶꦫꦃ​ꦱꦸꦫꦺꦭ꧀",
+	"body-input-label": "ꦲꦶꦱꦶ",
+	"body-input-description": "ꦲꦶꦱꦶ​ꦱꦸꦫꦺꦭ꧀",
+	"ccme-checkbox-label": "ꦏꦶꦫꦶꦩꦶ​ꦲꦏꦸ​ꦱꦭꦶꦤꦤ꧀ꦏꦧꦺꦃ​ꦭꦪꦁ",
+	"submit-text": "ꦏꦶꦫꦶꦩ꧀",
+	"error-missing-wiki": "Galat: Bidang \"Wiki\" wajib diisi. Silakan setel ke proyek di mana Anda merupakan pembuat akun atau pengurusnya.",
+	"error-unprivileged": "Galat: Anda tak memiliki hak istimewa pada wiki yang dipilih. Silakan gunakan proyek di mana Anda merupakan pembuat akun atau pengurusnya.",
+	"report-bug-link-text": "ꦭꦥꦺꦴꦂ​ꦏꦼꦏꦸꦠꦸ",
+	"logout-link-text": "ꦩꦼꦠꦸ​ꦭꦺꦴꦒ꧀",
+	"index-welcome-description": "MassMailer adalah alat yang memungkinkan Anda mengirim surel secara massal untuk suatu proyek.",
+	"index-welcome-login": "<a href=\"login\">ꦩ꧀ꦊꦧꦸ​ꦭꦺꦴꦒ꧀</a>",
+	"success-text": "ꦱꦸꦏ꧀ꦱꦺꦱ꧀!",
+	"oauth-callback-failed-text": "Panggilan balik OAuth gagal. Apakah kukinya dimatikan?",
+	"login-fail-text": "Terjadi kesalahan saat mencoba mengautentikasi Anda. Jika ini terus terjadi, silakan <a href=\"{url}\" class=\"alert-link\">ajukan tugas.</a>",
+	"login-success-text": "ꦱꦩ꧀ꦥꦺꦪꦤ꧀ꦧꦶꦱ​ꦩ꧀ꦊꦧꦸ​ꦭꦺꦴꦒ꧀!",
+	"logout-text": "ꦱꦩ꧀ꦥꦺꦪꦤ꧀ꦮꦶꦱ꧀ꦩꦼꦠꦸ​ꦭꦺꦴꦒ꧀꧈",
+	"save-text": "ꦱꦶꦩ꧀ꦥꦼꦤ꧀"
+}
