@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Bennylin",
+			"Penyuwangi",
 			"Rachmat04",
 			"Veracious"
 		]
 	},
 	"login-link-text": "Masuk log",
 	"wiki-input-label": "Wiki",
-	"wiki-input-description": "Anda ingin mengirimi surel melalui domain Proyek Wikimedia mana",
+	"wiki-input-description": "Domain dari Proyek Wikimedia yang ingin Anda gunakan untuk mengirim surel",
 	"users-input-label": "Pengguna",
 	"users-input-description": "Para pengguna yang ingin Anda kirimi surel ini (satu nama pengguna per baris).",
 	"subject-input-label": "Subjek",
