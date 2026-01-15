@@ -1,20 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Peridot Nation"
+			"Peridot Nation",
+			"Rusjanis"
 		]
 	},
 	"login-link-text": "Pieslēgties",
 	"wiki-input-label": "Vikivietne",
-	"wiki-input-description": "Jūsu atlasītais Vikimēdijas projekts",
+	"wiki-input-description": "Wikimedia projekta domēns, caur kuru vēlaties sūtīt e-pastus",
 	"users-input-label": "Lietotāji",
-	"users-input-description": "Lietotāji, kuriem Jūs vēlaties sūtīt šo e-pastu.",
+	"users-input-description": "Lietotāji, kuriem vēlaties nosūtīt šo e-pastu (viens lietotājvārds katrā rindā).",
 	"subject-input-label": "Temats",
 	"subject-input-description": "E-pasta temats.",
 	"body-input-label": "Teksts",
 	"body-input-description": "E-pasta teksts",
 	"ccme-checkbox-label": "Atsūtīt visu pastu kopiju.",
 	"submit-text": "Sūtīt",
+	"error-missing-wiki": "Kļūda: Lauks \"Wiki\" ir obligāts. Lūdzu, norādiet projektu, kurā esat konta veidotājs vai sistēmas administrators.",
+	"error-unprivileged": "Kļūda: Jums nav privilēģiju atlasītajā wiki. Lūdzu, izmantojiet projektu, kurā esat konta veidotājs vai administrators.",
 	"report-bug-link-text": "Ziņot par kļūdu",
 	"logout-link-text": "Iziet",
 	"index-welcome-description": "MassMailer ir  rīks, kas ļauj masveidā nosūtīt e-pastus projektam.",
