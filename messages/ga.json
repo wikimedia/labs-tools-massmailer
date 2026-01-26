@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aindriu80"
+		]
+	},
+	"login-link-text": "Logáil Isteach",
+	"wiki-input-label": "Vicí",
+	"wiki-input-description": "Fearann ​​an tionscadail Wikimedia trína bhfuil tú ag iarraidh na ríomhphoist a sheoladh",
+	"users-input-label": "Úsáideoirí",
+	"users-input-description": "Na húsáideoirí ar mhaith leat an ríomhphost seo a sheoladh chucu (ainm úsáideora amháin in aghaidh na líne).",
+	"subject-input-label": "Ábhar",
+	"subject-input-description": "Ábhar an ríomhphoist.",
+	"body-input-label": "Corp",
+	"body-input-description": "Corp an ríomhphoist",
+	"ccme-checkbox-label": "Seol cóip de na ríomhphoist go léir chugam",
+	"submit-text": "Cuir isteach",
+	"error-missing-wiki": "Earráid: Tá an réimse \"Vicí\" riachtanach. Socraigh é chuig tionscadal ina bhfuil tú i do chruthaitheoir cuntais nó i do chóras oibriúcháin.",
+	"error-unprivileged": "Earráid: Níl pribhléid agat ag an vicí roghnaithe. Bain úsáid as tionscadal ina bhfuil tú i do chruthaitheoir cuntais nó i do chóras oibriúcháin.",
+	"report-bug-link-text": "Tuairiscigh fabht",
+	"logout-link-text": "Logáil Amach",
+	"index-welcome-description": "Is uirlis é MassMailer a ligeann duit ríomhphoist a sheoladh go forleathan do thionscadal.",
+	"index-welcome-login": "Chun logáil isteach, <a href=\"login\">cliceáil anseo le do thoil.</a>",
+	"success-text": "Rath!",
+	"oauth-callback-failed-text": "Theip ar ghlao ar ais OAuth. An bhfuil fianáin díchumasaithe?",
+	"login-fail-text": "Tharla earráid agus iarracht á déanamh tú a fhíordheimhniú. Má leanann sé seo ag tarlú, <a href=\"{url}\" class=\"alert-link\">comhdaigh tasc.</a>",
+	"login-success-text": "Logáil isteach go rathúil agat!",
+	"logout-text": "Bhí tú logáilte amach.",
+	"save-text": "Sábháil"
+}
