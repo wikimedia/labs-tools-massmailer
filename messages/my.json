@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dr Lotus Black"
+			"Dr Lotus Black",
+			"Ninjastrikers"
 		]
 	},
 	"login-link-text": "အကောင့်ထဲဝင်ရန်",
 	"wiki-input-label": "ဝီကီ",
-	"wiki-input-description": "Wikimedia Project ရဲ့ ဒိုမိန်းက အီးမေးလ်တွေကို ပို့ချင်ပါတယ်",
+	"wiki-input-description": "အီးမေးလ်များပေးပို့လိုသော ဝီကီမီဒီယာ ပရောဂျက်၏ ဒိုမိန်း",
 	"users-input-label": "အသုံးပြုသူများ",
 	"subject-input-label": "အကြောင်းအရာ",
 	"subject-input-description": "အီးမေးလ် အကြောင်းအရာ",
