@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Czupirek",
+			"G3raltJJ",
 			"Rail"
 		]
 	},
@@ -16,6 +17,8 @@
 	"body-input-description": "Treść e-maila",
 	"ccme-checkbox-label": "Wyślij mi kopię wszystkich wiadomości",
 	"submit-text": "Wyślij",
+	"error-missing-wiki": "Błąd: pole „Wiki” jest wymagane. Ustaw je na projekt, w którym masz uprawnienia twórcy kont lub administratora.",
+	"error-unprivileged": "Błąd: nie masz wymaganych uprawnień na wybranej wiki. Użyj projektu, w którym masz uprawnienia twórcy kont lub administratora.",
 	"report-bug-link-text": "Zgłoś błąd",
 	"logout-link-text": "Wyloguj się",
 	"index-welcome-description": "MassMailer jest narzędziem służącym do wysyłania wielu e-maili w projekcie.",
