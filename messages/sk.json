@@ -2,20 +2,23 @@
 	"@metadata": {
 		"authors": [
 			"Jaroslav.micek",
+			"Wizzard",
 			"Yardom78"
 		]
 	},
 	"login-link-text": "Prihlásenie",
 	"wiki-input-label": "Wiki",
-	"wiki-input-description": "Cieľový projekt Wikemédie",
+	"wiki-input-description": "Doména projektu Wikimedia, cez ktorý chcete poslať e-maily",
 	"users-input-label": "Používatelia",
-	"users-input-description": "Používatelia, ktorým chcete poslať tento email.",
+	"users-input-description": "Používatelia, ktorým chcete poslať tento e-mail (jedno meno používateľa na riadok).",
 	"subject-input-label": "Predmet",
 	"subject-input-description": "Predmet emailu.",
 	"body-input-label": "Text",
 	"body-input-description": "Text emailu",
 	"ccme-checkbox-label": "Poslať mi kópiu všetkých emailov",
 	"submit-text": "Odoslať",
+	"error-missing-wiki": "Chyby: Pole \"Wiki\" je potrebné. Prosím nastavte to na projekt, kde ste tvorca účtu alebo sysop.",
+	"error-unprivileged": "Chyby: Nie ste privilegovaný na vybranom wiki. Použite projekt, v ktorom ste tvorcom účtu alebo sysop.",
 	"report-bug-link-text": "Nahlásiť chybu",
 	"logout-link-text": "Odhlásenie",
 	"index-welcome-description": "MassMailer je nástroj umožňujúci posielanie hromadných emailov pre zvolený projekt.",
