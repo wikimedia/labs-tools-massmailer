@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"JiodoJ"
+		]
+	},
+	"login-link-text": "Idħol f'Kontok",
+	"wiki-input-label": "Wiki",
+	"wiki-input-description": "Id-dominju tal-Proġett Wikimedja li trid tibgħat l-ittre permezz tiegħu",
+	"users-input-label": "Utenti",
+	"users-input-description": "L-utenti li trid tibgħat dil-ittre (istem utent għal kull linja)",
+	"subject-input-label": "Suġġett",
+	"subject-input-description": "Is-suġġett tal-ittre",
+	"body-input-label": "Qofol",
+	"body-input-description": "Il-qofol tal-ittre",
+	"ccme-checkbox-label": "Ibgħatli kopja tal-posta kollha",
+	"submit-text": "Ibgħat",
+	"error-missing-wiki": "Żball: Il-qasam \"Wiki\" huwa meħtieġ. Jekk jogħġbok semmi proġett fejn int ħallieq tal-kont jew operatur tas-sistema.",
+	"error-unprivileged": "Żball: M'intix privileġġat fil-wiki magħżula. Jekk jogħġbok uża proġett fejn int ħallieq tal-kont jew operatur tas-sistema.",
+	"report-bug-link-text": "Irrapporta żball",
+	"logout-link-text": "Oħroġ minn Kontok",
+	"index-welcome-description": "PustierMassa huwa għodda li tħallik tibgħat ittre bil-massa għal proġett.",
+	"index-welcome-login": "Biex tidħol, jekk jogħġbok <a href=\"login\">agħfas hawn.</a>",
+	"success-text": "Suċċess!",
+	"oauth-callback-failed-text": "Sejħa tal-Awtorizzazzjoni miftuħ falliet. Jaqaw tfejt il-biskotti?",
+	"login-fail-text": "Kien hemm żball waqt l-awtentikazzjoni. Jekk jibqa' jiġri, jekk jogħġbok.<a class=\"alert-link\" href=\"{url}\">iffajla kompitu.</a>",
+	"login-success-text": "Dħalt f'kontok!",
+	"logout-text": "Ħriġt minn kontok.",
+	"save-text": "Salva"
+}
