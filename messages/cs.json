@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Polda18"
+		]
+	},
+	"login-link-text": "Přihlášení",
+	"wiki-input-label": "Wiki",
+	"wiki-input-description": "Doména projektu Wikimedia, přes kterou chcete odesílat e-maily",
+	"users-input-label": "Uživatelé",
+	"users-input-description": "Uživatelé, kterým chcete tento e-mail odeslat (jedno uživatelské jméno na řádek).",
+	"subject-input-label": "Předmět",
+	"subject-input-description": "Předmět e-mailu.",
+	"body-input-label": "Tělo",
+	"body-input-description": "Tělo e-mailu",
+	"ccme-checkbox-label": "Pošlete mi kopii všech e-mailů.",
+	"submit-text": "Odeslat",
+	"error-missing-wiki": "Chyba: Pole „Wiki“ je povinné. Nastavte jej prosím na projekt, ve kterém jste tvůrcem účtu nebo systémovým operátorem.",
+	"error-unprivileged": "Chyba: Nemáte oprávnění k vybrané wiki. Použijte prosím projekt, ve kterém jste tvůrcem účtu nebo systémovým operátorem.",
+	"report-bug-link-text": "Nahlásit chybu",
+	"logout-link-text": "Odhlásit se",
+	"index-welcome-description": "MassMailer je nástroj, který vám umožňuje hromadné odesílání e-mailů pro daný projekt.",
+	"index-welcome-login": "Pro přihlášení <a href=\"login\">klikněte prosím zde.</a>",
+	"success-text": "Úspěch!",
+	"oauth-callback-failed-text": "Zpětné volání OAuth selhalo. Jsou soubory cookie zakázány?",
+	"login-fail-text": "Při pokusu o ověření došlo k chybě. Pokud se to bude opakovat, <a href=\"{url}\" class=\"alert-link\">nahlaste prosím chybu.</a>",
+	"login-success-text": "Úspěšně jste se přihlásili!",
+	"logout-text": "Byli jste odhlášeni.",
+	"save-text": "Uložit"
+}
