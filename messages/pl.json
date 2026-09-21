@@ -3,6 +3,7 @@
 		"authors": [
 			"Czupirek",
 			"G3raltJJ",
+			"PanWor",
 			"Rail"
 		]
 	},
@@ -27,7 +28,7 @@
 	"oauth-callback-failed-text": "Callback OAuth zakończył się niepowodzeniem. Czy ciasteczka są wyłączone?",
 	"login-fail-text": "Wystąpił błąd podczas uwierzytelniania. Jeśli będzie się to powtarzać, prosimy <a href=\"{url}\" class=\"alert-link\">zgłosić błąd</a>.",
 	"login-success-text": "Zalogowano się pomyślnie!",
-	"logout-text": "Zostałeś wylogowany.",
+	"logout-text": "Wylogowano się.",
 	"save-text": "Zapisz",
 	"massmailer-name": "Masowe mailowanie"
 }
